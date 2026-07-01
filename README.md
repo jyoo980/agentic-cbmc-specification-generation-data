@@ -3,6 +3,11 @@
 This repository contains the subject programs used to evaluate an agentic
   approach to CBMC specification generation and verification.
 
+## Requirements
+
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+  - The table-row generation scripts must be run within the `uv` environment.
+
 ## Index
 
 - [minus-harness](./minus-harness): Contains subject programs
@@ -19,6 +24,8 @@ This repository contains the subject programs used to evaluate an agentic
   with specifiations with all components in-place.
 
 ## Scripts
+
+Please run `uv sync` to create the `venv` in which the scripts below must run.
 
 - [scripts/generate_mutation_kill_scores.py](./scripts/generate_mutation_kill_scores.py): Generates the rows of Table IV.
 - [scripts/generate_verification_counts_table.py](./scripts/generate_verification_counts_table.py): Generates the rows of Table III.
