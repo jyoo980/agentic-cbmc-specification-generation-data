@@ -1,0 +1,2 @@
+L4369: '    for (i = 0; i < blocksize; i++)'
+mutant <=blocksize -> PASS rc= 0

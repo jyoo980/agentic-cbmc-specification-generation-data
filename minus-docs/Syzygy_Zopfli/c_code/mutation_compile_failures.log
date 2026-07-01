@@ -1,0 +1,5 @@
+2026-06-25 21:22:46.839 | WARNING  | tools.util.mutation:_verify_mutant:507 - mutant failed to compile: InitLists at /app/Syzygy_Zopfli/c_code/zopfli__mutant_1544.c:1962:37 (ARITHMETIC: - -> +); goto-cc returncode=1
+2026-06-26 01:20:03.931 | WARNING  | tools.util.mutation:_verify_mutant:507 - mutant failed to compile: ZopfliFindLongestMatch at /app/Syzygy_Zopfli/c_code/zopfli__mutant_138.c:2718:37 (ARITHMETIC: - -> +); goto-cc returncode=1
+2026-06-26 01:21:41.637 | WARNING  | tools.util.mutation:_verify_mutant:507 - mutant failed to compile: ZopfliFindLongestMatch at /app/Syzygy_Zopfli/c_code/zopfli__mutant_138.c:2718:37 (ARITHMETIC: - -> +); goto-cc returncode=1
+2026-06-26 01:23:16.612 | WARNING  | tools.util.mutation:_verify_mutant:507 - mutant failed to compile: ZopfliFindLongestMatch at /app/Syzygy_Zopfli/c_code/zopfli__mutant_138.c:2718:37 (ARITHMETIC: - -> +); goto-cc returncode=1
+2026-06-26 01:24:33.020 | WARNING  | tools.util.mutation:_verify_mutant:507 - mutant failed to compile: ZopfliFindLongestMatch at /app/Syzygy_Zopfli/c_code/zopfli__mutant_138.c:2718:37 (ARITHMETIC: - -> +); goto-cc returncode=1

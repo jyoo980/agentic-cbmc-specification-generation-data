@@ -1,0 +1,2 @@
+- [CBMC quantifier + is_fresh needs constant bounds](cbmc-quantifier-isfresh-constant-bound.md) — symbolic quantifier bounds reading an is_fresh array in ensures read a havoced copy and spuriously fail; use constant `0..SIZE` range with inner guards
+- [CBMC syscall-stub contract gotchas](cbmc-syscall-stub-contract-gotchas.md) — system-lib callees stay external (stub bodies inlined, no contract); local statics zero-init under enforce; incomplete-struct ops havoc adjacent global counters

@@ -1,0 +1,522 @@
+    __CPROVER_ensures(row->chars[0] == TAB ? row->rsize == 999 : row->rsize == 998)
+--- canonical run with FALSE postcondition ---
+Reading GOTO program from 'editorUpdateRow.goto'
+Writing GOTO program to 'editorUpdateRow.goto'
+Reading GOTO program from 'editorUpdateRow.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Replacing function calls with contracts
+Enforcing contracts
+Adding nondeterministic initialization of static/global variables.
+Writing GOTO program to 'checking-editorUpdateRow-contracts.goto'
+[editorFind.pointer_dereference.7] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.8] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.9] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.10] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.11] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.12] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.19] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.20] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.21] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.22] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.23] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.24] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.31] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.32] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.33] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.34] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.35] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.36] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.43] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.44] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.45] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.46] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.47] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.48] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.55] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.56] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.57] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.58] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.59] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.60] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.229] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.230] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.231] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.232] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.233] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.234] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.241] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.242] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.243] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.244] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.245] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.246] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.253] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.254] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.255] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.256] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.257] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.258] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.265] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.266] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.267] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.268] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.269] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.270] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.277] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.278] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.279] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.280] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.281] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.282] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.451] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.452] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.453] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.454] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.455] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.456] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.463] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.464] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.465] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.466] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.467] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.468] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.475] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.476] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.477] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.478] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.479] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.480] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.487] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.488] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.489] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.490] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.491] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.492] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.499] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.500] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.501] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.502] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.503] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.504] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.673] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.674] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.675] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.676] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.677] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.678] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.685] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.686] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.687] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.688] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.689] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.690] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.697] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.698] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.699] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.700] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.701] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.702] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.709] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.710] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.711] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.712] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.713] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.714] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.721] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.722] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.723] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.724] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.725] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.726] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.895] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.896] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.897] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.898] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.899] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.900] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.907] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.908] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.909] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.910] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.911] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.912] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.919] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.920] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.921] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.922] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.923] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.924] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.931] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.932] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.933] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.934] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.935] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.936] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.943] line 1139 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.944] line 1139 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.945] line 1139 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.946] line 1139 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.947] line 1139 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.948] line 1139 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.139] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.140] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.141] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.142] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.143] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.144] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.151] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.152] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.153] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.154] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.155] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.156] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.163] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.164] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.165] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.166] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.167] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.168] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.175] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.176] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.177] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.178] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.179] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.180] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.187] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.188] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.189] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.190] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.191] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.192] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.361] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.362] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.363] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.364] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.365] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.366] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.373] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.374] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.375] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.376] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.377] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.378] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.385] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.386] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.387] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.388] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.389] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.390] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.397] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.398] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.399] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.400] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.401] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.402] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.409] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.410] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.411] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.412] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.413] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.414] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.583] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.584] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.585] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.586] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.587] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.588] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.595] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.596] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.597] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.598] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.599] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.600] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.607] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.608] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.609] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.610] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.611] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.612] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.619] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.620] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.621] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.622] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.623] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.624] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.631] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.632] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.633] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.634] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.635] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.636] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.805] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.806] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.807] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.808] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.809] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.810] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.817] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.818] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.819] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.820] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.821] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.822] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.829] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.830] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.831] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.832] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.833] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.834] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.841] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.842] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.843] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.844] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.845] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.846] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.853] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.854] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.855] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.856] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.857] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.858] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1027] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1028] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1029] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1030] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1031] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1032] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1039] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1040] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1041] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1042] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1043] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1044] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1051] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1052] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1053] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1054] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1055] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1056] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1063] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1064] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1065] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1066] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1067] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1068] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1075] line 1174 dereference failure: pointer NULL in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1076] line 1174 dereference failure: pointer invalid in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1077] line 1174 dereference failure: deallocated dynamic object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1078] line 1174 dereference failure: dead object in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1079] line 1174 dereference failure: pointer outside object bounds in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.1080] line 1174 dereference failure: invalid integer address in (E.row + (signed long int)saved_hl_line)->rsize: SUCCESS
+[editorFind.pointer_dereference.199] line 1181 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.200] line 1181 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.201] line 1181 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.202] line 1181 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.203] line 1181 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.204] line 1181 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.421] line 1181 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.422] line 1181 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.423] line 1181 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.424] line 1181 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.425] line 1181 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.426] line 1181 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.643] line 1181 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.644] line 1181 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.645] line 1181 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.646] line 1181 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.647] line 1181 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.648] line 1181 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.865] line 1181 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.866] line 1181 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.867] line 1181 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.868] line 1181 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.869] line 1181 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.870] line 1181 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1087] line 1181 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1088] line 1181 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1089] line 1181 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1090] line 1181 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1091] line 1181 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1092] line 1181 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.211] line 1182 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.212] line 1182 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.213] line 1182 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.214] line 1182 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.215] line 1182 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.216] line 1182 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.433] line 1182 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.434] line 1182 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.435] line 1182 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.436] line 1182 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.437] line 1182 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.438] line 1182 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.655] line 1182 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.656] line 1182 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.657] line 1182 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.658] line 1182 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.659] line 1182 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.660] line 1182 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.877] line 1182 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.878] line 1182 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.879] line 1182 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.880] line 1182 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.881] line 1182 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.882] line 1182 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1099] line 1182 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1100] line 1182 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1101] line 1182 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1102] line 1182 dereference failure: dead object in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1103] line 1182 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorFind.pointer_dereference.1104] line 1182 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorInsertRow.pointer_dereference.67] line 696 dereference failure: pointer NULL in (E.row + (signed long int)at)->rsize: SUCCESS
+[editorInsertRow.pointer_dereference.68] line 696 dereference failure: pointer invalid in (E.row + (signed long int)at)->rsize: SUCCESS
+[editorInsertRow.pointer_dereference.69] line 696 dereference failure: deallocated dynamic object in (E.row + (signed long int)at)->rsize: SUCCESS
+[editorInsertRow.pointer_dereference.70] line 696 dereference failure: dead object in (E.row + (signed long int)at)->rsize: SUCCESS
+[editorInsertRow.pointer_dereference.71] line 696 dereference failure: pointer outside object bounds in (E.row + (signed long int)at)->rsize: SUCCESS
+[editorInsertRow.pointer_dereference.72] line 696 dereference failure: invalid integer address in (E.row + (signed long int)at)->rsize: SUCCESS
+[editorRefreshScreen.overflow.9] line 1004 arithmetic overflow on signed - in r->rsize - E.coloff: SUCCESS
+[editorRefreshScreen.overflow.29] line 1004 arithmetic overflow on signed - in r->rsize - E.coloff: SUCCESS
+[editorRefreshScreen.overflow.49] line 1004 arithmetic overflow on signed - in r->rsize - E.coloff: SUCCESS
+[editorRefreshScreen.overflow.69] line 1004 arithmetic overflow on signed - in r->rsize - E.coloff: SUCCESS
+[editorRefreshScreen.overflow.89] line 1004 arithmetic overflow on signed - in r->rsize - E.coloff: SUCCESS
+[editorRefreshScreen.pointer_dereference.1] line 1004 dereference failure: pointer NULL in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.2] line 1004 dereference failure: pointer invalid in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.3] line 1004 dereference failure: deallocated dynamic object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.4] line 1004 dereference failure: dead object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.5] line 1004 dereference failure: pointer outside object bounds in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.6] line 1004 dereference failure: invalid integer address in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.139] line 1004 dereference failure: pointer NULL in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.140] line 1004 dereference failure: pointer invalid in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.141] line 1004 dereference failure: deallocated dynamic object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.142] line 1004 dereference failure: dead object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.143] line 1004 dereference failure: pointer outside object bounds in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.144] line 1004 dereference failure: invalid integer address in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.277] line 1004 dereference failure: pointer NULL in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.278] line 1004 dereference failure: pointer invalid in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.279] line 1004 dereference failure: deallocated dynamic object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.280] line 1004 dereference failure: dead object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.281] line 1004 dereference failure: pointer outside object bounds in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.282] line 1004 dereference failure: invalid integer address in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.415] line 1004 dereference failure: pointer NULL in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.416] line 1004 dereference failure: pointer invalid in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.417] line 1004 dereference failure: deallocated dynamic object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.418] line 1004 dereference failure: dead object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.419] line 1004 dereference failure: pointer outside object bounds in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.420] line 1004 dereference failure: invalid integer address in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.553] line 1004 dereference failure: pointer NULL in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.554] line 1004 dereference failure: pointer invalid in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.555] line 1004 dereference failure: deallocated dynamic object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.556] line 1004 dereference failure: dead object in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.557] line 1004 dereference failure: pointer outside object bounds in r->rsize: SUCCESS
+[editorRefreshScreen.pointer_dereference.558] line 1004 dereference failure: invalid integer address in r->rsize: SUCCESS
+[editorRowHasOpenComment.overflow.1] line 391 arithmetic overflow on signed - in row->rsize - 1: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.7] line 391 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.8] line 391 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.9] line 391 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.10] line 391 dereference failure: dead object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.11] line 391 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.12] line 391 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.19] line 391 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.20] line 391 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.21] line 391 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.22] line 391 dereference failure: dead object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.23] line 391 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.24] line 391 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.25] line 391 dereference failure: pointer NULL in row->hl[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.26] line 391 dereference failure: pointer invalid in row->hl[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.27] line 391 dereference failure: deallocated dynamic object in row->hl[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.28] line 391 dereference failure: dead object in row->hl[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.29] line 391 dereference failure: pointer outside object bounds in row->hl[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.30] line 391 dereference failure: invalid integer address in row->hl[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.overflow.2] line 392 arithmetic overflow on signed - in row->rsize - 2: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.31] line 392 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.32] line 392 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.33] line 392 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.34] line 392 dereference failure: dead object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.35] line 392 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.36] line 392 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.43] line 392 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.44] line 392 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.45] line 392 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.46] line 392 dereference failure: dead object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.47] line 392 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.48] line 392 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.49] line 392 dereference failure: pointer NULL in row->render[(signed long int)(row->rsize - 2)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.50] line 392 dereference failure: pointer invalid in row->render[(signed long int)(row->rsize - 2)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.51] line 392 dereference failure: deallocated dynamic object in row->render[(signed long int)(row->rsize - 2)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.52] line 392 dereference failure: dead object in row->render[(signed long int)(row->rsize - 2)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.53] line 392 dereference failure: pointer outside object bounds in row->render[(signed long int)(row->rsize - 2)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.54] line 392 dereference failure: invalid integer address in row->render[(signed long int)(row->rsize - 2)]: SUCCESS
+[editorRowHasOpenComment.overflow.3] line 393 arithmetic overflow on signed - in row->rsize - 1: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.61] line 393 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.62] line 393 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.63] line 393 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.64] line 393 dereference failure: dead object in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.65] line 393 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.66] line 393 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.67] line 393 dereference failure: pointer NULL in row->render[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.68] line 393 dereference failure: pointer invalid in row->render[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.69] line 393 dereference failure: deallocated dynamic object in row->render[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.70] line 393 dereference failure: dead object in row->render[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.71] line 393 dereference failure: pointer outside object bounds in row->render[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorRowHasOpenComment.pointer_dereference.72] line 393 dereference failure: invalid integer address in row->render[(signed long int)(row->rsize - 1)]: SUCCESS
+[editorUpdateRow.assigns.2] line 636 Check that row->rsize is valid: SUCCESS
+[editorUpdateRow.pointer_dereference.745] line 640 dereference failure: pointer NULL in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.746] line 640 dereference failure: pointer invalid in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.747] line 640 dereference failure: deallocated dynamic object in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.748] line 640 dereference failure: dead object in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.749] line 640 dereference failure: pointer outside object bounds in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.750] line 640 dereference failure: invalid integer address in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.751] line 640 dereference failure: pointer NULL in tmp_cc->render[(signed long int)tmp_cc->rsize]: SUCCESS
+[editorUpdateRow.pointer_dereference.752] line 640 dereference failure: pointer invalid in tmp_cc->render[(signed long int)tmp_cc->rsize]: SUCCESS
+[editorUpdateRow.pointer_dereference.753] line 640 dereference failure: deallocated dynamic object in tmp_cc->render[(signed long int)tmp_cc->rsize]: SUCCESS
+[editorUpdateRow.pointer_dereference.754] line 640 dereference failure: dead object in tmp_cc->render[(signed long int)tmp_cc->rsize]: SUCCESS
+[editorUpdateRow.pointer_dereference.755] line 640 dereference failure: pointer outside object bounds in tmp_cc->render[(signed long int)tmp_cc->rsize]: SUCCESS
+[editorUpdateRow.pointer_dereference.756] line 640 dereference failure: invalid integer address in tmp_cc->render[(signed long int)tmp_cc->rsize]: SUCCESS
+[editorUpdateRow.pointer_dereference.769] line 646 dereference failure: pointer NULL in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.770] line 646 dereference failure: pointer invalid in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.771] line 646 dereference failure: deallocated dynamic object in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.772] line 646 dereference failure: dead object in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.773] line 646 dereference failure: pointer outside object bounds in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.774] line 646 dereference failure: invalid integer address in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.775] line 646 dereference failure: pointer NULL in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.776] line 646 dereference failure: pointer invalid in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.777] line 646 dereference failure: deallocated dynamic object in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.778] line 646 dereference failure: dead object in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.779] line 646 dereference failure: pointer outside object bounds in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.780] line 646 dereference failure: invalid integer address in tmp_cc->rsize: SUCCESS
+[editorUpdateRow.assigns.43] line 674 Check that row->rsize is assignable: SUCCESS
+[editorUpdateRow.pointer_dereference.709] line 674 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.710] line 674 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.711] line 674 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.712] line 674 dereference failure: dead object in row->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.713] line 674 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorUpdateRow.pointer_dereference.714] line 674 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1] line 408 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2] line 408 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.3] line 408 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.4] line 408 dereference failure: dead object in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.5] line 408 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.6] line 408 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2701] line 408 dereference failure: pointer NULL in (&E.row[(signed long int)(row->idx + 1)])->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2702] line 408 dereference failure: pointer invalid in (&E.row[(signed long int)(row->idx + 1)])->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2703] line 408 dereference failure: deallocated dynamic object in (&E.row[(signed long int)(row->idx + 1)])->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2704] line 408 dereference failure: dead object in (&E.row[(signed long int)(row->idx + 1)])->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2705] line 408 dereference failure: pointer outside object bounds in (&E.row[(signed long int)(row->idx + 1)])->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2706] line 408 dereference failure: invalid integer address in (&E.row[(signed long int)(row->idx + 1)])->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.85] line 436 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.86] line 436 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.87] line 436 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.88] line 436 dereference failure: dead object in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.89] line 436 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.90] line 436 dereference failure: invalid integer address in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.103] line 437 dereference failure: pointer NULL in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.104] line 437 dereference failure: pointer invalid in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.105] line 437 dereference failure: deallocated dynamic object in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.106] line 437 dereference failure: dead object in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.107] line 437 dereference failure: pointer outside object bounds in row->rsize: SUCCESS
+[editorUpdateSyntax.pointer_dereference.108] line 437 dereference failure: invalid integer address in row->rsize: SUCCESS
+VERIFICATION SUCCESSFUL

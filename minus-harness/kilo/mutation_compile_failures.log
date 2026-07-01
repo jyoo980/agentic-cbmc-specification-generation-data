@@ -1,0 +1,1 @@
+2026-06-24 17:36:00.520 | WARNING  | tools.util.mutation:_verify_mutant:507 - mutant failed to compile: abAppend at /app/kilo/kilo__mutant_0.c:976:12 (RELATIONAL: == -> !=); goto-cc returncode=1

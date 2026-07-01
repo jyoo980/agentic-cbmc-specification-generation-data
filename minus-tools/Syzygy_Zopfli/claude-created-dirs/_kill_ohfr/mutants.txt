@@ -1,0 +1,650 @@
+You must try to kill the follow mutant(s):
+
+--- original
++++ mutant
+@@ -265 +265 @@
+-        if (i != length)
++        if (i == length)
+
+--- original
++++ mutant
+@@ -255 +255 @@
+-            else if (i < length)
++            else if (i <= length)
+
+--- original
++++ mutant
+@@ -255 +255 @@
+-            else if (i < length)
++            else if (i > length)
+
+--- original
++++ mutant
+@@ -255 +255 @@
+-            else if (i < length)
++            else if (i >= length)
+
+--- original
++++ mutant
+@@ -255 +255 @@
+-            else if (i < length)
++            else if (i == length)
+
+--- original
++++ mutant
+@@ -255 +255 @@
+-            else if (i < length)
++            else if (i != length)
+
+--- original
++++ mutant
+@@ -247 +247 @@
+-            if (i < length - 3)
++            if (i <= length - 3)
+
+--- original
++++ mutant
+@@ -247 +247 @@
+-            if (i < length - 3)
++            if (i > length - 3)
+
+--- original
++++ mutant
+@@ -247 +247 @@
+-            if (i < length - 3)
++            if (i >= length - 3)
+
+--- original
++++ mutant
+@@ -247 +247 @@
+-            if (i < length - 3)
++            if (i == length - 3)
+
+--- original
++++ mutant
+@@ -247 +247 @@
+-            if (i < length - 3)
++            if (i != length - 3)
+
+--- original
++++ mutant
+@@ -238 +238 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k <= stride; ++k)
+
+--- original
++++ mutant
+@@ -238 +238 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k > stride; ++k)
+
+--- original
++++ mutant
+@@ -238 +238 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k >= stride; ++k)
+
+--- original
++++ mutant
+@@ -238 +238 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k == stride; ++k)
+
+--- original
++++ mutant
+@@ -238 +238 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k != stride; ++k)
+
+--- original
++++ mutant
+@@ -233 +233 @@
+-                if (sum == 0)
++                if (sum != 0)
+
+--- original
++++ mutant
+@@ -231 +231 @@
+-                if (count < 1)
++                if (count <= 1)
+
+--- original
++++ mutant
+@@ -231 +231 @@
+-                if (count < 1)
++                if (count > 1)
+
+--- original
++++ mutant
+@@ -231 +231 @@
+-                if (count < 1)
++                if (count >= 1)
+
+--- original
++++ mutant
+@@ -231 +231 @@
+-                if (count < 1)
++                if (count == 1)
+
+--- original
++++ mutant
+@@ -231 +231 @@
+-                if (count < 1)
++                if (count != 1)
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride >= 3 && sum != 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride < 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride <= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride > 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride == 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride != 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride < 4 || (stride >= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride <= 4 || (stride >= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride > 4 || (stride >= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride == 4 || (stride >= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride != 4 || (stride >= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -225 +225 @@
+-            || AbsDiff(counts[i], limit) >= 4)
++            || AbsDiff(counts[i], limit) < 4)
+
+--- original
++++ mutant
+@@ -225 +225 @@
+-            || AbsDiff(counts[i], limit) >= 4)
++            || AbsDiff(counts[i], limit) <= 4)
+
+--- original
++++ mutant
+@@ -225 +225 @@
+-            || AbsDiff(counts[i], limit) >= 4)
++            || AbsDiff(counts[i], limit) > 4)
+
+--- original
++++ mutant
+@@ -225 +225 @@
+-            || AbsDiff(counts[i], limit) >= 4)
++            || AbsDiff(counts[i], limit) == 4)
+
+--- original
++++ mutant
+@@ -225 +225 @@
+-            || AbsDiff(counts[i], limit) >= 4)
++            || AbsDiff(counts[i], limit) != 4)
+
+--- original
++++ mutant
+@@ -223 +223 @@
+-        if (i == length || good_for_rle[i]
++        if (i != length || good_for_rle[i]
+
+--- original
++++ mutant
+@@ -221 +221 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i <= length + 1; ++i)
+
+--- original
++++ mutant
+@@ -221 +221 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i > length + 1; ++i)
+
+--- original
++++ mutant
+@@ -221 +221 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i >= length + 1; ++i)
+
+--- original
++++ mutant
+@@ -221 +221 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i == length + 1; ++i)
+
+--- original
++++ mutant
+@@ -221 +221 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i != length + 1; ++i)
+
+--- original
++++ mutant
+@@ -206 +206 @@
+-            if (i != length)
++            if (i == length)
+
+--- original
++++ mutant
+@@ -200 +200 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k <= stride; ++k)
+
+--- original
++++ mutant
+@@ -200 +200 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k > stride; ++k)
+
+--- original
++++ mutant
+@@ -200 +200 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k >= stride; ++k)
+
+--- original
++++ mutant
+@@ -200 +200 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k == stride; ++k)
+
+--- original
++++ mutant
+@@ -200 +200 @@
+-                for (k = 0; k < stride; ++k)
++                for (k = 0; k != stride; ++k)
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride < 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride <= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride > 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride == 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride != 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol == 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride < 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride <= 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride > 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride == 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride != 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol != 0 && stride >= 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -196 +196 @@
+-        if (i == length || counts[i] != symbol)
++        if (i == length || counts[i] == symbol)
+
+--- original
++++ mutant
+@@ -196 +196 @@
+-        if (i == length || counts[i] != symbol)
++        if (i != length || counts[i] != symbol)
+
+--- original
++++ mutant
+@@ -194 +194 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i <= length + 1; ++i)
+
+--- original
++++ mutant
+@@ -194 +194 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i > length + 1; ++i)
+
+--- original
++++ mutant
+@@ -194 +194 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i >= length + 1; ++i)
+
+--- original
++++ mutant
+@@ -194 +194 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i == length + 1; ++i)
+
+--- original
++++ mutant
+@@ -194 +194 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i != length + 1; ++i)
+
+--- original
++++ mutant
+@@ -186 +186 @@
+-    for (i = 0; i < length; ++i)
++    for (i = 0; i <= length; ++i)
+
+--- original
++++ mutant
+@@ -186 +186 @@
+-    for (i = 0; i < length; ++i)
++    for (i = 0; i > length; ++i)
+
+--- original
++++ mutant
+@@ -186 +186 @@
+-    for (i = 0; i < length; ++i)
++    for (i = 0; i >= length; ++i)
+
+--- original
++++ mutant
+@@ -186 +186 @@
+-    for (i = 0; i < length; ++i)
++    for (i = 0; i == length; ++i)
+
+--- original
++++ mutant
+@@ -186 +186 @@
+-    for (i = 0; i < length; ++i)
++    for (i = 0; i != length; ++i)
+
+--- original
++++ mutant
+@@ -177 +177 @@
+-        if (counts[length - 1] != 0)
++        if (counts[length - 1] == 0)
+
+--- original
++++ mutant
+@@ -173 +173 @@
+-        if (length == 0)
++        if (length != 0)
+
+--- original
++++ mutant
+@@ -171 +171 @@
+-    for (; length >= 0; --length)
++    for (; length < 0; --length)
+
+--- original
++++ mutant
+@@ -171 +171 @@
+-    for (; length >= 0; --length)
++    for (; length <= 0; --length)
+
+--- original
++++ mutant
+@@ -171 +171 @@
+-    for (; length >= 0; --length)
++    for (; length > 0; --length)
+
+--- original
++++ mutant
+@@ -171 +171 @@
+-    for (; length >= 0; --length)
++    for (; length == 0; --length)
+
+--- original
++++ mutant
+@@ -171 +171 @@
+-    for (; length >= 0; --length)
++    for (; length != 0; --length)
+
+--- original
++++ mutant
+@@ -252 +252 @@
+-                         counts[i + 2] + counts[i + 3] + 2) /
++                         counts[i + 2] + counts[i + 3] + 2) *
+
+--- original
++++ mutant
+@@ -252 +252 @@
+-                         counts[i + 2] + counts[i + 3] + 2) /
++                         counts[i + 2] + counts[i + 3] - 2) /
+
+--- original
++++ mutant
+@@ -252 +252 @@
+-                         counts[i + 2] + counts[i + 3] + 2) /
++                         counts[i + 2] - counts[i + 3] + 2) /
+
+--- original
++++ mutant
+@@ -252 +252 @@
+-                         counts[i + 2] + counts[i + 3] + 2) /
++                         counts[i + 2] + counts[i - 3] + 2) /
+
+--- original
++++ mutant
+@@ -251 +251 @@
+-                limit = (counts[i] + counts[i + 1] +
++                limit = (counts[i] + counts[i + 1] -
+
+--- original
++++ mutant
+@@ -252 +252 @@
+-                         counts[i + 2] + counts[i + 3] + 2) /
++                         counts[i - 2] + counts[i + 3] + 2) /
+
+--- original
++++ mutant
+@@ -251 +251 @@
+-                limit = (counts[i] + counts[i + 1] +
++                limit = (counts[i] - counts[i + 1] +
+
+--- original
++++ mutant
+@@ -251 +251 @@
+-                limit = (counts[i] + counts[i + 1] +
++                limit = (counts[i] + counts[i - 1] +
+
+--- original
++++ mutant
+@@ -247 +247 @@
+-            if (i < length - 3)
++            if (i < length + 3)
+
+--- original
++++ mutant
+@@ -242 +242 @@
+-                    counts[i - k - 1] = count;
++                    counts[i - k + 1] = count;
+
+--- original
++++ mutant
+@@ -242 +242 @@
+-                    counts[i - k - 1] = count;
++                    counts[i + k - 1] = count;
+
+--- original
++++ mutant
+@@ -230 +230 @@
+-                int count = (sum + stride / 2) / stride;
++                int count = (sum + stride / 2) * stride;
+
+--- original
++++ mutant
+@@ -230 +230 @@
+-                int count = (sum + stride / 2) / stride;
++                int count = (sum - stride / 2) / stride;
+
+--- original
++++ mutant
+@@ -230 +230 @@
+-                int count = (sum + stride / 2) / stride;
++                int count = (sum + stride * 2) / stride;
+
+--- original
++++ mutant
+@@ -221 +221 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i < length - 1; ++i)
+
+--- original
++++ mutant
+@@ -202 +202 @@
+-                    good_for_rle[i - k - 1] = 1;
++                    good_for_rle[i - k + 1] = 1;
+
+--- original
++++ mutant
+@@ -202 +202 @@
+-                    good_for_rle[i - k - 1] = 1;
++                    good_for_rle[i + k - 1] = 1;
+
+--- original
++++ mutant
+@@ -194 +194 @@
+-    for (i = 0; i < length + 1; ++i)
++    for (i = 0; i < length - 1; ++i)
+
+--- original
++++ mutant
+@@ -177 +177 @@
+-        if (counts[length - 1] != 0)
++        if (counts[length + 1] != 0)
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 && (stride >= 3 && sum == 0))
+
+--- original
++++ mutant
+@@ -227 +227 @@
+-            if (stride >= 4 || (stride >= 3 && sum == 0))
++            if (stride >= 4 || (stride >= 3 || sum == 0))
+
+--- original
++++ mutant
+@@ -225 +225 @@
+-            || AbsDiff(counts[i], limit) >= 4)
++            && AbsDiff(counts[i], limit) >= 4)
+
+--- original
++++ mutant
+@@ -223 +223 @@
+-        if (i == length || good_for_rle[i]
++        if (i == length && good_for_rle[i]
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) && (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 && stride >= 5) || (symbol != 0 || stride >= 7))
+
+--- original
++++ mutant
+@@ -198 +198 @@
+-            if ((symbol == 0 && stride >= 5) || (symbol != 0 && stride >= 7))
++            if ((symbol == 0 || stride >= 5) || (symbol != 0 && stride >= 7))
+
+--- original
++++ mutant
+@@ -196 +196 @@
+-        if (i == length || counts[i] != symbol)
++        if (i == length && counts[i] != symbol)
+

@@ -1,0 +1,265 @@
+2026-06-29 01:21:44.387 | INFO     | __main__:_process_file:86 - Processing experimental-data/minus-harness/Syzygy_Zopfli/c_code/zopfli.c
+[mutation testing: AbsDiff] (1/7)
+[mutation testing: AbsDiff] (2/7)
+[mutation testing: AbsDiff] (3/7)
+[mutation testing: AbsDiff] (4/7)
+[mutation testing: AbsDiff] (5/7)
+[mutation testing: AbsDiff] (6/7)
+[mutation testing: AbsDiff] (7/7)
+[mutation testing: AddWeighedStatFreqs] (1/12)
+[mutation testing: AddWeighedStatFreqs] (2/12)
+[mutation testing: AddWeighedStatFreqs] (3/12)
+[mutation testing: AddWeighedStatFreqs] (4/12)
+[mutation testing: AddWeighedStatFreqs] (5/12)
+[mutation testing: AddWeighedStatFreqs] (6/12)
+[mutation testing: AddWeighedStatFreqs] (7/12)
+[mutation testing: AddWeighedStatFreqs] (8/12)
+[mutation testing: AddWeighedStatFreqs] (9/12)
+[mutation testing: AddWeighedStatFreqs] (10/12)
+[mutation testing: AddWeighedStatFreqs] (11/12)
+[mutation testing: AddWeighedStatFreqs] (12/12)
+[mutation testing: BoundaryPMFinal] (1/16)
+[mutation testing: BoundaryPMFinal] (2/16)
+[mutation testing: BoundaryPMFinal] (3/16)
+[mutation testing: BoundaryPMFinal] (4/16)
+[mutation testing: BoundaryPMFinal] (5/16)
+[mutation testing: BoundaryPMFinal] (6/16)
+[mutation testing: BoundaryPMFinal] (7/16)
+[mutation testing: BoundaryPMFinal] (8/16)
+[mutation testing: BoundaryPMFinal] (9/16)
+[mutation testing: BoundaryPMFinal] (10/16)
+[mutation testing: BoundaryPMFinal] (11/16)
+[mutation testing: BoundaryPMFinal] (12/16)
+[mutation testing: BoundaryPMFinal] (13/16)
+[mutation testing: BoundaryPMFinal] (14/16)
+[mutation testing: BoundaryPMFinal] (15/16)
+[mutation testing: BoundaryPMFinal] (16/16)
+[mutation testing: CeilDiv] (1/3)
+[mutation testing: CeilDiv] (2/3)
+[mutation testing: CeilDiv] (3/3)
+[mutation testing: ClearStatFreqs] (1/10)
+[mutation testing: ClearStatFreqs] (2/10)
+[mutation testing: ClearStatFreqs] (3/10)
+[mutation testing: ClearStatFreqs] (4/10)
+[mutation testing: ClearStatFreqs] (5/10)
+[mutation testing: ClearStatFreqs] (6/10)
+[mutation testing: ClearStatFreqs] (7/10)
+[mutation testing: ClearStatFreqs] (8/10)
+[mutation testing: ClearStatFreqs] (9/10)
+[mutation testing: ClearStatFreqs] (10/10)
+[mutation testing: GetCostFixed] (1/13)
+[mutation testing: GetCostFixed] (2/13)
+[mutation testing: GetCostFixed] (3/13)
+[mutation testing: GetCostFixed] (4/13)
+[mutation testing: GetCostFixed] (5/13)
+[mutation testing: GetCostFixed] (6/13)
+[mutation testing: GetCostFixed] (7/13)
+[mutation testing: GetCostFixed] (8/13)
+[mutation testing: GetCostFixed] (9/13)
+[mutation testing: GetCostFixed] (10/13)
+[mutation testing: GetCostFixed] (11/13)
+[mutation testing: GetCostFixed] (12/13)
+[mutation testing: GetCostFixed] (13/13)
+[mutation testing: GetCostStat] (1/4)
+[mutation testing: GetCostStat] (2/4)
+[mutation testing: GetCostStat] (3/4)
+[mutation testing: GetCostStat] (4/4)
+[mutation testing: GetLengthScore] (1/6)
+[mutation testing: GetLengthScore] (2/6)
+[mutation testing: GetLengthScore] (3/6)
+[mutation testing: GetLengthScore] (4/6)
+[mutation testing: GetLengthScore] (5/6)
+[mutation testing: GetLengthScore] (6/6)
+[mutation testing: InitLists] (1/5)
+[mutation testing: InitLists] (2/5)
+[mutation testing: InitLists] (3/5)
+[mutation testing: InitLists] (4/5)
+[mutation testing: InitLists] (5/5)
+[mutation testing: LeafComparator] (1/1)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (1/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (2/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (3/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (4/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (5/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (6/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (7/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (8/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (9/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (10/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (11/12)
+[mutation testing: PatchDistanceCodesForBuggyDecoders] (12/12)
+[mutation testing: Ran] (1/3)
+[mutation testing: Ran] (2/3)
+[mutation testing: Ran] (3/3)
+[mutation testing: ZopfliGetDistExtraBits] (1/7)
+[mutation testing: ZopfliGetDistExtraBits] (2/7)
+[mutation testing: ZopfliGetDistExtraBits] (3/7)
+[mutation testing: ZopfliGetDistExtraBits] (4/7)
+[mutation testing: ZopfliGetDistExtraBits] (5/7)
+[mutation testing: ZopfliGetDistExtraBits] (6/7)
+[mutation testing: ZopfliGetDistExtraBits] (7/7)
+[mutation testing: ZopfliGetDistExtraBitsValue] (1/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (2/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (3/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (4/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (5/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (6/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (7/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (8/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (9/10)
+[mutation testing: ZopfliGetDistExtraBitsValue] (10/10)
+[mutation testing: ZopfliGetDistSymbol] (1/10)
+[mutation testing: ZopfliGetDistSymbol] (2/10)
+[mutation testing: ZopfliGetDistSymbol] (3/10)
+[mutation testing: ZopfliGetDistSymbol] (4/10)
+[mutation testing: ZopfliGetDistSymbol] (5/10)
+[mutation testing: ZopfliGetDistSymbol] (6/10)
+[mutation testing: ZopfliGetDistSymbol] (7/10)
+[mutation testing: ZopfliGetDistSymbol] (8/10)
+[mutation testing: ZopfliGetDistSymbol] (9/10)
+[mutation testing: ZopfliGetDistSymbol] (10/10)
+[mutation testing: ZopfliGetLengthSymbolExtraBits] (1/1)
+[mutation testing: ZopfliLZ77GetByteRange] (1/5)
+[mutation testing: ZopfliLZ77GetByteRange] (2/5)
+[mutation testing: ZopfliLZ77GetByteRange] (3/5)
+[mutation testing: ZopfliLZ77GetByteRange] (4/5)
+[mutation testing: ZopfliLZ77GetByteRange] (5/5)
+[mutation testing: ZopfliMaxCachedSublen] (1/5)
+[mutation testing: ZopfliMaxCachedSublen] (2/5)
+[mutation testing: ZopfliMaxCachedSublen] (3/5)
+[mutation testing: ZopfliMaxCachedSublen] (4/5)
+[mutation testing: ZopfliMaxCachedSublen] (5/5)
+[mutation testing: ZopfliVerifyLenDist] (1/19)
+[mutation testing: ZopfliVerifyLenDist] (2/19)
+[mutation testing: ZopfliVerifyLenDist] (3/19)
+[mutation testing: ZopfliVerifyLenDist] (4/19)
+[mutation testing: ZopfliVerifyLenDist] (5/19)
+[mutation testing: ZopfliVerifyLenDist] (6/19)
+[mutation testing: ZopfliVerifyLenDist] (7/19)
+[mutation testing: ZopfliVerifyLenDist] (8/19)
+[mutation testing: ZopfliVerifyLenDist] (9/19)
+[mutation testing: ZopfliVerifyLenDist] (10/19)
+[mutation testing: ZopfliVerifyLenDist] (11/19)
+[mutation testing: ZopfliVerifyLenDist] (12/19)
+[mutation testing: ZopfliVerifyLenDist] (13/19)
+[mutation testing: ZopfliVerifyLenDist] (14/19)
+[mutation testing: ZopfliVerifyLenDist] (15/19)
+[mutation testing: ZopfliVerifyLenDist] (16/19)
+[mutation testing: ZopfliVerifyLenDist] (17/19)
+[mutation testing: ZopfliVerifyLenDist] (18/19)
+[mutation testing: ZopfliVerifyLenDist] (19/19)
+[mutation testing: ZopfliWarmupHash] (1/8)
+[mutation testing: ZopfliWarmupHash] (2/8)
+[mutation testing: ZopfliWarmupHash] (3/8)
+[mutation testing: ZopfliWarmupHash] (4/8)
+[mutation testing: ZopfliWarmupHash] (5/8)
+[mutation testing: ZopfliWarmupHash] (6/8)
+[mutation testing: ZopfliWarmupHash] (7/8)
+[mutation testing: ZopfliWarmupHash] (8/8)
+[mutation testing: zopfli_min] (1/5)
+[mutation testing: zopfli_min] (2/5)
+[mutation testing: zopfli_min] (3/5)
+[mutation testing: zopfli_min] (4/5)
+[mutation testing: zopfli_min] (5/5)
+{'function': 'AbsDiff', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 7, 'num_killed': 6}
+{'function': 'AddBit', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 3, 'num_killed': 0}
+{'function': 'AddBits', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 8, 'num_killed': 0}
+{'function': 'AddDynamicTree', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 12, 'num_killed': 0}
+{'function': 'AddHuffmanBits', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 10, 'num_killed': 0}
+{'function': 'AddLZ77Block', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 14, 'num_killed': 0}
+{'function': 'AddLZ77BlockAutoType', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 29, 'num_killed': 0}
+{'function': 'AddLZ77Data', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 40, 'num_killed': 0}
+{'function': 'AddNonCompressedBlock', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 26, 'num_killed': 0}
+{'function': 'AddSorted', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 18, 'num_killed': 0}
+{'function': 'AddWeighedStatFreqs', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 12, 'num_killed': 0}
+{'function': 'BoundaryPM', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 27, 'num_killed': 0}
+{'function': 'BoundaryPMFinal', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 16, 'num_killed': 0}
+{'function': 'CalculateBlockSymbolSize', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 6, 'num_killed': 0}
+{'function': 'CalculateBlockSymbolSizeGivenCounts', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 21, 'num_killed': 0}
+{'function': 'CalculateBlockSymbolSizeSmall', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 16, 'num_killed': 0}
+{'function': 'CalculateStatistics', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'CalculateTreeSize', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 12, 'num_killed': 0}
+{'function': 'CeilDiv', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 3, 'num_killed': 3}
+{'function': 'ClearStatFreqs', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 10, 'num_killed': 6}
+{'function': 'CopyStats', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'EncodeTree', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 136, 'num_killed': 0}
+{'function': 'EstimateCost', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ExtractBitLengths', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 12, 'num_killed': 0}
+{'function': 'FindLargestSplittableBlock', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 17, 'num_killed': 0}
+{'function': 'FindMinimum', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 52, 'num_killed': 0}
+{'function': 'FollowPath', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 52, 'num_killed': 0}
+{'function': 'GetBestLengths', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 118, 'num_killed': 0}
+{'function': 'GetCostFixed', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 13, 'num_killed': 8}
+{'function': 'GetCostModelMinCost', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 20, 'num_killed': 0}
+{'function': 'GetCostStat', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 4, 'num_killed': 1}
+{'function': 'GetDynamicLengths', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'GetFixedTree', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 25, 'num_killed': 0}
+{'function': 'GetLengthScore', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 6, 'num_killed': 6}
+{'function': 'GetMatch', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 40, 'num_killed': 0}
+{'function': 'GetStatistics', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 6, 'num_killed': 0}
+{'function': 'InitLists', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 5, 'num_killed': 0}
+{'function': 'InitNode', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'InitRanState', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'InitStats', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'LZ77OptimalRun', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 6, 'num_killed': 0}
+{'function': 'LeafComparator', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 1, 'num_killed': 1}
+{'function': 'OptimizeHuffmanForRle', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 108, 'num_killed': 0}
+{'function': 'PatchDistanceCodesForBuggyDecoders', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 12, 'num_killed': 0}
+{'function': 'PrintBlockSplitPoints', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 24, 'num_killed': 0}
+{'function': 'Ran', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 3, 'num_killed': 3}
+{'function': 'RandomizeFreqs', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 8, 'num_killed': 0}
+{'function': 'RandomizeStatFreqs', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'SplitCost', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 1, 'num_killed': 0}
+{'function': 'StoreInLongestMatchCache', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 25, 'num_killed': 0}
+{'function': 'TraceBackwards', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 23, 'num_killed': 0}
+{'function': 'TryGetFromLongestMatchCache', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 41, 'num_killed': 0}
+{'function': 'TryOptimizeHuffmanForRle', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 9, 'num_killed': 0}
+{'function': 'UpdateHashValue', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliAllocHash', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliAppendLZ77Store', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 5, 'num_killed': 0}
+{'function': 'ZopfliBlockSplit', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 14, 'num_killed': 0}
+{'function': 'ZopfliBlockSplitLZ77', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 53, 'num_killed': 0}
+{'function': 'ZopfliCacheToSublen', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 21, 'num_killed': 0}
+{'function': 'ZopfliCalculateBitLengths', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliCalculateBlockSize', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 6, 'num_killed': 0}
+{'function': 'ZopfliCalculateBlockSizeAutoType', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 21, 'num_killed': 0}
+{'function': 'ZopfliCalculateEntropy', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 29, 'num_killed': 0}
+{'function': 'ZopfliCleanBlockState', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliCleanCache', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliCleanHash', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliCleanLZ77Store', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliCopyLZ77Store', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 18, 'num_killed': 0}
+{'function': 'ZopfliDeflate', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 18, 'num_killed': 0}
+{'function': 'ZopfliDeflatePart', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 44, 'num_killed': 0}
+{'function': 'ZopfliFindLongestMatch', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 157, 'num_killed': 0}
+{'function': 'ZopfliGetDistExtraBits', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 7, 'num_killed': 7}
+{'function': 'ZopfliGetDistExtraBitsValue', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 10, 'num_killed': 8}
+{'function': 'ZopfliGetDistSymbol', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 10, 'num_killed': 9}
+{'function': 'ZopfliGetDistSymbolExtraBits', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliGetLengthExtraBits', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliGetLengthExtraBitsValue', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliGetLengthSymbol', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliGetLengthSymbolExtraBits', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 1, 'num_killed': 1}
+{'function': 'ZopfliInitBlockState', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 1, 'num_killed': 0}
+{'function': 'ZopfliInitCache', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 16, 'num_killed': 0}
+{'function': 'ZopfliInitLZ77Store', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'ZopfliLZ77GetByteRange', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 5, 'num_killed': 1}
+{'function': 'ZopfliLZ77GetHistogram', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 29, 'num_killed': 0}
+{'function': 'ZopfliLZ77GetHistogramAt', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 41, 'num_killed': 0}
+{'function': 'ZopfliLZ77Greedy', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 74, 'num_killed': 0}
+{'function': 'ZopfliLZ77Optimal', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 28, 'num_killed': 0}
+{'function': 'ZopfliLZ77OptimalFixed', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 3, 'num_killed': 0}
+{'function': 'ZopfliLengthLimitedCodeLengths', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 51, 'num_killed': 0}
+{'function': 'ZopfliLengthsToSymbols', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 35, 'num_killed': 0}
+{'function': 'ZopfliMaxCachedSublen', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 5, 'num_killed': 5}
+{'function': 'ZopfliResetHash', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 25, 'num_killed': 0}
+{'function': 'ZopfliStoreLitLenDist', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 31, 'num_killed': 0}
+{'function': 'ZopfliSublenToCache', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 38, 'num_killed': 0}
+{'function': 'ZopfliUpdateHash', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 40, 'num_killed': 0}
+{'function': 'ZopfliVerifyLenDist', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 19, 'num_killed': 9}
+{'function': 'ZopfliWarmupHash', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 8, 'num_killed': 0}
+{'function': 'main', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 1, 'num_killed': 0}
+{'function': 'read_stdin_to_bytes', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 8, 'num_killed': 0}
+{'function': 'run_all_tests', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'single_test', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'zopfli_min', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 5, 'num_killed': 4}

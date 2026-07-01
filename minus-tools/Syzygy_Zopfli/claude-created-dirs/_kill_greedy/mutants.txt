@@ -1,0 +1,446 @@
+You must try to kill the follow mutant(s):
+
+--- original
++++ mutant
+@@ -4775 +4775 @@
+-            assert(i < inend);
++            assert(i <= inend);
+
+--- original
++++ mutant
+@@ -4775 +4775 @@
+-            assert(i < inend);
++            assert(i > inend);
+
+--- original
++++ mutant
+@@ -4775 +4775 @@
+-            assert(i < inend);
++            assert(i >= inend);
+
+--- original
++++ mutant
+@@ -4775 +4775 @@
+-            assert(i < inend);
++            assert(i == inend);
+
+--- original
++++ mutant
+@@ -4775 +4775 @@
+-            assert(i < inend);
++            assert(i != inend);
+
+--- original
++++ mutant
+@@ -4773 +4773 @@
+-        for (j = 1; j < leng; j++)
++        for (j = 1; j <= leng; j++)
+
+--- original
++++ mutant
+@@ -4773 +4773 @@
+-        for (j = 1; j < leng; j++)
++        for (j = 1; j > leng; j++)
+
+--- original
++++ mutant
+@@ -4773 +4773 @@
+-        for (j = 1; j < leng; j++)
++        for (j = 1; j >= leng; j++)
+
+--- original
++++ mutant
+@@ -4773 +4773 @@
+-        for (j = 1; j < leng; j++)
++        for (j = 1; j == leng; j++)
+
+--- original
++++ mutant
+@@ -4773 +4773 @@
+-        for (j = 1; j < leng; j++)
++        for (j = 1; j != leng; j++)
+
+--- original
++++ mutant
+@@ -4763 +4763 @@
+-        if (lengthscore >= ZOPFLI_MIN_MATCH)
++        if (lengthscore < ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -4763 +4763 @@
+-        if (lengthscore >= ZOPFLI_MIN_MATCH)
++        if (lengthscore <= ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -4763 +4763 @@
+-        if (lengthscore >= ZOPFLI_MIN_MATCH)
++        if (lengthscore > ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -4763 +4763 @@
+-        if (lengthscore >= ZOPFLI_MIN_MATCH)
++        if (lengthscore == ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -4763 +4763 @@
+-        if (lengthscore >= ZOPFLI_MIN_MATCH)
++        if (lengthscore != ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng <= ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng > ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng >= ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng == ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng != ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore < ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore <= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore > ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore == ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore != ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4746 +4746 @@
+-                    assert(i < inend);
++                    assert(i <= inend);
+
+--- original
++++ mutant
+@@ -4746 +4746 @@
+-                    assert(i < inend);
++                    assert(i > inend);
+
+--- original
++++ mutant
+@@ -4746 +4746 @@
+-                    assert(i < inend);
++                    assert(i >= inend);
+
+--- original
++++ mutant
+@@ -4746 +4746 @@
+-                    assert(i < inend);
++                    assert(i == inend);
+
+--- original
++++ mutant
+@@ -4746 +4746 @@
+-                    assert(i < inend);
++                    assert(i != inend);
+
+--- original
++++ mutant
+@@ -4744 +4744 @@
+-                for (j = 2; j < leng; j++)
++                for (j = 2; j <= leng; j++)
+
+--- original
++++ mutant
+@@ -4744 +4744 @@
+-                for (j = 2; j < leng; j++)
++                for (j = 2; j > leng; j++)
+
+--- original
++++ mutant
+@@ -4744 +4744 @@
+-                for (j = 2; j < leng; j++)
++                for (j = 2; j >= leng; j++)
+
+--- original
++++ mutant
+@@ -4744 +4744 @@
+-                for (j = 2; j < leng; j++)
++                for (j = 2; j == leng; j++)
+
+--- original
++++ mutant
+@@ -4744 +4744 @@
+-                for (j = 2; j < leng; j++)
++                for (j = 2; j != leng; j++)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore >= ZOPFLI_MIN_MATCH && leng <= ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore >= ZOPFLI_MIN_MATCH && leng > ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore >= ZOPFLI_MIN_MATCH && leng >= ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore >= ZOPFLI_MIN_MATCH && leng == ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore >= ZOPFLI_MIN_MATCH && leng != ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore < ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore <= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore > ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore == ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore != ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4724 +4724 @@
+-            if (lengthscore > prevlengthscore + 1)
++            if (lengthscore < prevlengthscore + 1)
+
+--- original
++++ mutant
+@@ -4724 +4724 @@
+-            if (lengthscore > prevlengthscore + 1)
++            if (lengthscore <= prevlengthscore + 1)
+
+--- original
++++ mutant
+@@ -4724 +4724 @@
+-            if (lengthscore > prevlengthscore + 1)
++            if (lengthscore >= prevlengthscore + 1)
+
+--- original
++++ mutant
+@@ -4724 +4724 @@
+-            if (lengthscore > prevlengthscore + 1)
++            if (lengthscore == prevlengthscore + 1)
+
+--- original
++++ mutant
+@@ -4724 +4724 @@
+-            if (lengthscore > prevlengthscore + 1)
++            if (lengthscore != prevlengthscore + 1)
+
+--- original
++++ mutant
+@@ -4711 +4711 @@
+-    for (i = instart; i < inend; i++)
++    for (i = instart; i <= inend; i++)
+
+--- original
++++ mutant
+@@ -4711 +4711 @@
+-    for (i = instart; i < inend; i++)
++    for (i = instart; i > inend; i++)
+
+--- original
++++ mutant
+@@ -4711 +4711 @@
+-    for (i = instart; i < inend; i++)
++    for (i = instart; i >= inend; i++)
+
+--- original
++++ mutant
+@@ -4711 +4711 @@
+-    for (i = instart; i < inend; i++)
++    for (i = instart; i == inend; i++)
+
+--- original
++++ mutant
+@@ -4711 +4711 @@
+-    for (i = instart; i < inend; i++)
++    for (i = instart; i != inend; i++)
+
+--- original
++++ mutant
+@@ -4706 +4706 @@
+-    for (i = windowstart; i < instart; i++)
++    for (i = windowstart; i <= instart; i++)
+
+--- original
++++ mutant
+@@ -4706 +4706 @@
+-    for (i = windowstart; i < instart; i++)
++    for (i = windowstart; i > instart; i++)
+
+--- original
++++ mutant
+@@ -4706 +4706 @@
+-    for (i = windowstart; i < instart; i++)
++    for (i = windowstart; i >= instart; i++)
+
+--- original
++++ mutant
+@@ -4706 +4706 @@
+-    for (i = windowstart; i < instart; i++)
++    for (i = windowstart; i == instart; i++)
+
+--- original
++++ mutant
+@@ -4706 +4706 @@
+-    for (i = windowstart; i < instart; i++)
++    for (i = windowstart; i != instart; i++)
+
+--- original
++++ mutant
+@@ -4701 +4701 @@
+-    if (instart == inend)
++    if (instart != inend)
+
+--- original
++++ mutant
+@@ -4690 +4690 @@
+-    size_t windowstart = instart > ZOPFLI_WINDOW_SIZE
++    size_t windowstart = instart < ZOPFLI_WINDOW_SIZE
+
+--- original
++++ mutant
+@@ -4690 +4690 @@
+-    size_t windowstart = instart > ZOPFLI_WINDOW_SIZE
++    size_t windowstart = instart <= ZOPFLI_WINDOW_SIZE
+
+--- original
++++ mutant
+@@ -4690 +4690 @@
+-    size_t windowstart = instart > ZOPFLI_WINDOW_SIZE
++    size_t windowstart = instart >= ZOPFLI_WINDOW_SIZE
+
+--- original
++++ mutant
+@@ -4690 +4690 @@
+-    size_t windowstart = instart > ZOPFLI_WINDOW_SIZE
++    size_t windowstart = instart == ZOPFLI_WINDOW_SIZE
+
+--- original
++++ mutant
+@@ -4690 +4690 @@
+-    size_t windowstart = instart > ZOPFLI_WINDOW_SIZE
++    size_t windowstart = instart != ZOPFLI_WINDOW_SIZE
+
+--- original
++++ mutant
+@@ -4743 +4743 @@
+-                ZopfliStoreLitLenDist(leng, dist, i - 1, store);
++                ZopfliStoreLitLenDist(leng, dist, i + 1, store);
+
+--- original
++++ mutant
+@@ -4742 +4742 @@
+-                ZopfliVerifyLenDist(in, inend, i - 1, dist, leng);
++                ZopfliVerifyLenDist(in, inend, i + 1, dist, leng);
+
+--- original
++++ mutant
+@@ -4726 +4726 @@
+-                ZopfliStoreLitLenDist(in[i - 1], 0, i - 1, store);
++                ZopfliStoreLitLenDist(in[i - 1], 0, i + 1, store);
+
+--- original
++++ mutant
+@@ -4726 +4726 @@
+-                ZopfliStoreLitLenDist(in[i - 1], 0, i - 1, store);
++                ZopfliStoreLitLenDist(in[i + 1], 0, i - 1, store);
+
+--- original
++++ mutant
+@@ -4724 +4724 @@
+-            if (lengthscore > prevlengthscore + 1)
++            if (lengthscore > prevlengthscore - 1)
+
+--- original
++++ mutant
+@@ -4691 +4691 @@
+-                             ? instart - ZOPFLI_WINDOW_SIZE
++                             ? instart + ZOPFLI_WINDOW_SIZE
+
+--- original
++++ mutant
+@@ -4753 +4753 @@
+-        else if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++        else if (lengthscore >= ZOPFLI_MIN_MATCH || leng < ZOPFLI_MAX_MATCH)
+
+--- original
++++ mutant
+@@ -4727 +4727 @@
+-                if (lengthscore >= ZOPFLI_MIN_MATCH && leng < ZOPFLI_MAX_MATCH)
++                if (lengthscore >= ZOPFLI_MIN_MATCH || leng < ZOPFLI_MAX_MATCH)
+

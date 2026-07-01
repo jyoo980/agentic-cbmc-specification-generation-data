@@ -1,0 +1,7 @@
+[project]
+name = "experimental-data"
+version = "0.1.0"
+description = "Experimental runs and scripts for agentic specificatio generation and verification for C"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []

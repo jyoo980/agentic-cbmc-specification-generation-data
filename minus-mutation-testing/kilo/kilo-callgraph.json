@@ -1,0 +1,321 @@
+{
+    "main": {
+        "internal": [
+            "editorOpen",
+            "editorProcessKeypress",
+            "editorRefreshScreen",
+            "editorSelectSyntaxHighlight",
+            "editorSetStatusMessage",
+            "enableRawMode",
+            "initEditor"
+        ],
+        "external": [
+            "exit",
+            "fprintf"
+        ]
+    },
+    "initEditor": {
+        "internal": [
+            "updateWindowSize"
+        ],
+        "external": [
+            "signal"
+        ]
+    },
+    "handleSigWinCh": {
+        "internal": [
+            "editorRefreshScreen",
+            "updateWindowSize"
+        ],
+        "external": []
+    },
+    "updateWindowSize": {
+        "internal": [
+            "getWindowSize"
+        ],
+        "external": [
+            "exit",
+            "perror"
+        ]
+    },
+    "editorFileWasModified": {
+        "internal": [],
+        "external": []
+    },
+    "editorProcessKeypress": {
+        "internal": [
+            "editorDelChar",
+            "editorFind",
+            "editorInsertChar",
+            "editorInsertNewline",
+            "editorMoveCursor",
+            "editorReadKey",
+            "editorSave",
+            "editorSetStatusMessage"
+        ],
+        "external": [
+            "exit"
+        ]
+    },
+    "editorMoveCursor": {
+        "internal": [],
+        "external": []
+    },
+    "editorFind": {
+        "internal": [
+            "editorReadKey",
+            "editorRefreshScreen",
+            "editorSetStatusMessage"
+        ],
+        "external": [
+            "isprint",
+            "malloc",
+            "memcpy",
+            "memset",
+            "strstr"
+        ]
+    },
+    "editorSetStatusMessage": {
+        "internal": [],
+        "external": [
+            "time",
+            "va_end",
+            "va_start",
+            "vsnprintf"
+        ]
+    },
+    "editorRefreshScreen": {
+        "internal": [
+            "abAppend",
+            "abFree",
+            "editorSyntaxToColor"
+        ],
+        "external": [
+            "snprintf",
+            "strlen",
+            "time",
+            "write"
+        ]
+    },
+    "abFree": {
+        "internal": [],
+        "external": [
+            "free"
+        ]
+    },
+    "abAppend": {
+        "internal": [],
+        "external": [
+            "memcpy",
+            "realloc"
+        ]
+    },
+    "editorSave": {
+        "internal": [
+            "editorRowsToString",
+            "editorSetStatusMessage"
+        ],
+        "external": [
+            "close",
+            "free",
+            "ftruncate",
+            "open",
+            "strerror",
+            "write"
+        ]
+    },
+    "editorOpen": {
+        "internal": [
+            "editorInsertRow"
+        ],
+        "external": [
+            "exit",
+            "fclose",
+            "fopen",
+            "free",
+            "getline",
+            "malloc",
+            "memcpy",
+            "perror",
+            "strlen"
+        ]
+    },
+    "editorDelChar": {
+        "internal": [
+            "editorDelRow",
+            "editorRowAppendString",
+            "editorRowDelChar",
+            "editorUpdateRow"
+        ],
+        "external": []
+    },
+    "editorInsertNewline": {
+        "internal": [
+            "editorInsertRow",
+            "editorUpdateRow"
+        ],
+        "external": []
+    },
+    "editorInsertChar": {
+        "internal": [
+            "editorInsertRow",
+            "editorRowInsertChar"
+        ],
+        "external": []
+    },
+    "editorRowDelChar": {
+        "internal": [
+            "editorUpdateRow"
+        ],
+        "external": [
+            "memmove"
+        ]
+    },
+    "editorRowAppendString": {
+        "internal": [
+            "editorUpdateRow"
+        ],
+        "external": [
+            "memcpy",
+            "realloc"
+        ]
+    },
+    "editorRowInsertChar": {
+        "internal": [
+            "editorUpdateRow"
+        ],
+        "external": [
+            "memmove",
+            "memset",
+            "realloc"
+        ]
+    },
+    "editorRowsToString": {
+        "internal": [],
+        "external": [
+            "malloc",
+            "memcpy"
+        ]
+    },
+    "editorDelRow": {
+        "internal": [
+            "editorFreeRow"
+        ],
+        "external": [
+            "memmove"
+        ]
+    },
+    "editorFreeRow": {
+        "internal": [],
+        "external": [
+            "free"
+        ]
+    },
+    "editorInsertRow": {
+        "internal": [
+            "editorUpdateRow"
+        ],
+        "external": [
+            "malloc",
+            "memcpy",
+            "memmove",
+            "realloc"
+        ]
+    },
+    "editorUpdateRow": {
+        "internal": [
+            "editorUpdateSyntax"
+        ],
+        "external": [
+            "exit",
+            "free",
+            "malloc",
+            "printf"
+        ]
+    },
+    "editorSelectSyntaxHighlight": {
+        "internal": [],
+        "external": [
+            "strlen",
+            "strstr"
+        ]
+    },
+    "editorSyntaxToColor": {
+        "internal": [],
+        "external": []
+    },
+    "editorUpdateSyntax": {
+        "internal": [
+            "editorRowHasOpenComment",
+            "editorUpdateSyntax",
+            "is_separator"
+        ],
+        "external": [
+            "isdigit",
+            "isprint",
+            "isspace",
+            "memcmp",
+            "memset",
+            "realloc",
+            "strlen"
+        ]
+    },
+    "editorRowHasOpenComment": {
+        "internal": [],
+        "external": []
+    },
+    "is_separator": {
+        "internal": [],
+        "external": [
+            "isspace",
+            "strchr"
+        ]
+    },
+    "getWindowSize": {
+        "internal": [
+            "getCursorPosition"
+        ],
+        "external": [
+            "ioctl",
+            "snprintf",
+            "strlen",
+            "write"
+        ]
+    },
+    "getCursorPosition": {
+        "internal": [],
+        "external": [
+            "read",
+            "sscanf",
+            "write"
+        ]
+    },
+    "editorReadKey": {
+        "internal": [],
+        "external": [
+            "exit",
+            "read"
+        ]
+    },
+    "enableRawMode": {
+        "internal": [],
+        "external": [
+            "atexit",
+            "isatty",
+            "tcgetattr",
+            "tcsetattr"
+        ]
+    },
+    "editorAtExit": {
+        "internal": [
+            "disableRawMode"
+        ],
+        "external": []
+    },
+    "disableRawMode": {
+        "internal": [],
+        "external": [
+            "tcsetattr"
+        ]
+    }
+}

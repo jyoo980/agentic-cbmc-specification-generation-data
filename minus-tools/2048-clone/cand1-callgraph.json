@@ -1,0 +1,136 @@
+{
+    "main": {
+        "internal": [
+            "addRandom",
+            "drawBoard",
+            "gameEnded",
+            "initBoard",
+            "moveDown",
+            "moveLeft",
+            "moveRight",
+            "moveUp",
+            "setBufferedInput",
+            "testSucceed"
+        ],
+        "external": [
+            "getchar",
+            "printf",
+            "puts",
+            "signal",
+            "strcmp",
+            "usleep"
+        ]
+    },
+    "signal_callback_handler": {
+        "internal": [
+            "setBufferedInput"
+        ],
+        "external": [
+            "exit",
+            "printf"
+        ]
+    },
+    "testSucceed": {
+        "internal": [
+            "slideArray"
+        ],
+        "external": [
+            "printf"
+        ]
+    },
+    "setBufferedInput": {
+        "internal": [],
+        "external": [
+            "tcgetattr",
+            "tcsetattr"
+        ]
+    },
+    "initBoard": {
+        "internal": [
+            "addRandom"
+        ],
+        "external": []
+    },
+    "addRandom": {
+        "internal": [],
+        "external": [
+            "rand",
+            "srand",
+            "time"
+        ]
+    },
+    "gameEnded": {
+        "internal": [
+            "countEmpty",
+            "findPairDown",
+            "rotateBoard"
+        ],
+        "external": []
+    },
+    "countEmpty": {
+        "internal": [],
+        "external": []
+    },
+    "findPairDown": {
+        "internal": [],
+        "external": []
+    },
+    "moveRight": {
+        "internal": [
+            "moveUp",
+            "rotateBoard"
+        ],
+        "external": []
+    },
+    "moveDown": {
+        "internal": [
+            "moveUp",
+            "rotateBoard"
+        ],
+        "external": []
+    },
+    "moveLeft": {
+        "internal": [
+            "moveUp",
+            "rotateBoard"
+        ],
+        "external": []
+    },
+    "moveUp": {
+        "internal": [
+            "slideArray"
+        ],
+        "external": []
+    },
+    "rotateBoard": {
+        "internal": [],
+        "external": []
+    },
+    "slideArray": {
+        "internal": [
+            "findTarget"
+        ],
+        "external": []
+    },
+    "findTarget": {
+        "internal": [],
+        "external": []
+    },
+    "drawBoard": {
+        "internal": [
+            "getColors",
+            "getDigitCount"
+        ],
+        "external": [
+            "printf"
+        ]
+    },
+    "getDigitCount": {
+        "internal": [],
+        "external": []
+    },
+    "getColors": {
+        "internal": [],
+        "external": []
+    }
+}

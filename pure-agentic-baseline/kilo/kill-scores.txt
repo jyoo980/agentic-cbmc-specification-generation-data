@@ -1,0 +1,60 @@
+2026-06-28 03:37:12.434 | INFO     | __main__:_process_file:86 - Processing experimental-data/pure-agentic-baseline/kilo/kilo.c
+[mutation testing: abAppend] (1/3)
+[mutation testing: abAppend] (2/3)
+[mutation testing: abAppend] (3/3)
+[mutation testing: editorRowHasOpenComment] (1/16)
+[mutation testing: editorRowHasOpenComment] (2/16)
+[mutation testing: editorRowHasOpenComment] (3/16)
+[mutation testing: editorRowHasOpenComment] (4/16)
+[mutation testing: editorRowHasOpenComment] (5/16)
+[mutation testing: editorRowHasOpenComment] (6/16)
+[mutation testing: editorRowHasOpenComment] (7/16)
+[mutation testing: editorRowHasOpenComment] (8/16)
+[mutation testing: editorRowHasOpenComment] (9/16)
+[mutation testing: editorRowHasOpenComment] (10/16)
+[mutation testing: editorRowHasOpenComment] (11/16)
+[mutation testing: editorRowHasOpenComment] (12/16)
+[mutation testing: editorRowHasOpenComment] (13/16)
+[mutation testing: editorRowHasOpenComment] (14/16)
+[mutation testing: editorRowHasOpenComment] (15/16)
+[mutation testing: editorRowHasOpenComment] (16/16)
+[mutation testing: is_separator] (1/4)
+[mutation testing: is_separator] (2/4)
+[mutation testing: is_separator] (3/4)
+[mutation testing: is_separator] (4/4)
+{'function': 'abAppend', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 3, 'num_killed': 0}
+{'function': 'abFree', 'has_annotations': True, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'disableRawMode', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'editorAtExit', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'editorDelChar', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 25, 'num_killed': 0}
+{'function': 'editorDelRow', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 17, 'num_killed': 0}
+{'function': 'editorFileWasModified', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'editorFind', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 39, 'num_killed': 0}
+{'function': 'editorFreeRow', 'has_annotations': True, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'editorInsertChar', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 14, 'num_killed': 0}
+{'function': 'editorInsertNewline', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 19, 'num_killed': 0}
+{'function': 'editorInsertRow', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 20, 'num_killed': 0}
+{'function': 'editorMoveCursor', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 61, 'num_killed': 0}
+{'function': 'editorOpen', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 9, 'num_killed': 0}
+{'function': 'editorProcessKeypress', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 10, 'num_killed': 0}
+{'function': 'editorReadKey', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 21, 'num_killed': 0}
+{'function': 'editorRefreshScreen', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 95, 'num_killed': 0}
+{'function': 'editorRowAppendString', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 3, 'num_killed': 0}
+{'function': 'editorRowDelChar', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 9, 'num_killed': 0}
+{'function': 'editorRowHasOpenComment', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 16, 'num_killed': 8}
+{'function': 'editorRowInsertChar', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 18, 'num_killed': 0}
+{'function': 'editorRowsToString', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 11, 'num_killed': 0}
+{'function': 'editorSave', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 4, 'num_killed': 0}
+{'function': 'editorSelectSyntaxHighlight', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 10, 'num_killed': 0}
+{'function': 'editorSetStatusMessage', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'editorSyntaxToColor', 'has_annotations': True, 'has_mutants': False, 'is_verified': True, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'editorUpdateRow', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 26, 'num_killed': 0}
+{'function': 'editorUpdateSyntax', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 62, 'num_killed': 0}
+{'function': 'enableRawMode', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 6, 'num_killed': 0}
+{'function': 'getCursorPosition', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 15, 'num_killed': 0}
+{'function': 'getWindowSize', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 7, 'num_killed': 0}
+{'function': 'handleSigWinCh', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 12, 'num_killed': 0}
+{'function': 'initEditor', 'has_annotations': False, 'has_mutants': False, 'is_verified': False, 'num_mutants': 0, 'num_killed': 0}
+{'function': 'is_separator', 'has_annotations': True, 'has_mutants': True, 'is_verified': True, 'num_mutants': 4, 'num_killed': 0}
+{'function': 'main', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 1, 'num_killed': 0}
+{'function': 'updateWindowSize', 'has_annotations': False, 'has_mutants': True, 'is_verified': False, 'num_mutants': 1, 'num_killed': 0}

@@ -1,0 +1,176 @@
+You must try to kill the follow mutant(s):
+
+--- original
++++ mutant
+@@ -4830 +4830 @@
+-        assert(bitlengths[i] >= 0);
++        assert(bitlengths[i] < 0);
+
+--- original
++++ mutant
+@@ -4830 +4830 @@
+-        assert(bitlengths[i] >= 0);
++        assert(bitlengths[i] <= 0);
+
+--- original
++++ mutant
+@@ -4830 +4830 @@
+-        assert(bitlengths[i] >= 0);
++        assert(bitlengths[i] > 0);
+
+--- original
++++ mutant
+@@ -4830 +4830 @@
+-        assert(bitlengths[i] >= 0);
++        assert(bitlengths[i] == 0);
+
+--- original
++++ mutant
+@@ -4830 +4830 @@
+-        assert(bitlengths[i] >= 0);
++        assert(bitlengths[i] != 0);
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] < 0 && bitlengths[i] < -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] < 0 && bitlengths[i] <= -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] < 0 && bitlengths[i] >= -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] < 0 && bitlengths[i] == -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] < 0 && bitlengths[i] != -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] <= 0 && bitlengths[i] > -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] > 0 && bitlengths[i] > -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] >= 0 && bitlengths[i] > -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] == 0 && bitlengths[i] > -1e-5)
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] != 0 && bitlengths[i] > -1e-5)
+
+--- original
++++ mutant
+@@ -4819 +4819 @@
+-        if (count[i] == 0)
++        if (count[i] != 0)
+
+--- original
++++ mutant
+@@ -4814 +4814 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i <= n; ++i)
+
+--- original
++++ mutant
+@@ -4814 +4814 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i > n; ++i)
+
+--- original
++++ mutant
+@@ -4814 +4814 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i >= n; ++i)
+
+--- original
++++ mutant
+@@ -4814 +4814 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i == n; ++i)
+
+--- original
++++ mutant
+@@ -4814 +4814 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i != n; ++i)
+
+--- original
++++ mutant
+@@ -4813 +4813 @@
+-    log2sum = (sum == 0 ? log(n) : log(sum)) * kInvLog2;
++    log2sum = (sum != 0 ? log(n) : log(sum)) * kInvLog2;
+
+--- original
++++ mutant
+@@ -4809 +4809 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i <= n; ++i)
+
+--- original
++++ mutant
+@@ -4809 +4809 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i > n; ++i)
+
+--- original
++++ mutant
+@@ -4809 +4809 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i >= n; ++i)
+
+--- original
++++ mutant
+@@ -4809 +4809 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i == n; ++i)
+
+--- original
++++ mutant
+@@ -4809 +4809 @@
+-    for (i = 0; i < n; ++i)
++    for (i = 0; i != n; ++i)
+
+--- original
++++ mutant
+@@ -4822 +4822 @@
+-            bitlengths[i] = log2sum - log(count[i]) * kInvLog2;
++            bitlengths[i] = log2sum + log(count[i]) * kInvLog2;
+
+--- original
++++ mutant
+@@ -4828 +4828 @@
+-        if (bitlengths[i] < 0 && bitlengths[i] > -1e-5)
++        if (bitlengths[i] < 0 || bitlengths[i] > -1e-5)
+

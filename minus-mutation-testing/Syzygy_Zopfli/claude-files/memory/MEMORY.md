@@ -1,0 +1,7 @@
+- [CBMC function-pointer param crash](cbmc-function-pointer-param-crash.md) — run-cbmc aborts (exit 134) on any function taking a function-pointer parameter
+- [CBMC is_fresh malloc vacuous pass](cbmc-isfresh-malloc-vacuous-pass.md) — is_fresh-in-requires contracts pass VACUOUSLY (body unreachable; malloc unlinked); detect by negating the postcondition
+- [CBMC is_fresh same-struct separation](cbmc-isfresh-same-struct-members-separation.md) — callee requiring is_fresh on 2 pointers is unsatisfiable when caller passes 2 members of one struct; FIX: weaken 2nd pointer's is_fresh to w_ok (non-separating)
+- [CBMC size*sizeof overflow OOB](cbmc-size-times-sizeof-overflow-oob.md) — is_fresh(p, n*sizeof) + forall deref p[i<n] gives spurious OOB; FIX: require n <= (~(size_t)0)/sizeof(*p)
+- [CBMC depth 200 truncates large functions](cbmc-depth200-truncates-large-functions.md) — run-cbmc uses --depth 200; big functions get trivial SUCCESS (assertions never reached); diagnose at full depth on checking-<FUNC>-contracts.goto
+- [single_test vacuous out=NULL mismatch](cbmc-single_test-vacuous-out-null-mismatch.md) — zopfli single_test passes out=NULL/outsize=0, violating ZopfliDeflate's buffer contract; avocado SUCCESS is vacuous via depth-200
+- [run_all_tests genuine full-depth pass](cbmc-run_all_tests-genuine-fulldepth-pass.md) — zopfli run_all_tests verifies soundly at full depth (uses single_test's contract, not body); in[ANCB_MAX_INPUT]==0 is load-bearing for the btype-0 call

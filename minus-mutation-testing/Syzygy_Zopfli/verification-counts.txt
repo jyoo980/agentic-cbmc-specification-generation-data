@@ -1,0 +1,300 @@
+2026-06-26 03:22:36.873 | INFO     | __main__:main:137 - === experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c ===
+2026-06-26 03:22:36.997 | DEBUG    | __main__:_verify_program:222 - [auto-include] using ['experimental-data/full/Syzygy_Zopfli/stubs']
+2026-06-26 03:22:36.998 | DEBUG    | __main__:verify:228 - [verifying] main  (nondet: fprintf, free)
+2026-06-26 03:22:36.999 | DEBUG    | __main__:verify:228 - [verifying] read_stdin_to_bytes  (nondet: __CPROVER_loop_invariant, __CPROVER_rw_ok, fprintf, free, getchar, malloc, realloc)
+2026-06-26 03:22:36.999 | DEBUG    | __main__:verify:228 - [verifying] run_all_tests
+2026-06-26 03:22:37.000 | DEBUG    | __main__:verify:228 - [verifying] single_test  (nondet: strlen)
+2026-06-26 03:22:37.002 | DEBUG    | __main__:verify:228 - [verifying] ZopfliDeflate  (nondet: fprintf)
+2026-06-26 03:22:37.003 | DEBUG    | __main__:verify:228 - [verifying] ZopfliDeflatePart  (nondet: free, malloc)
+2026-06-26 03:22:37.005 | DEBUG    | __main__:verify:228 - [verifying] ZopfliAppendLZ77Store
+2026-06-26 03:22:37.006 | DEBUG    | __main__:verify:228 - [verifying] ZopfliBlockSplit  (nondet: ZOPFLI_APPEND_DATA, assert, free)
+2026-06-26 03:22:43.353 | DEBUG    | __main__:verify:241 - [PASS] single_test (returncode=0)
+2026-06-26 03:22:43.353 | DEBUG    | __main__:verify:228 - [verifying] ZopfliBlockSplitLZ77  (nondet: assert, exit, free, malloc)
+2026-06-26 03:22:43.568 | DEBUG    | __main__:verify:241 - [PASS] read_stdin_to_bytes (returncode=0)
+2026-06-26 03:22:43.569 | DEBUG    | __main__:verify:228 - [verifying] FindMinimum  (nondet: f)
+2026-06-26 03:22:43.885 | DEBUG    | __main__:verify:241 - [PASS] run_all_tests (returncode=0)
+2026-06-26 03:22:43.885 | DEBUG    | __main__:verify:228 - [verifying] AddSorted  (nondet: ZOPFLI_APPEND_DATA)
+2026-06-26 03:22:44.024 | DEBUG    | __main__:verify:241 - [PASS] main (returncode=0)
+2026-06-26 03:22:44.024 | DEBUG    | __main__:verify:228 - [verifying] PrintBlockSplitPoints  (nondet: ZOPFLI_APPEND_DATA, assert, fprintf, free)
+2026-06-26 03:22:44.317 | DEBUG    | __main__:verify:241 - [PASS] ZopfliDeflate (returncode=0)
+2026-06-26 03:22:44.318 | DEBUG    | __main__:verify:228 - [verifying] FindLargestSplittableBlock  (nondet: __CPROVER_loop_invariant)
+2026-06-26 03:22:44.554 | DEBUG    | __main__:verify:241 - [PASS] ZopfliAppendLZ77Store (returncode=0)
+2026-06-26 03:22:44.555 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLZ77Optimal  (nondet: ZopfliCopyLZ77Store, exit, fprintf, free, malloc)
+2026-06-26 03:22:45.333 | DEBUG    | __main__:verify:241 - [PASS] ZopfliBlockSplit (returncode=0)
+2026-06-26 03:22:45.334 | DEBUG    | __main__:verify:228 - [verifying] InitStats  (nondet: memset)
+2026-06-26 03:22:46.624 | DEBUG    | __main__:verify:241 - [PASS] ZopfliDeflatePart (returncode=0)
+2026-06-26 03:22:46.624 | DEBUG    | __main__:verify:228 - [verifying] CopyStats  (nondet: memcpy)
+2026-06-26 03:22:49.592 | DEBUG    | __main__:verify:241 - [PASS] FindLargestSplittableBlock (returncode=0)
+2026-06-26 03:22:49.592 | DEBUG    | __main__:verify:228 - [verifying] CeilDiv
+2026-06-26 03:22:49.667 | DEBUG    | __main__:verify:241 - [PASS] AddSorted (returncode=0)
+2026-06-26 03:22:49.668 | DEBUG    | __main__:verify:228 - [verifying] AddWeighedStatFreqs
+2026-06-26 03:22:49.867 | DEBUG    | __main__:verify:241 - [PASS] ZopfliBlockSplitLZ77 (returncode=0)
+2026-06-26 03:22:49.867 | DEBUG    | __main__:verify:228 - [verifying] InitRanState
+2026-06-26 03:22:50.477 | DEBUG    | __main__:verify:241 - [PASS] PrintBlockSplitPoints (returncode=0)
+2026-06-26 03:22:50.477 | DEBUG    | __main__:verify:228 - [verifying] RandomizeStatFreqs
+2026-06-26 03:22:53.571 | DEBUG    | __main__:verify:241 - [PASS] InitStats (returncode=0)
+2026-06-26 03:22:53.572 | DEBUG    | __main__:verify:228 - [verifying] RandomizeFreqs  (nondet: __CPROVER_loop_invariant)
+2026-06-26 03:22:54.473 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLZ77Optimal (returncode=0)
+2026-06-26 03:22:54.473 | DEBUG    | __main__:verify:228 - [verifying] Ran
+2026-06-26 03:22:54.721 | DEBUG    | __main__:verify:241 - [PASS] InitRanState (returncode=0)
+2026-06-26 03:22:54.722 | DEBUG    | __main__:verify:228 - [verifying] ClearStatFreqs
+2026-06-26 03:22:54.897 | DEBUG    | __main__:verify:241 - [PASS] CopyStats (returncode=0)
+2026-06-26 03:22:54.898 | DEBUG    | __main__:verify:228 - [verifying] GetStatistics  (nondet: __CPROVER_decreases, __CPROVER_loop_invariant)
+2026-06-26 03:22:57.483 | DEBUG    | __main__:verify:241 - [PASS] RandomizeStatFreqs (returncode=0)
+2026-06-26 03:22:57.483 | DEBUG    | __main__:verify:228 - [verifying] CalculateStatistics  (nondet: ZopfliCalculateEntropy)
+2026-06-26 03:22:58.423 | DEBUG    | __main__:verify:241 - [PASS] RandomizeFreqs (returncode=0)
+2026-06-26 03:22:58.423 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLZ77Greedy  (nondet: ZopfliResetHash, assert)
+2026-06-26 03:23:00.676 | DEBUG    | __main__:verify:241 - [PASS] AddWeighedStatFreqs (returncode=0)
+2026-06-26 03:23:00.677 | DEBUG    | __main__:verify:228 - [verifying] GetLengthScore
+2026-06-26 03:23:01.267 | DEBUG    | __main__:verify:241 - [PASS] ClearStatFreqs (returncode=0)
+2026-06-26 03:23:01.268 | DEBUG    | __main__:verify:228 - [verifying] AddLZ77BlockAutoType
+2026-06-26 03:23:02.120 | DEBUG    | __main__:verify:241 - [PASS] GetStatistics (returncode=0)
+2026-06-26 03:23:02.120 | DEBUG    | __main__:verify:228 - [verifying] ZopfliInitLZ77Store
+2026-06-26 03:23:05.329 | DEBUG    | __main__:verify:241 - [PASS] GetLengthScore (returncode=0)
+2026-06-26 03:23:05.330 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCleanLZ77Store  (nondet: free)
+2026-06-26 03:23:06.018 | DEBUG    | __main__:verify:241 - [PASS] CalculateStatistics (returncode=0)
+2026-06-26 03:23:06.019 | DEBUG    | __main__:verify:228 - [verifying] ZopfliInitBlockState  (nondet: malloc)
+2026-06-26 03:23:07.587 | DEBUG    | __main__:verify:241 - [PASS] ZopfliInitLZ77Store (returncode=0)
+2026-06-26 03:23:07.589 | DEBUG    | __main__:verify:228 - [verifying] ZopfliInitCache  (nondet: exit, fprintf, malloc)
+2026-06-26 03:23:08.131 | DEBUG    | __main__:verify:241 - [PASS] AddLZ77BlockAutoType (returncode=0)
+2026-06-26 03:23:08.132 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCleanBlockState  (nondet: free)
+2026-06-26 03:23:10.032 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCleanLZ77Store (returncode=0)
+2026-06-26 03:23:10.032 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCleanCache  (nondet: free)
+2026-06-26 03:23:10.686 | DEBUG    | __main__:verify:241 - [PASS] ZopfliInitBlockState (returncode=0)
+2026-06-26 03:23:10.687 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLZ77OptimalFixed  (nondet: exit, free, malloc)
+2026-06-26 03:23:12.515 | DEBUG    | __main__:verify:241 - [PASS] ZopfliInitCache (returncode=0)
+2026-06-26 03:23:12.515 | DEBUG    | __main__:verify:228 - [verifying] ZopfliAllocHash  (nondet: malloc)
+2026-06-26 03:23:13.343 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCleanBlockState (returncode=0)
+2026-06-26 03:23:13.343 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCleanHash  (nondet: free)
+2026-06-26 03:23:16.387 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLZ77OptimalFixed (returncode=0)
+2026-06-26 03:23:16.388 | DEBUG    | __main__:verify:228 - [verifying] LZ77OptimalRun  (nondet: assert, free)
+2026-06-26 03:23:16.812 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLZ77Greedy (returncode=0)
+2026-06-26 03:23:16.813 | DEBUG    | __main__:verify:228 - [verifying] GetBestLengths  (nondet: ZopfliResetHash, assert, costmodel)
+2026-06-26 03:23:17.820 | DEBUG    | __main__:verify:241 - [PASS] Ran (returncode=0)
+2026-06-26 03:23:17.820 | DEBUG    | __main__:verify:228 - [verifying] GetCostModelMinCost  (nondet: costmodel)
+2026-06-26 03:23:17.833 | DEBUG    | __main__:verify:241 - [PASS] ZopfliAllocHash (returncode=0)
+2026-06-26 03:23:17.833 | DEBUG    | __main__:verify:228 - [verifying] zopfli_min
+2026-06-26 03:23:18.064 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] ZopfliCleanCache (returncode=134)
+2026-06-26 03:23:18.064 | DEBUG    | __main__:verify:228 - [verifying] TraceBackwards  (nondet: ZOPFLI_APPEND_DATA, assert)
+2026-06-26 03:23:18.190 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCleanHash (returncode=0)
+2026-06-26 03:23:18.190 | DEBUG    | __main__:verify:228 - [verifying] FollowPath  (nondet: ZopfliResetHash, __CPROVER_decreases, __CPROVER_loop_invariant, assert)
+2026-06-26 03:23:23.511 | ERROR    | __main__:verify:243 - [CBMC_FAILED] GetCostModelMinCost (returncode=134)
+2026-06-26 03:23:23.512 | DEBUG    | __main__:verify:228 - [verifying] ZopfliUpdateHash  (nondet: __CPROVER_decreases, __CPROVER_loop_invariant)
+2026-06-26 03:23:23.769 | DEBUG    | __main__:verify:241 - [PASS] zopfli_min (returncode=0)
+2026-06-26 03:23:23.770 | DEBUG    | __main__:verify:228 - [verifying] ZopfliStoreLitLenDist  (nondet: ZOPFLI_APPEND_DATA, assert)
+2026-06-26 03:23:24.140 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] LZ77OptimalRun (returncode=134)
+2026-06-26 03:23:24.141 | DEBUG    | __main__:verify:228 - [verifying] ZopfliWarmupHash
+2026-06-26 03:23:28.528 | DEBUG    | __main__:verify:241 - [PASS] ZopfliUpdateHash (returncode=0)
+2026-06-26 03:23:28.529 | DEBUG    | __main__:verify:228 - [verifying] UpdateHashValue
+2026-06-26 03:23:29.103 | DEBUG    | __main__:verify:241 - [PASS] ZopfliWarmupHash (returncode=0)
+2026-06-26 03:23:29.104 | DEBUG    | __main__:verify:228 - [verifying] ZopfliVerifyLenDist  (nondet: assert)
+2026-06-26 03:23:29.442 | DEBUG    | __main__:verify:241 - [PASS] ZopfliStoreLitLenDist (returncode=0)
+2026-06-26 03:23:29.443 | DEBUG    | __main__:verify:228 - [verifying] ZopfliFindLongestMatch  (nondet: assert)
+2026-06-26 03:23:33.605 | DEBUG    | __main__:verify:241 - [PASS] UpdateHashValue (returncode=0)
+2026-06-26 03:23:33.606 | DEBUG    | __main__:verify:228 - [verifying] GetMatch
+2026-06-26 03:23:35.097 | DEBUG    | __main__:verify:241 - [PASS] ZopfliFindLongestMatch (returncode=0)
+2026-06-26 03:23:35.097 | DEBUG    | __main__:verify:228 - [verifying] TryGetFromLongestMatchCache  (nondet: assert)
+2026-06-26 03:23:35.141 | DEBUG    | __main__:verify:241 - [PASS] FollowPath (returncode=0)
+2026-06-26 03:23:35.141 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCacheToSublen
+2026-06-26 03:23:38.206 | DEBUG    | __main__:verify:241 - [PASS] GetMatch (returncode=0)
+2026-06-26 03:23:38.206 | DEBUG    | __main__:verify:228 - [verifying] StoreInLongestMatchCache  (nondet: assert)
+2026-06-26 03:23:39.057 | DEBUG    | __main__:verify:241 - [PASS] TraceBackwards (returncode=0)
+2026-06-26 03:23:39.058 | DEBUG    | __main__:verify:228 - [verifying] ZopfliSublenToCache  (nondet: assert)
+2026-06-26 03:23:40.166 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCacheToSublen (returncode=0)
+2026-06-26 03:23:40.167 | DEBUG    | __main__:verify:228 - [verifying] ZopfliMaxCachedSublen
+2026-06-26 03:23:40.455 | DEBUG    | __main__:verify:241 - [PASS] TryGetFromLongestMatchCache (returncode=0)
+2026-06-26 03:23:40.458 | DEBUG    | __main__:verify:228 - [verifying] AddLZ77Block  (nondet: assert, fprintf)
+2026-06-26 03:23:43.731 | DEBUG    | __main__:verify:241 - [PASS] StoreInLongestMatchCache (returncode=0)
+2026-06-26 03:23:43.731 | DEBUG    | __main__:verify:228 - [verifying] AddDynamicTree
+2026-06-26 03:23:45.255 | DEBUG    | __main__:verify:241 - [PASS] ZopfliSublenToCache (returncode=0)
+2026-06-26 03:23:45.255 | DEBUG    | __main__:verify:228 - [verifying] AddLZ77Data  (nondet: assert)
+2026-06-26 03:23:45.585 | DEBUG    | __main__:verify:241 - [PASS] ZopfliMaxCachedSublen (returncode=0)
+2026-06-26 03:23:45.586 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetDistExtraBitsValue  (nondet: __builtin_clz)
+2026-06-26 03:23:47.668 | DEBUG    | __main__:verify:241 - [PASS] AddLZ77Block (returncode=0)
+2026-06-26 03:23:47.668 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetLengthExtraBitsValue
+2026-06-26 03:23:48.828 | DEBUG    | __main__:verify:241 - [PASS] AddDynamicTree (returncode=0)
+2026-06-26 03:23:48.828 | DEBUG    | __main__:verify:228 - [verifying] AddNonCompressedBlock  (nondet: ZOPFLI_APPEND_DATA)
+2026-06-26 03:23:50.066 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetDistExtraBitsValue (returncode=0)
+2026-06-26 03:23:50.067 | DEBUG    | __main__:verify:228 - [verifying] AddBit  (nondet: ZOPFLI_APPEND_DATA)
+2026-06-26 03:23:51.896 | DEBUG    | __main__:verify:241 - [PASS] AddLZ77Data (returncode=0)
+2026-06-26 03:23:51.898 | DEBUG    | __main__:verify:228 - [verifying] GetCostFixed
+2026-06-26 03:23:52.454 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetLengthExtraBitsValue (returncode=0)
+2026-06-26 03:23:52.454 | DEBUG    | __main__:verify:228 - [verifying] GetCostStat
+2026-06-26 03:23:55.602 | DEBUG    | __main__:verify:241 - [PASS] AddBit (returncode=0)
+2026-06-26 03:23:55.602 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetDistExtraBits  (nondet: __builtin_clz)
+2026-06-26 03:23:55.771 | DEBUG    | __main__:verify:241 - [PASS] AddNonCompressedBlock (returncode=0)
+2026-06-26 03:23:55.771 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetLengthExtraBits
+2026-06-26 03:23:57.591 | DEBUG    | __main__:verify:241 - [PASS] GetCostFixed (returncode=0)
+2026-06-26 03:23:57.592 | DEBUG    | __main__:verify:228 - [verifying] SplitCost
+2026-06-26 03:23:58.599 | DEBUG    | __main__:verify:241 - [PASS] GetCostStat (returncode=0)
+2026-06-26 03:23:58.600 | DEBUG    | __main__:verify:228 - [verifying] EstimateCost
+2026-06-26 03:24:00.559 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetDistExtraBits (returncode=0)
+2026-06-26 03:24:00.560 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCalculateBlockSizeAutoType
+2026-06-26 03:24:00.918 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetLengthExtraBits (returncode=0)
+2026-06-26 03:24:00.919 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCalculateBlockSize
+2026-06-26 03:24:02.866 | DEBUG    | __main__:verify:241 - [PASS] SplitCost (returncode=0)
+2026-06-26 03:24:02.867 | DEBUG    | __main__:verify:228 - [verifying] CalculateBlockSymbolSize
+2026-06-26 03:24:04.222 | DEBUG    | __main__:verify:241 - [PASS] EstimateCost (returncode=0)
+2026-06-26 03:24:04.224 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLZ77GetByteRange
+2026-06-26 03:24:05.791 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCalculateBlockSizeAutoType (returncode=0)
+2026-06-26 03:24:05.792 | DEBUG    | __main__:verify:228 - [verifying] GetFixedTree
+2026-06-26 03:24:06.144 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCalculateBlockSize (returncode=0)
+2026-06-26 03:24:06.145 | DEBUG    | __main__:verify:228 - [verifying] GetDynamicLengths
+2026-06-26 03:24:06.546 | ERROR    | __main__:verify:243 - [CBMC_FAILED] GetBestLengths (returncode=134)
+2026-06-26 03:24:06.546 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLZ77GetHistogram  (nondet: memset)
+2026-06-26 03:24:08.298 | DEBUG    | __main__:verify:241 - [PASS] CalculateBlockSymbolSize (returncode=0)
+2026-06-26 03:24:08.299 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLZ77GetHistogramAt
+2026-06-26 03:24:10.064 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLZ77GetByteRange (returncode=0)
+2026-06-26 03:24:10.065 | DEBUG    | __main__:verify:228 - [verifying] TryOptimizeHuffmanForRle  (nondet: memcpy)
+2026-06-26 03:24:11.072 | DEBUG    | __main__:verify:241 - [PASS] GetFixedTree (returncode=0)
+2026-06-26 03:24:11.073 | DEBUG    | __main__:verify:228 - [verifying] PatchDistanceCodesForBuggyDecoders
+2026-06-26 03:24:11.582 | DEBUG    | __main__:verify:241 - [PASS] GetDynamicLengths (returncode=0)
+2026-06-26 03:24:11.582 | DEBUG    | __main__:verify:228 - [verifying] CalculateTreeSize
+2026-06-26 03:24:12.237 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLZ77GetHistogram (returncode=0)
+2026-06-26 03:24:12.238 | DEBUG    | __main__:verify:228 - [verifying] EncodeTree  (nondet: ZOPFLI_APPEND_DATA, free)
+2026-06-26 03:24:13.588 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLZ77GetHistogramAt (returncode=0)
+2026-06-26 03:24:13.589 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLengthsToSymbols  (nondet: assert, free, malloc)
+2026-06-26 03:24:16.989 | DEBUG    | __main__:verify:241 - [PASS] PatchDistanceCodesForBuggyDecoders (returncode=0)
+2026-06-26 03:24:16.989 | DEBUG    | __main__:verify:228 - [verifying] AddBits  (nondet: ZOPFLI_APPEND_DATA)
+2026-06-26 03:24:18.074 | DEBUG    | __main__:verify:241 - [PASS] CalculateTreeSize (returncode=0)
+2026-06-26 03:24:18.075 | DEBUG    | __main__:verify:228 - [verifying] AddHuffmanBits  (nondet: ZOPFLI_APPEND_DATA)
+2026-06-26 03:24:22.431 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] ZopfliLengthsToSymbols (returncode=134)
+2026-06-26 03:24:22.431 | DEBUG    | __main__:verify:228 - [verifying] ZopfliCalculateBitLengths  (nondet: assert)
+2026-06-26 03:24:22.675 | DEBUG    | __main__:verify:241 - [PASS] AddBits (returncode=0)
+2026-06-26 03:24:22.676 | DEBUG    | __main__:verify:228 - [verifying] ZopfliLengthLimitedCodeLengths  (nondet: free, malloc, qsort)
+2026-06-26 03:24:23.782 | DEBUG    | __main__:verify:241 - [PASS] AddHuffmanBits (returncode=0)
+2026-06-26 03:24:23.783 | DEBUG    | __main__:verify:228 - [verifying] BoundaryPM
+2026-06-26 03:24:25.396 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] FindMinimum (returncode=6)
+2026-06-26 03:24:25.397 | DEBUG    | __main__:verify:228 - [verifying] BoundaryPMFinal
+2026-06-26 03:24:30.292 | DEBUG    | __main__:verify:241 - [PASS] BoundaryPMFinal (returncode=0)
+2026-06-26 03:24:30.293 | DEBUG    | __main__:verify:228 - [verifying] InitLists  (nondet: __CPROVER_loop_invariant)
+2026-06-26 03:24:30.879 | DEBUG    | __main__:verify:241 - [PASS] ZopfliLengthLimitedCodeLengths (returncode=0)
+2026-06-26 03:24:30.879 | DEBUG    | __main__:verify:228 - [verifying] InitNode
+2026-06-26 03:24:31.301 | DEBUG    | __main__:verify:241 - [PASS] ZopfliCalculateBitLengths (returncode=0)
+2026-06-26 03:24:31.303 | DEBUG    | __main__:verify:228 - [verifying] ExtractBitLengths
+2026-06-26 03:24:32.118 | DEBUG    | __main__:verify:241 - [PASS] BoundaryPM (returncode=0)
+2026-06-26 03:24:32.120 | DEBUG    | __main__:verify:228 - [verifying] LeafComparator
+2026-06-26 03:24:33.913 | DEBUG    | __main__:verify:241 - [PASS] EncodeTree (returncode=0)
+2026-06-26 03:24:33.913 | DEBUG    | __main__:verify:228 - [verifying] CalculateBlockSymbolSizeGivenCounts
+2026-06-26 03:24:35.570 | DEBUG    | __main__:verify:241 - [PASS] InitLists (returncode=0)
+2026-06-26 03:24:35.573 | DEBUG    | __main__:verify:228 - [verifying] CalculateBlockSymbolSizeSmall  (nondet: assert)
+2026-06-26 03:24:36.241 | DEBUG    | __main__:verify:241 - [PASS] InitNode (returncode=0)
+2026-06-26 03:24:36.241 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetLengthSymbolExtraBits
+2026-06-26 03:24:37.269 | DEBUG    | __main__:verify:241 - [PASS] LeafComparator (returncode=0)
+2026-06-26 03:24:37.271 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetDistSymbolExtraBits
+2026-06-26 03:24:38.058 | DEBUG    | __main__:verify:241 - [PASS] ExtractBitLengths (returncode=0)
+2026-06-26 03:24:38.059 | DEBUG    | __main__:verify:228 - [verifying] OptimizeHuffmanForRle  (nondet: free, malloc)
+2026-06-26 03:24:40.755 | DEBUG    | __main__:verify:241 - [PASS] CalculateBlockSymbolSizeSmall (returncode=0)
+2026-06-26 03:24:40.755 | DEBUG    | __main__:verify:228 - [verifying] AbsDiff
+2026-06-26 03:24:41.650 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetLengthSymbolExtraBits (returncode=0)
+2026-06-26 03:24:41.651 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetDistSymbol  (nondet: __builtin_clz)
+2026-06-26 03:24:42.240 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetDistSymbolExtraBits (returncode=0)
+2026-06-26 03:24:42.241 | DEBUG    | __main__:verify:228 - [verifying] ZopfliGetLengthSymbol
+2026-06-26 03:24:46.572 | DEBUG    | __main__:verify:241 - [PASS] AbsDiff (returncode=0)
+2026-06-26 03:24:46.744 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetDistSymbol (returncode=0)
+2026-06-26 03:24:46.900 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] OptimizeHuffmanForRle (returncode=134)
+2026-06-26 03:24:47.109 | DEBUG    | __main__:verify:241 - [PASS] ZopfliGetLengthSymbol (returncode=0)
+2026-06-26 03:32:53.040 | ERROR    | __main__:verify:243 - [CBMC_FAILED] CeilDiv (returncode=124)
+2026-06-26 03:33:32.709 | ERROR    | __main__:verify:243 - [CBMC_FAILED] ZopfliVerifyLenDist (returncode=124)
+2026-06-26 03:34:21.270 | ERROR    | __main__:verify:243 - [CBMC_FAILED] TryOptimizeHuffmanForRle (returncode=124)
+2026-06-26 03:34:37.155 | ERROR    | __main__:verify:243 - [CBMC_FAILED] CalculateBlockSymbolSizeGivenCounts (returncode=124)
+2026-06-26 03:34:37.170 | INFO     | __main__:_print_summary:316 - Summary (experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c): 88/99 functions verified
+2026-06-26 03:34:37.170 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::main
+2026-06-26 03:34:37.170 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::read_stdin_to_bytes
+2026-06-26 03:34:37.171 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::run_all_tests
+2026-06-26 03:34:37.171 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::single_test
+2026-06-26 03:34:37.171 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliDeflate
+2026-06-26 03:34:37.171 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliDeflatePart
+2026-06-26 03:34:37.171 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliAppendLZ77Store
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliBlockSplit
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliBlockSplitLZ77
+2026-06-26 03:34:37.172 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::FindMinimum
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddSorted
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::PrintBlockSplitPoints
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::FindLargestSplittableBlock
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLZ77Optimal
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::InitStats
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CopyStats
+2026-06-26 03:34:37.172 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CeilDiv
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddWeighedStatFreqs
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::InitRanState
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::RandomizeStatFreqs
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::RandomizeFreqs
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::Ran
+2026-06-26 03:34:37.172 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ClearStatFreqs
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetStatistics
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CalculateStatistics
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLZ77Greedy
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetLengthScore
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddLZ77BlockAutoType
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliInitLZ77Store
+2026-06-26 03:34:37.173 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCleanLZ77Store
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliInitBlockState
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliInitCache
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCleanBlockState
+2026-06-26 03:34:37.174 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCleanCache
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLZ77OptimalFixed
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliAllocHash
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCleanHash
+2026-06-26 03:34:37.174 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::LZ77OptimalRun
+2026-06-26 03:34:37.174 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetBestLengths
+2026-06-26 03:34:37.174 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetCostModelMinCost
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::zopfli_min
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::TraceBackwards
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::FollowPath
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliUpdateHash
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliStoreLitLenDist
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliWarmupHash
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::UpdateHashValue
+2026-06-26 03:34:37.174 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliVerifyLenDist
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliFindLongestMatch
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetMatch
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::TryGetFromLongestMatchCache
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCacheToSublen
+2026-06-26 03:34:37.174 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::StoreInLongestMatchCache
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliSublenToCache
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliMaxCachedSublen
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddLZ77Block
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddDynamicTree
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddLZ77Data
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetDistExtraBitsValue
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetLengthExtraBitsValue
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddNonCompressedBlock
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddBit
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetCostFixed
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetCostStat
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetDistExtraBits
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetLengthExtraBits
+2026-06-26 03:34:37.175 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::SplitCost
+2026-06-26 03:34:37.176 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::EstimateCost
+2026-06-26 03:34:37.176 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCalculateBlockSizeAutoType
+2026-06-26 03:34:37.176 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCalculateBlockSize
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CalculateBlockSymbolSize
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLZ77GetByteRange
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetFixedTree
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::GetDynamicLengths
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLZ77GetHistogram
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLZ77GetHistogramAt
+2026-06-26 03:34:37.177 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::TryOptimizeHuffmanForRle
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::PatchDistanceCodesForBuggyDecoders
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CalculateTreeSize
+2026-06-26 03:34:37.177 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::EncodeTree
+2026-06-26 03:34:37.177 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLengthsToSymbols
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddBits
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AddHuffmanBits
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliCalculateBitLengths
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliLengthLimitedCodeLengths
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::BoundaryPM
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::BoundaryPMFinal
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::InitLists
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::InitNode
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ExtractBitLengths
+2026-06-26 03:34:37.178 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::LeafComparator
+2026-06-26 03:34:37.178 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CalculateBlockSymbolSizeGivenCounts
+2026-06-26 03:34:37.179 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::CalculateBlockSymbolSizeSmall
+2026-06-26 03:34:37.179 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetLengthSymbolExtraBits
+2026-06-26 03:34:37.179 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetDistSymbolExtraBits
+2026-06-26 03:34:37.179 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::OptimizeHuffmanForRle
+2026-06-26 03:34:37.179 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::AbsDiff
+2026-06-26 03:34:37.179 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetDistSymbol
+2026-06-26 03:34:37.179 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/minus-mutation-testing/Syzygy_Zopfli/c_code/zopfli.c::ZopfliGetLengthSymbol

@@ -1,0 +1,796 @@
+{
+    "main": {
+        "internal": [
+            "read_stdin_to_bytes",
+            "run_all_tests"
+        ],
+        "external": [
+            "fprintf",
+            "free"
+        ]
+    },
+    "read_stdin_to_bytes": {
+        "internal": [],
+        "external": [
+            "fprintf",
+            "free",
+            "getchar",
+            "malloc",
+            "realloc"
+        ]
+    },
+    "run_all_tests": {
+        "internal": [
+            "single_test"
+        ],
+        "external": []
+    },
+    "single_test": {
+        "internal": [
+            "ZopfliDeflate"
+        ],
+        "external": [
+            "strlen"
+        ]
+    },
+    "ZopfliDeflate": {
+        "internal": [
+            "ZopfliDeflatePart"
+        ],
+        "external": [
+            "fprintf"
+        ]
+    },
+    "ZopfliDeflatePart": {
+        "internal": [
+            "AddLZ77Block",
+            "AddLZ77BlockAutoType",
+            "AddNonCompressedBlock",
+            "ZopfliAppendLZ77Store",
+            "ZopfliBlockSplit",
+            "ZopfliBlockSplitLZ77",
+            "ZopfliCalculateBlockSizeAutoType",
+            "ZopfliCleanBlockState",
+            "ZopfliCleanLZ77Store",
+            "ZopfliInitBlockState",
+            "ZopfliInitLZ77Store",
+            "ZopfliLZ77Optimal",
+            "ZopfliLZ77OptimalFixed"
+        ],
+        "external": [
+            "free",
+            "malloc"
+        ]
+    },
+    "ZopfliAppendLZ77Store": {
+        "internal": [
+            "ZopfliStoreLitLenDist"
+        ],
+        "external": [
+            "__CPROVER_assert",
+            "__CPROVER_loop_entry",
+            "__CPROVER_loop_invariant"
+        ]
+    },
+    "ZopfliBlockSplit": {
+        "internal": [
+            "ZopfliAllocHash",
+            "ZopfliBlockSplitLZ77",
+            "ZopfliCleanBlockState",
+            "ZopfliCleanHash",
+            "ZopfliCleanLZ77Store",
+            "ZopfliInitBlockState",
+            "ZopfliInitLZ77Store",
+            "ZopfliLZ77Greedy"
+        ],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "assert",
+            "free"
+        ]
+    },
+    "ZopfliBlockSplitLZ77": {
+        "internal": [
+            "AddSorted",
+            "EstimateCost",
+            "FindLargestSplittableBlock",
+            "FindMinimum",
+            "PrintBlockSplitPoints"
+        ],
+        "external": [
+            "assert",
+            "exit",
+            "free",
+            "malloc"
+        ]
+    },
+    "FindMinimum": {
+        "internal": [],
+        "external": [
+            "f"
+        ]
+    },
+    "AddSorted": {
+        "internal": [],
+        "external": [
+            "ZOPFLI_APPEND_DATA"
+        ]
+    },
+    "PrintBlockSplitPoints": {
+        "internal": [],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "assert",
+            "fprintf",
+            "free"
+        ]
+    },
+    "FindLargestSplittableBlock": {
+        "internal": [],
+        "external": []
+    },
+    "ZopfliLZ77Optimal": {
+        "internal": [
+            "AddWeighedStatFreqs",
+            "CalculateStatistics",
+            "ClearStatFreqs",
+            "CopyStats",
+            "GetStatistics",
+            "InitRanState",
+            "InitStats",
+            "LZ77OptimalRun",
+            "RandomizeStatFreqs",
+            "ZopfliAllocHash",
+            "ZopfliCalculateBlockSize",
+            "ZopfliCleanHash",
+            "ZopfliCleanLZ77Store",
+            "ZopfliCopyLZ77Store",
+            "ZopfliInitLZ77Store",
+            "ZopfliLZ77Greedy"
+        ],
+        "external": [
+            "exit",
+            "fprintf",
+            "free",
+            "malloc"
+        ]
+    },
+    "InitStats": {
+        "internal": [],
+        "external": [
+            "memset"
+        ]
+    },
+    "CopyStats": {
+        "internal": [],
+        "external": [
+            "memcpy"
+        ]
+    },
+    "ZopfliCopyLZ77Store": {
+        "internal": [
+            "CeilDiv",
+            "ZopfliCleanLZ77Store",
+            "ZopfliInitLZ77Store"
+        ],
+        "external": [
+            "__CPROVER_loop_invariant",
+            "__CPROVER_w_ok",
+            "exit",
+            "malloc"
+        ]
+    },
+    "CeilDiv": {
+        "internal": [],
+        "external": []
+    },
+    "AddWeighedStatFreqs": {
+        "internal": [],
+        "external": []
+    },
+    "InitRanState": {
+        "internal": [],
+        "external": []
+    },
+    "RandomizeStatFreqs": {
+        "internal": [
+            "RandomizeFreqs"
+        ],
+        "external": []
+    },
+    "RandomizeFreqs": {
+        "internal": [
+            "Ran"
+        ],
+        "external": []
+    },
+    "Ran": {
+        "internal": [],
+        "external": []
+    },
+    "ClearStatFreqs": {
+        "internal": [],
+        "external": []
+    },
+    "GetStatistics": {
+        "internal": [
+            "CalculateStatistics",
+            "ZopfliGetDistSymbol",
+            "ZopfliGetLengthSymbol"
+        ],
+        "external": []
+    },
+    "CalculateStatistics": {
+        "internal": [
+            "ZopfliCalculateEntropy"
+        ],
+        "external": []
+    },
+    "ZopfliCalculateEntropy": {
+        "internal": [],
+        "external": [
+            "assert",
+            "log"
+        ]
+    },
+    "ZopfliLZ77Greedy": {
+        "internal": [
+            "GetLengthScore",
+            "ZopfliFindLongestMatch",
+            "ZopfliResetHash",
+            "ZopfliStoreLitLenDist",
+            "ZopfliUpdateHash",
+            "ZopfliVerifyLenDist",
+            "ZopfliWarmupHash"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "GetLengthScore": {
+        "internal": [],
+        "external": []
+    },
+    "AddLZ77BlockAutoType": {
+        "internal": [
+            "AddBits",
+            "AddLZ77Block",
+            "ZopfliCalculateBlockSize",
+            "ZopfliCleanBlockState",
+            "ZopfliCleanLZ77Store",
+            "ZopfliInitBlockState",
+            "ZopfliInitLZ77Store",
+            "ZopfliLZ77GetByteRange",
+            "ZopfliLZ77OptimalFixed"
+        ],
+        "external": []
+    },
+    "ZopfliInitLZ77Store": {
+        "internal": [],
+        "external": []
+    },
+    "ZopfliCleanLZ77Store": {
+        "internal": [],
+        "external": [
+            "free"
+        ]
+    },
+    "ZopfliInitBlockState": {
+        "internal": [
+            "ZopfliInitCache"
+        ],
+        "external": [
+            "malloc"
+        ]
+    },
+    "ZopfliInitCache": {
+        "internal": [],
+        "external": [
+            "__CPROVER_loop_invariant",
+            "__CPROVER_w_ok",
+            "exit",
+            "fprintf",
+            "malloc"
+        ]
+    },
+    "ZopfliCleanBlockState": {
+        "internal": [
+            "ZopfliCleanCache"
+        ],
+        "external": [
+            "free"
+        ]
+    },
+    "ZopfliCleanCache": {
+        "internal": [],
+        "external": [
+            "free"
+        ]
+    },
+    "ZopfliLZ77OptimalFixed": {
+        "internal": [
+            "LZ77OptimalRun",
+            "ZopfliAllocHash",
+            "ZopfliCleanHash"
+        ],
+        "external": [
+            "exit",
+            "free",
+            "malloc"
+        ]
+    },
+    "ZopfliAllocHash": {
+        "internal": [],
+        "external": [
+            "malloc"
+        ]
+    },
+    "ZopfliCleanHash": {
+        "internal": [],
+        "external": [
+            "free"
+        ]
+    },
+    "LZ77OptimalRun": {
+        "internal": [
+            "FollowPath",
+            "GetBestLengths",
+            "TraceBackwards"
+        ],
+        "external": [
+            "assert",
+            "free"
+        ]
+    },
+    "GetBestLengths": {
+        "internal": [
+            "GetCostModelMinCost",
+            "ZopfliFindLongestMatch",
+            "ZopfliResetHash",
+            "ZopfliUpdateHash",
+            "ZopfliWarmupHash",
+            "zopfli_min"
+        ],
+        "external": [
+            "assert",
+            "costmodel"
+        ]
+    },
+    "GetCostModelMinCost": {
+        "internal": [],
+        "external": [
+            "costmodel"
+        ]
+    },
+    "zopfli_min": {
+        "internal": [],
+        "external": []
+    },
+    "TraceBackwards": {
+        "internal": [],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "assert"
+        ]
+    },
+    "FollowPath": {
+        "internal": [
+            "ZopfliFindLongestMatch",
+            "ZopfliResetHash",
+            "ZopfliStoreLitLenDist",
+            "ZopfliUpdateHash",
+            "ZopfliVerifyLenDist",
+            "ZopfliWarmupHash"
+        ],
+        "external": [
+            "__CPROVER_loop_invariant",
+            "assert"
+        ]
+    },
+    "ZopfliResetHash": {
+        "internal": [],
+        "external": [
+            "__CPROVER_loop_invariant",
+            "__CPROVER_w_ok"
+        ]
+    },
+    "ZopfliUpdateHash": {
+        "internal": [
+            "UpdateHashValue"
+        ],
+        "external": []
+    },
+    "ZopfliStoreLitLenDist": {
+        "internal": [
+            "ZopfliGetDistSymbol",
+            "ZopfliGetLengthSymbol"
+        ],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "assert"
+        ]
+    },
+    "ZopfliWarmupHash": {
+        "internal": [
+            "UpdateHashValue"
+        ],
+        "external": []
+    },
+    "UpdateHashValue": {
+        "internal": [],
+        "external": []
+    },
+    "ZopfliVerifyLenDist": {
+        "internal": [],
+        "external": [
+            "__CPROVER_loop_invariant",
+            "assert"
+        ]
+    },
+    "ZopfliFindLongestMatch": {
+        "internal": [
+            "GetMatch",
+            "StoreInLongestMatchCache",
+            "TryGetFromLongestMatchCache"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "GetMatch": {
+        "internal": [],
+        "external": []
+    },
+    "TryGetFromLongestMatchCache": {
+        "internal": [
+            "ZopfliCacheToSublen",
+            "ZopfliMaxCachedSublen"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "ZopfliCacheToSublen": {
+        "internal": [
+            "ZopfliMaxCachedSublen"
+        ],
+        "external": []
+    },
+    "StoreInLongestMatchCache": {
+        "internal": [
+            "ZopfliSublenToCache"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "ZopfliSublenToCache": {
+        "internal": [
+            "ZopfliMaxCachedSublen"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "ZopfliMaxCachedSublen": {
+        "internal": [],
+        "external": []
+    },
+    "AddLZ77Block": {
+        "internal": [
+            "AddBit",
+            "AddDynamicTree",
+            "AddHuffmanBits",
+            "AddLZ77Data",
+            "AddNonCompressedBlock",
+            "GetDynamicLengths",
+            "GetFixedTree",
+            "ZopfliLZ77GetByteRange",
+            "ZopfliLengthsToSymbols"
+        ],
+        "external": [
+            "assert",
+            "fprintf"
+        ]
+    },
+    "AddDynamicTree": {
+        "internal": [
+            "EncodeTree"
+        ],
+        "external": []
+    },
+    "AddLZ77Data": {
+        "internal": [
+            "AddBits",
+            "AddHuffmanBits",
+            "ZopfliGetDistExtraBits",
+            "ZopfliGetDistExtraBitsValue",
+            "ZopfliGetDistSymbol",
+            "ZopfliGetLengthExtraBits",
+            "ZopfliGetLengthExtraBitsValue",
+            "ZopfliGetLengthSymbol"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "ZopfliGetDistExtraBitsValue": {
+        "internal": [],
+        "external": [
+            "__builtin_clz"
+        ]
+    },
+    "ZopfliGetLengthExtraBitsValue": {
+        "internal": [],
+        "external": []
+    },
+    "AddNonCompressedBlock": {
+        "internal": [
+            "AddBit"
+        ],
+        "external": [
+            "ZOPFLI_APPEND_DATA"
+        ]
+    },
+    "AddBit": {
+        "internal": [],
+        "external": [
+            "ZOPFLI_APPEND_DATA"
+        ]
+    },
+    "GetCostFixed": {
+        "internal": [
+            "ZopfliGetDistExtraBits",
+            "ZopfliGetLengthExtraBits",
+            "ZopfliGetLengthSymbol"
+        ],
+        "external": []
+    },
+    "GetCostStat": {
+        "internal": [
+            "ZopfliGetDistExtraBits",
+            "ZopfliGetDistSymbol",
+            "ZopfliGetLengthExtraBits",
+            "ZopfliGetLengthSymbol"
+        ],
+        "external": []
+    },
+    "ZopfliGetDistExtraBits": {
+        "internal": [],
+        "external": [
+            "__builtin_clz"
+        ]
+    },
+    "ZopfliGetLengthExtraBits": {
+        "internal": [],
+        "external": []
+    },
+    "SplitCost": {
+        "internal": [
+            "EstimateCost"
+        ],
+        "external": []
+    },
+    "EstimateCost": {
+        "internal": [
+            "ZopfliCalculateBlockSizeAutoType"
+        ],
+        "external": []
+    },
+    "ZopfliCalculateBlockSizeAutoType": {
+        "internal": [
+            "ZopfliCalculateBlockSize"
+        ],
+        "external": []
+    },
+    "ZopfliCalculateBlockSize": {
+        "internal": [
+            "CalculateBlockSymbolSize",
+            "GetDynamicLengths",
+            "GetFixedTree",
+            "ZopfliLZ77GetByteRange"
+        ],
+        "external": []
+    },
+    "CalculateBlockSymbolSize": {
+        "internal": [
+            "CalculateBlockSymbolSizeGivenCounts",
+            "CalculateBlockSymbolSizeSmall",
+            "ZopfliLZ77GetHistogram"
+        ],
+        "external": [
+            "__CPROVER_assert"
+        ]
+    },
+    "ZopfliLZ77GetByteRange": {
+        "internal": [],
+        "external": []
+    },
+    "GetFixedTree": {
+        "internal": [],
+        "external": [
+            "__CPROVER_assert"
+        ]
+    },
+    "GetDynamicLengths": {
+        "internal": [
+            "PatchDistanceCodesForBuggyDecoders",
+            "TryOptimizeHuffmanForRle",
+            "ZopfliCalculateBitLengths",
+            "ZopfliLZ77GetHistogram"
+        ],
+        "external": []
+    },
+    "ZopfliLZ77GetHistogram": {
+        "internal": [
+            "ZopfliLZ77GetHistogramAt"
+        ],
+        "external": [
+            "memset"
+        ]
+    },
+    "ZopfliLZ77GetHistogramAt": {
+        "internal": [],
+        "external": []
+    },
+    "TryOptimizeHuffmanForRle": {
+        "internal": [
+            "CalculateBlockSymbolSizeGivenCounts",
+            "CalculateTreeSize",
+            "OptimizeHuffmanForRle",
+            "PatchDistanceCodesForBuggyDecoders",
+            "ZopfliCalculateBitLengths"
+        ],
+        "external": [
+            "memcpy"
+        ]
+    },
+    "PatchDistanceCodesForBuggyDecoders": {
+        "internal": [],
+        "external": []
+    },
+    "CalculateTreeSize": {
+        "internal": [
+            "EncodeTree"
+        ],
+        "external": []
+    },
+    "EncodeTree": {
+        "internal": [
+            "AddBits",
+            "AddHuffmanBits",
+            "ZopfliCalculateBitLengths",
+            "ZopfliLengthsToSymbols"
+        ],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "free"
+        ]
+    },
+    "ZopfliLengthsToSymbols": {
+        "internal": [],
+        "external": [
+            "__CPROVER_assert",
+            "assert",
+            "free",
+            "malloc"
+        ]
+    },
+    "AddBits": {
+        "internal": [],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "__CPROVER_assert"
+        ]
+    },
+    "AddHuffmanBits": {
+        "internal": [],
+        "external": [
+            "ZOPFLI_APPEND_DATA",
+            "__CPROVER_assert"
+        ]
+    },
+    "ZopfliCalculateBitLengths": {
+        "internal": [
+            "ZopfliLengthLimitedCodeLengths"
+        ],
+        "external": [
+            "assert"
+        ]
+    },
+    "ZopfliLengthLimitedCodeLengths": {
+        "internal": [
+            "BoundaryPM",
+            "BoundaryPMFinal",
+            "ExtractBitLengths",
+            "InitLists"
+        ],
+        "external": [
+            "free",
+            "malloc",
+            "qsort"
+        ]
+    },
+    "BoundaryPM": {
+        "internal": [
+            "BoundaryPM",
+            "InitNode"
+        ],
+        "external": []
+    },
+    "BoundaryPMFinal": {
+        "internal": [],
+        "external": []
+    },
+    "InitLists": {
+        "internal": [
+            "InitNode"
+        ],
+        "external": []
+    },
+    "InitNode": {
+        "internal": [],
+        "external": []
+    },
+    "ExtractBitLengths": {
+        "internal": [],
+        "external": []
+    },
+    "LeafComparator": {
+        "internal": [],
+        "external": []
+    },
+    "CalculateBlockSymbolSizeGivenCounts": {
+        "internal": [
+            "CalculateBlockSymbolSizeSmall",
+            "ZopfliGetDistSymbolExtraBits",
+            "ZopfliGetLengthSymbolExtraBits"
+        ],
+        "external": [
+            "__CPROVER_assert"
+        ]
+    },
+    "CalculateBlockSymbolSizeSmall": {
+        "internal": [
+            "ZopfliGetDistSymbol",
+            "ZopfliGetDistSymbolExtraBits",
+            "ZopfliGetLengthSymbol",
+            "ZopfliGetLengthSymbolExtraBits"
+        ],
+        "external": [
+            "__CPROVER_assert",
+            "assert"
+        ]
+    },
+    "ZopfliGetLengthSymbolExtraBits": {
+        "internal": [],
+        "external": []
+    },
+    "ZopfliGetDistSymbolExtraBits": {
+        "internal": [],
+        "external": []
+    },
+    "OptimizeHuffmanForRle": {
+        "internal": [
+            "AbsDiff"
+        ],
+        "external": [
+            "free",
+            "malloc"
+        ]
+    },
+    "AbsDiff": {
+        "internal": [],
+        "external": []
+    },
+    "ZopfliGetDistSymbol": {
+        "internal": [],
+        "external": [
+            "__builtin_clz"
+        ]
+    },
+    "ZopfliGetLengthSymbol": {
+        "internal": [],
+        "external": []
+    }
+}

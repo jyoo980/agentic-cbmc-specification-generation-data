@@ -1,0 +1,52 @@
+3804	        for (j = 1; j <= length; j++)
+3804	        for (j = 1; j > length; j++)
+3804	        for (j = 1; j >= length; j++)
+3804	        for (j = 1; j == length; j++)
+3804	        for (j = 1; j != length; j++)
+3803	        assert(pos + length < inend);
+3803	        assert(pos + length > inend);
+3803	        assert(pos + length >= inend);
+3803	        assert(pos + length == inend);
+3803	        assert(pos + length != inend);
+3791	            assert(!(dummy_length != length && length > 2 && dummy_length < 2));
+3791	            assert(!(dummy_length != length && length > 2 && dummy_length <= 2));
+3791	            assert(!(dummy_length != length && length > 2 && dummy_length >= 2));
+3791	            assert(!(dummy_length != length && length > 2 && dummy_length == 2));
+3791	            assert(!(dummy_length != length && length > 2 && dummy_length != 2));
+3791	            assert(!(dummy_length != length && length < 2 && dummy_length > 2));
+3791	            assert(!(dummy_length != length && length <= 2 && dummy_length > 2));
+3791	            assert(!(dummy_length != length && length >= 2 && dummy_length > 2));
+3791	            assert(!(dummy_length != length && length == 2 && dummy_length > 2));
+3791	            assert(!(dummy_length != length && length != 2 && dummy_length > 2));
+3791	            assert(!(dummy_length == length && length > 2 && dummy_length > 2));
+3785	        if (length < ZOPFLI_MIN_MATCH)
+3785	        if (length <= ZOPFLI_MIN_MATCH)
+3785	        if (length > ZOPFLI_MIN_MATCH)
+3785	        if (length == ZOPFLI_MIN_MATCH)
+3785	        if (length != ZOPFLI_MIN_MATCH)
+3780	        assert(pos <= inend);
+3780	        assert(pos > inend);
+3780	        assert(pos >= inend);
+3780	        assert(pos == inend);
+3780	        assert(pos != inend);
+3770	    for (i = 0; i <= pathsize; i++)
+3770	    for (i = 0; i > pathsize; i++)
+3770	    for (i = 0; i >= pathsize; i++)
+3770	    for (i = 0; i == pathsize; i++)
+3770	    for (i = 0; i != pathsize; i++)
+3758	    for (i = windowstart; i <= instart; i++)
+3758	    for (i = windowstart; i > instart; i++)
+3758	    for (i = windowstart; i >= instart; i++)
+3758	    for (i = windowstart; i == instart; i++)
+3758	    for (i = windowstart; i != instart; i++)
+3753	    if (instart != inend)
+3747	    size_t windowstart = instart < ZOPFLI_WINDOW_SIZE
+3747	    size_t windowstart = instart <= ZOPFLI_WINDOW_SIZE
+3747	    size_t windowstart = instart >= ZOPFLI_WINDOW_SIZE
+3747	    size_t windowstart = instart == ZOPFLI_WINDOW_SIZE
+3747	    size_t windowstart = instart != ZOPFLI_WINDOW_SIZE
+3806	            ZopfliUpdateHash(in, pos - j, inend, h);
+3803	        assert(pos - length <= inend);
+3748	                             ? instart + ZOPFLI_WINDOW_SIZE
+3791	            assert(!(dummy_length != length && length > 2 || dummy_length > 2));
+3791	            assert(!(dummy_length != length || length > 2 && dummy_length > 2));

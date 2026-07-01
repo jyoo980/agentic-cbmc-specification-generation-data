@@ -1,0 +1,520 @@
+handleSigWinCh failed to verify with the following errors:
+--- FAILURE lines ---
+[editorRefreshScreen.precondition.4] line 1878 Check requires clause of editorRefreshScreen in handleSigWinCh: FAILURE
+[editorRefreshScreen.precondition.5] line 1878 Check requires clause of editorRefreshScreen in handleSigWinCh: FAILURE
+[editorRefreshScreen.precondition.6] line 1878 Check requires clause of editorRefreshScreen in handleSigWinCh: FAILURE
+[editorRefreshScreen.precondition.7] line 1878 Check requires clause of editorRefreshScreen in handleSigWinCh: FAILURE
+[handleSigWinCh.overflow.1] line 1876 arithmetic overflow on signed - in E.screenrows - 1: FAILURE
+[handleSigWinCh.overflow.2] line 1877 arithmetic overflow on signed - in E.screencols - 1: FAILURE
+[editorUpdateSyntax.pointer_dereference.1941] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1942] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1943] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1944] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1975] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1976] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1977] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1978] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1979] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1980] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2011] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2012] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2013] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2014] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2015] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2016] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2047] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2048] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2049] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2050] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2051] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2052] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2083] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2084] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2085] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2086] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2087] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2088] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2425] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2426] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2427] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2428] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2429] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2430] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2461] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2462] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2463] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2464] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2465] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2466] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2497] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2498] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2499] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2500] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2501] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2502] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2533] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2534] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2535] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2536] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2537] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2538] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2569] line 552 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2570] line 552 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2571] line 552 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2572] line 552 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2573] line 552 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2574] line 552 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.487] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.488] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.489] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.490] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.491] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.492] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.523] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.524] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.525] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.526] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.527] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.528] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.559] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.560] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.561] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.562] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.563] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.564] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.595] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.596] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.597] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.598] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.599] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.600] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.631] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.632] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.633] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.634] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.635] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.636] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.973] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.974] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.975] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.976] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.977] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.978] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1009] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1010] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1011] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1012] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1013] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1014] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1045] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1046] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1047] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1048] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1049] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1050] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1081] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1082] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1083] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1084] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1085] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1086] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1117] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1118] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1119] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1120] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1121] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1122] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1459] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1460] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1461] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1462] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1463] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1464] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1495] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1496] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1497] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1498] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1499] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1500] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1531] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1532] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1533] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1534] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1535] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1536] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1567] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1568] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1569] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1570] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1571] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1572] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1603] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1604] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1605] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1606] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1607] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1608] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1945] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1946] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1947] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1948] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1949] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1950] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1981] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1982] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1983] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1984] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1985] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1986] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2017] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2018] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2019] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2020] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2021] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2022] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2053] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2054] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2055] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2056] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2057] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2058] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2089] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2090] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2091] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2092] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2093] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2094] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2431] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2432] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2433] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2434] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2435] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2436] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2467] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2468] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2469] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2470] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2471] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2472] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2503] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2504] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2505] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2506] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2507] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2508] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2539] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2540] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2541] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2542] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2543] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2544] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2575] line 553 dereference failure: pointer NULL in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2576] line 553 dereference failure: pointer invalid in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2577] line 553 dereference failure: deallocated dynamic object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2578] line 553 dereference failure: dead object in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2579] line 553 dereference failure: pointer outside object bounds in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2580] line 553 dereference failure: invalid integer address in p[(signed long int)klen]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.493] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.494] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.495] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.496] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.497] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.498] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.529] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.530] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.531] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.532] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.533] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.534] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.565] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.566] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.567] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.568] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.569] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.570] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.601] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.602] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.603] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.604] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.605] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.606] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.637] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.638] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.639] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.640] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.641] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.642] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.979] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.980] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.981] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.982] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.983] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.984] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1015] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1016] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1017] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1018] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1019] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1020] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1051] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1052] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1053] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1054] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1055] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1056] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1087] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1088] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1089] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1090] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1091] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1092] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1123] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1124] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1125] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1126] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1127] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1128] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1465] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1466] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1467] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1468] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1469] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1470] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1501] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1502] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1503] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1504] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1505] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1506] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1537] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1538] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1539] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1540] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1541] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1542] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1573] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1574] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1575] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1576] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1577] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1578] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1609] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1610] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1611] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1612] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1613] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1614] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1951] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1952] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1953] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1954] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1955] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1956] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1987] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1988] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1989] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1990] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1991] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1992] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2023] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2024] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2025] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2026] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2027] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2028] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2059] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2060] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2061] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2062] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2063] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2064] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2095] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2096] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2097] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2098] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2099] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2100] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2437] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2438] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2439] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2440] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2441] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2442] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2473] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2474] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2475] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2476] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2477] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2478] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2509] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2510] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2511] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2512] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2513] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2514] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2545] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2546] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2547] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2548] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2549] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2550] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2581] line 556 dereference failure: pointer NULL in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2582] line 556 dereference failure: pointer invalid in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2583] line 556 dereference failure: deallocated dynamic object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2584] line 556 dereference failure: dead object in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2585] line 556 dereference failure: pointer outside object bounds in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2586] line 556 dereference failure: invalid integer address in row->hl: SUCCESS
+[editorUpdateSyntax.pointer_dereference.643] line 562 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.644] line 562 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.645] line 562 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.646] line 562 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.647] line 562 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.648] line 562 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1129] line 562 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1130] line 562 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1131] line 562 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1132] line 562 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1133] line 562 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1134] line 562 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1615] line 562 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1616] line 562 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1617] line 562 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1618] line 562 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1619] line 562 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1620] line 562 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2101] line 562 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2102] line 562 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2103] line 562 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2104] line 562 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2105] line 562 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2106] line 562 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2587] line 562 dereference failure: pointer NULL in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2588] line 562 dereference failure: pointer invalid in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2589] line 562 dereference failure: deallocated dynamic object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2590] line 562 dereference failure: dead object in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2591] line 562 dereference failure: pointer outside object bounds in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2592] line 562 dereference failure: invalid integer address in keywords[(signed long int)j]: SUCCESS
+[editorUpdateSyntax.pointer_dereference.649] line 569 dereference failure: pointer NULL in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.650] line 569 dereference failure: pointer invalid in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.651] line 569 dereference failure: deallocated dynamic object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.652] line 569 dereference failure: dead object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.653] line 569 dereference failure: pointer outside object bounds in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.654] line 569 dereference failure: invalid integer address in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1135] line 569 dereference failure: pointer NULL in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1136] line 569 dereference failure: pointer invalid in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1137] line 569 dereference failure: deallocated dynamic object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1138] line 569 dereference failure: dead object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1139] line 569 dereference failure: pointer outside object bounds in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1140] line 569 dereference failure: invalid integer address in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1621] line 569 dereference failure: pointer NULL in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1622] line 569 dereference failure: pointer invalid in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1623] line 569 dereference failure: deallocated dynamic object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1624] line 569 dereference failure: dead object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1625] line 569 dereference failure: pointer outside object bounds in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.1626] line 569 dereference failure: invalid integer address in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2107] line 569 dereference failure: pointer NULL in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2108] line 569 dereference failure: pointer invalid in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2109] line 569 dereference failure: deallocated dynamic object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2110] line 569 dereference failure: dead object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2111] line 569 dereference failure: pointer outside object bounds in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2112] line 569 dereference failure: invalid integer address in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2593] line 569 dereference failure: pointer NULL in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2594] line 569 dereference failure: pointer invalid in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2595] line 569 dereference failure: deallocated dynamic object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2596] line 569 dereference failure: dead object in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2597] line 569 dereference failure: pointer outside object bounds in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2598] line 569 dereference failure: invalid integer address in *p: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2599] line 577 dereference failure: pointer NULL in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2600] line 577 dereference failure: pointer invalid in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2601] line 577 dereference failure: deallocated dynamic object in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2602] line 577 dereference failure: dead object in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2603] line 577 dereference failure: pointer outside object bounds in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2604] line 577 dereference failure: invalid integer address in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2605] line 577 dereference failure: pointer NULL in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2606] line 577 dereference failure: pointer invalid in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2607] line 577 dereference failure: deallocated dynamic object in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2608] line 577 dereference failure: dead object in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2609] line 577 dereference failure: pointer outside object bounds in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2610] line 577 dereference failure: invalid integer address in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2611] line 578 dereference failure: pointer NULL in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2612] line 578 dereference failure: pointer invalid in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2613] line 578 dereference failure: deallocated dynamic object in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2614] line 578 dereference failure: dead object in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2615] line 578 dereference failure: pointer outside object bounds in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2616] line 578 dereference failure: invalid integer address in row->idx: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2617] line 579 dereference failure: pointer NULL in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2618] line 579 dereference failure: pointer invalid in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2619] line 579 dereference failure: deallocated dynamic object in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2620] line 579 dereference failure: dead object in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2621] line 579 dereference failure: pointer outside object bounds in row->hl_oc: SUCCESS
+[editorUpdateSyntax.pointer_dereference.2622] line 579 dereference failure: invalid integer address in row->hl_oc: SUCCESS
+[enableRawMode.pointer_dereference.1] line 268 dereference failure: pointer NULL in *return_value___errno_location: SUCCESS
+[enableRawMode.pointer_dereference.2] line 268 dereference failure: pointer invalid in *return_value___errno_location: SUCCESS
+[enableRawMode.pointer_dereference.3] line 268 dereference failure: deallocated dynamic object in *return_value___errno_location: SUCCESS
+[enableRawMode.pointer_dereference.4] line 268 dereference failure: dead object in *return_value___errno_location: SUCCESS
+[enableRawMode.pointer_dereference.5] line 268 dereference failure: pointer outside object bounds in *return_value___errno_location: SUCCESS
+[enableRawMode.pointer_dereference.6] line 268 dereference failure: invalid integer address in *return_value___errno_location: SUCCESS
+[getWindowSize.pointer_dereference.1] line 392 dereference failure: pointer NULL in *cols: SUCCESS
+[getWindowSize.pointer_dereference.2] line 392 dereference failure: pointer invalid in *cols: SUCCESS
+[getWindowSize.pointer_dereference.3] line 392 dereference failure: deallocated dynamic object in *cols: SUCCESS
+[getWindowSize.pointer_dereference.4] line 392 dereference failure: dead object in *cols: SUCCESS
+[getWindowSize.pointer_dereference.5] line 392 dereference failure: pointer outside object bounds in *cols: SUCCESS
+[getWindowSize.pointer_dereference.6] line 392 dereference failure: invalid integer address in *cols: SUCCESS
+[getWindowSize.pointer_dereference.7] line 393 dereference failure: pointer NULL in *rows: SUCCESS
+[getWindowSize.pointer_dereference.8] line 393 dereference failure: pointer invalid in *rows: SUCCESS
+[getWindowSize.pointer_dereference.9] line 393 dereference failure: deallocated dynamic object in *rows: SUCCESS
+[getWindowSize.pointer_dereference.10] line 393 dereference failure: dead object in *rows: SUCCESS
+[getWindowSize.pointer_dereference.11] line 393 dereference failure: pointer outside object bounds in *rows: SUCCESS
+[getWindowSize.pointer_dereference.12] line 393 dereference failure: invalid integer address in *rows: SUCCESS
+[handleSigWinCh.overflow.1] line 1876 arithmetic overflow on signed - in E.screenrows - 1: FAILURE
+[handleSigWinCh.overflow.2] line 1877 arithmetic overflow on signed - in E.screencols - 1: FAILURE
+[is_separator.pointer_dereference.1] line 408 dereference failure: pointer NULL in *return_value___ctype_b_loc: SUCCESS
+[is_separator.pointer_dereference.2] line 408 dereference failure: pointer invalid in *return_value___ctype_b_loc: SUCCESS
+[is_separator.pointer_dereference.3] line 408 dereference failure: deallocated dynamic object in *return_value___ctype_b_loc: SUCCESS
+[is_separator.pointer_dereference.4] line 408 dereference failure: dead object in *return_value___ctype_b_loc: SUCCESS
+[is_separator.pointer_dereference.5] line 408 dereference failure: pointer outside object bounds in *return_value___ctype_b_loc: SUCCESS
+[is_separator.pointer_dereference.6] line 408 dereference failure: invalid integer address in *return_value___ctype_b_loc: SUCCESS
+[is_separator.pointer_dereference.7] line 408 dereference failure: pointer NULL in (*return_value___ctype_b_loc)[(signed long int)(signed int)c]: SUCCESS
+[is_separator.pointer_dereference.8] line 408 dereference failure: pointer invalid in (*return_value___ctype_b_loc)[(signed long int)(signed int)c]: SUCCESS
+[is_separator.pointer_dereference.9] line 408 dereference failure: deallocated dynamic object in (*return_value___ctype_b_loc)[(signed long int)(signed int)c]: SUCCESS
+[is_separator.pointer_dereference.10] line 408 dereference failure: dead object in (*return_value___ctype_b_loc)[(signed long int)(signed int)c]: SUCCESS
+[is_separator.pointer_dereference.11] line 408 dereference failure: pointer outside object bounds in (*return_value___ctype_b_loc)[(signed long int)(signed int)c]: SUCCESS
+[is_separator.pointer_dereference.12] line 408 dereference failure: invalid integer address in (*return_value___ctype_b_loc)[(signed long int)(signed int)c]: SUCCESS
+[main.pointer_dereference.1] line 1912 dereference failure: pointer NULL in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.2] line 1912 dereference failure: pointer invalid in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.3] line 1912 dereference failure: deallocated dynamic object in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.4] line 1912 dereference failure: dead object in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.5] line 1912 dereference failure: pointer outside object bounds in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.6] line 1912 dereference failure: invalid integer address in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.7] line 1913 dereference failure: pointer NULL in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.8] line 1913 dereference failure: pointer invalid in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.9] line 1913 dereference failure: deallocated dynamic object in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.10] line 1913 dereference failure: dead object in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.11] line 1913 dereference failure: pointer outside object bounds in argv[(signed long int)1]: SUCCESS
+[main.pointer_dereference.12] line 1913 dereference failure: invalid integer address in argv[(signed long int)1]: SUCCESS
+[updateWindowSize.pointer_dereference.1] line 1857 dereference failure: pointer NULL in *((signed int *)__car_lb$0): SUCCESS
+[updateWindowSize.pointer_dereference.2] line 1857 dereference failure: pointer invalid in *((signed int *)__car_lb$0): SUCCESS
+[updateWindowSize.pointer_dereference.3] line 1857 dereference failure: deallocated dynamic object in *((signed int *)__car_lb$0): SUCCESS
+[updateWindowSize.pointer_dereference.4] line 1857 dereference failure: dead object in *((signed int *)__car_lb$0): SUCCESS
+[updateWindowSize.pointer_dereference.5] line 1857 dereference failure: pointer outside object bounds in *((signed int *)__car_lb$0): SUCCESS
+[updateWindowSize.pointer_dereference.6] line 1857 dereference failure: invalid integer address in *((signed int *)__car_lb$0): SUCCESS
+[updateWindowSize.pointer_dereference.7] line 1857 dereference failure: pointer NULL in *((signed int *)__car_lb): SUCCESS
+[updateWindowSize.pointer_dereference.8] line 1857 dereference failure: pointer invalid in *((signed int *)__car_lb): SUCCESS
+[updateWindowSize.pointer_dereference.9] line 1857 dereference failure: deallocated dynamic object in *((signed int *)__car_lb): SUCCESS
+[updateWindowSize.pointer_dereference.10] line 1857 dereference failure: dead object in *((signed int *)__car_lb): SUCCESS
+[updateWindowSize.pointer_dereference.11] line 1857 dereference failure: pointer outside object bounds in *((signed int *)__car_lb): SUCCESS
+[updateWindowSize.pointer_dereference.12] line 1857 dereference failure: invalid integer address in *((signed int *)__car_lb): SUCCESS
+[updateWindowSize.pointer_dereference.13] line 1857 dereference failure: pointer NULL in *((signed int *)__car_lb$2): SUCCESS
+[updateWindowSize.pointer_dereference.14] line 1857 dereference failure: pointer invalid in *((signed int *)__car_lb$2): SUCCESS
+[updateWindowSize.pointer_dereference.15] line 1857 dereference failure: deallocated dynamic object in *((signed int *)__car_lb$2): SUCCESS
+[updateWindowSize.pointer_dereference.16] line 1857 dereference failure: dead object in *((signed int *)__car_lb$2): SUCCESS
+[updateWindowSize.pointer_dereference.17] line 1857 dereference failure: pointer outside object bounds in *((signed int *)__car_lb$2): SUCCESS
+[updateWindowSize.pointer_dereference.18] line 1857 dereference failure: invalid integer address in *((signed int *)__car_lb$2): SUCCESS
+[updateWindowSize.pointer_dereference.19] line 1857 dereference failure: pointer NULL in *((signed int *)__car_lb$1): SUCCESS
+[updateWindowSize.pointer_dereference.20] line 1857 dereference failure: pointer invalid in *((signed int *)__car_lb$1): SUCCESS
+[updateWindowSize.pointer_dereference.21] line 1857 dereference failure: deallocated dynamic object in *((signed int *)__car_lb$1): SUCCESS
+[updateWindowSize.pointer_dereference.22] line 1857 dereference failure: dead object in *((signed int *)__car_lb$1): SUCCESS
+[updateWindowSize.pointer_dereference.23] line 1857 dereference failure: pointer outside object bounds in *((signed int *)__car_lb$1): SUCCESS
+[updateWindowSize.pointer_dereference.24] line 1857 dereference failure: invalid integer address in *((signed int *)__car_lb$1): SUCCESS
+** 6 of 7911 failed (4 iterations)
+VERIFICATION FAILED

@@ -1,0 +1,111 @@
+2026-06-24 23:50:07.742 | INFO     | __main__:main:137 - === experimental-data/full/kilo/kilo.c ===
+2026-06-24 23:50:07.794 | DEBUG    | __main__:_verify_program:222 - [auto-include] using ['experimental-data/minus-harness/kilo/stubs/']
+2026-06-24 23:50:07.794 | DEBUG    | __main__:verify:228 - [verifying] main  (nondet: exit, fprintf)
+2026-06-24 23:50:07.795 | DEBUG    | __main__:verify:228 - [verifying] initEditor  (nondet: signal)
+2026-06-24 23:50:07.796 | DEBUG    | __main__:verify:228 - [verifying] handleSigWinCh
+2026-06-24 23:50:07.798 | DEBUG    | __main__:verify:228 - [verifying] updateWindowSize  (nondet: exit, perror)
+2026-06-24 23:50:07.800 | DEBUG    | __main__:verify:228 - [verifying] editorFileWasModified
+2026-06-24 23:50:07.800 | DEBUG    | __main__:verify:228 - [verifying] editorProcessKeypress  (nondet: exit)
+2026-06-24 23:50:07.803 | DEBUG    | __main__:verify:228 - [verifying] editorMoveCursor
+2026-06-24 23:50:07.804 | DEBUG    | __main__:verify:228 - [verifying] editorFind  (nondet: isprint, malloc, memcpy, memset, strstr)
+2026-06-24 23:50:10.550 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorProcessKeypress (returncode=134)
+2026-06-24 23:50:10.550 | DEBUG    | __main__:verify:228 - [verifying] editorSetStatusMessage  (nondet: time, va_end, va_start, vsnprintf)
+2026-06-24 23:50:10.617 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorFind (returncode=134)
+2026-06-24 23:50:10.617 | DEBUG    | __main__:verify:228 - [verifying] editorRefreshScreen  (nondet: snprintf, strlen, time, write)
+2026-06-24 23:50:10.629 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] main (returncode=134)
+2026-06-24 23:50:10.630 | DEBUG    | __main__:verify:228 - [verifying] abFree  (nondet: free)
+2026-06-24 23:50:11.340 | DEBUG    | __main__:verify:241 - [PASS] editorFileWasModified (returncode=0)
+2026-06-24 23:50:11.341 | DEBUG    | __main__:verify:228 - [verifying] abAppend  (nondet: memcpy, realloc)
+2026-06-24 23:50:11.803 | DEBUG    | __main__:verify:241 - [PASS] updateWindowSize (returncode=0)
+2026-06-24 23:50:11.803 | DEBUG    | __main__:verify:228 - [verifying] editorSave  (nondet: close, free, ftruncate, open, strerror, write)
+2026-06-24 23:50:11.978 | DEBUG    | __main__:verify:241 - [PASS] handleSigWinCh (returncode=0)
+2026-06-24 23:50:11.979 | DEBUG    | __main__:verify:228 - [verifying] editorOpen  (nondet: exit, fclose, fopen, free, getline, malloc, memcpy, perror, strlen)
+2026-06-24 23:50:12.810 | DEBUG    | __main__:verify:241 - [PASS] initEditor (returncode=0)
+2026-06-24 23:50:12.811 | DEBUG    | __main__:verify:228 - [verifying] editorDelChar
+2026-06-24 23:50:13.655 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorSave (returncode=134)
+2026-06-24 23:50:13.655 | DEBUG    | __main__:verify:228 - [verifying] editorInsertNewline
+2026-06-24 23:50:13.905 | DEBUG    | __main__:verify:241 - [PASS] editorSetStatusMessage (returncode=0)
+2026-06-24 23:50:13.905 | DEBUG    | __main__:verify:228 - [verifying] editorInsertChar
+2026-06-24 23:50:14.786 | DEBUG    | __main__:verify:241 - [PASS] abAppend (returncode=0)
+2026-06-24 23:50:14.786 | DEBUG    | __main__:verify:228 - [verifying] editorRowDelChar  (nondet: memmove)
+2026-06-24 23:50:15.815 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] abFree (returncode=134)
+2026-06-24 23:50:15.816 | DEBUG    | __main__:verify:228 - [verifying] editorRowAppendString  (nondet: memcpy, realloc)
+2026-06-24 23:50:17.726 | DEBUG    | __main__:verify:241 - [PASS] editorInsertNewline (returncode=0)
+2026-06-24 23:50:17.726 | DEBUG    | __main__:verify:228 - [verifying] editorRowInsertChar  (nondet: memmove, memset, realloc)
+2026-06-24 23:50:19.240 | DEBUG    | __main__:verify:241 - [PASS] editorRowAppendString (returncode=0)
+2026-06-24 23:50:19.240 | DEBUG    | __main__:verify:228 - [verifying] editorRowsToString  (nondet: malloc, memcpy)
+2026-06-24 23:50:19.790 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorOpen (returncode=134)
+2026-06-24 23:50:19.790 | DEBUG    | __main__:verify:228 - [verifying] editorDelRow  (nondet: memmove)
+2026-06-24 23:50:20.583 | DEBUG    | __main__:verify:241 - [PASS] editorInsertChar (returncode=0)
+2026-06-24 23:50:20.584 | DEBUG    | __main__:verify:228 - [verifying] editorFreeRow  (nondet: free)
+2026-06-24 23:50:20.946 | DEBUG    | __main__:verify:241 - [PASS] editorRowInsertChar (returncode=0)
+2026-06-24 23:50:20.946 | DEBUG    | __main__:verify:228 - [verifying] editorInsertRow  (nondet: malloc, memcpy, memmove, realloc)
+2026-06-24 23:50:22.423 | DEBUG    | __main__:verify:241 - [PASS] editorRowsToString (returncode=0)
+2026-06-24 23:50:22.425 | DEBUG    | __main__:verify:228 - [verifying] editorUpdateRow  (nondet: exit, free, malloc, printf)
+2026-06-24 23:50:23.090 | DEBUG    | __main__:verify:241 - [PASS] editorRefreshScreen (returncode=0)
+2026-06-24 23:50:23.090 | DEBUG    | __main__:verify:228 - [verifying] editorSelectSyntaxHighlight  (nondet: strlen, strstr)
+2026-06-24 23:50:25.187 | ERROR    | __main__:verify:243 - [CBMC_FAILED] editorDelChar (returncode=10)
+2026-06-24 23:50:25.187 | DEBUG    | __main__:verify:228 - [verifying] editorSyntaxToColor
+2026-06-24 23:50:25.233 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorFreeRow (returncode=134)
+2026-06-24 23:50:25.233 | DEBUG    | __main__:verify:228 - [verifying] editorUpdateSyntax  (nondet: isdigit, isprint, isspace, memcmp, memset, realloc, strlen)
+2026-06-24 23:50:27.725 | DEBUG    | __main__:verify:241 - [PASS] editorSyntaxToColor (returncode=0)
+2026-06-24 23:50:27.726 | DEBUG    | __main__:verify:228 - [verifying] editorRowHasOpenComment
+2026-06-24 23:50:28.103 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorUpdateRow (returncode=134)
+2026-06-24 23:50:28.103 | DEBUG    | __main__:verify:228 - [verifying] is_separator  (nondet: isspace, strchr)
+2026-06-24 23:50:28.964 | DEBUG    | __main__:verify:241 - [PASS] editorMoveCursor (returncode=0)
+2026-06-24 23:50:28.964 | DEBUG    | __main__:verify:228 - [verifying] getWindowSize  (nondet: snprintf, strlen, write)
+2026-06-24 23:50:29.232 | DEBUG    | __main__:verify:241 - [PASS] editorSelectSyntaxHighlight (returncode=0)
+2026-06-24 23:50:29.232 | DEBUG    | __main__:verify:228 - [verifying] getCursorPosition  (nondet: read, sscanf, write)
+2026-06-24 23:50:30.907 | DEBUG    | __main__:verify:241 - [PASS] editorRowHasOpenComment (returncode=0)
+2026-06-24 23:50:30.909 | DEBUG    | __main__:verify:228 - [verifying] editorReadKey  (nondet: exit, read)
+2026-06-24 23:50:32.331 | DEBUG    | __main__:verify:241 - [PASS] getWindowSize (returncode=0)
+2026-06-24 23:50:32.334 | DEBUG    | __main__:verify:228 - [verifying] enableRawMode
+2026-06-24 23:50:33.091 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorUpdateSyntax (returncode=134)
+2026-06-24 23:50:33.092 | DEBUG    | __main__:verify:228 - [verifying] editorAtExit
+2026-06-24 23:50:33.697 | DEBUG    | __main__:verify:241 - [PASS] is_separator (returncode=0)
+2026-06-24 23:50:33.699 | DEBUG    | __main__:verify:228 - [verifying] disableRawMode
+2026-06-24 23:50:34.230 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] getCursorPosition (returncode=134)
+2026-06-24 23:50:35.659 | DEBUG    | __main__:verify:241 - [PASS] editorAtExit (returncode=0)
+2026-06-24 23:50:35.976 | DEBUG    | __main__:verify:241 - [PASS] disableRawMode (returncode=0)
+2026-06-24 23:50:37.151 | ERROR    | __main__:verify:243 - [CBMC_FAILED] enableRawMode (returncode=10)
+2026-06-24 23:50:45.302 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorReadKey (returncode=134)
+2026-06-24 23:51:54.381 | ERROR    | __main__:verify:243 - [GOTO-INSTRUMENT_FAILED] editorInsertRow (returncode=134)
+2026-06-24 23:53:43.421 | DEBUG    | __main__:verify:241 - [PASS] editorDelRow (returncode=0)
+2026-06-25 00:00:16.614 | ERROR    | __main__:verify:243 - [CBMC_FAILED] editorRowDelChar (returncode=124)
+2026-06-25 00:00:16.739 | INFO     | __main__:_print_summary:316 - Summary (experimental-data/full/kilo/kilo.c): 21/36 functions verified
+2026-06-25 00:00:16.740 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::main
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::initEditor
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::handleSigWinCh
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::updateWindowSize
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorFileWasModified
+2026-06-25 00:00:16.740 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorProcessKeypress
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorMoveCursor
+2026-06-25 00:00:16.740 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorFind
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorSetStatusMessage
+2026-06-25 00:00:16.740 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorRefreshScreen
+2026-06-25 00:00:16.740 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::abFree
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::abAppend
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorSave
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorOpen
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/full/kilo/kilo.c::editorDelChar
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorInsertNewline
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorInsertChar
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/full/kilo/kilo.c::editorRowDelChar
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorRowAppendString
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorRowInsertChar
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorRowsToString
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorDelRow
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorFreeRow
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorInsertRow
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorUpdateRow
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorSelectSyntaxHighlight
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorSyntaxToColor
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorUpdateSyntax
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorRowHasOpenComment
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::is_separator
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::getWindowSize
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::getCursorPosition
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [GOTO-INSTRUMENT_FAILED] experimental-data/full/kilo/kilo.c::editorReadKey
+2026-06-25 00:00:16.741 | ERROR    | __main__:_print_summary:322 -   [CBMC_FAILED] experimental-data/full/kilo/kilo.c::enableRawMode
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::editorAtExit
+2026-06-25 00:00:16.741 | INFO     | __main__:_print_summary:320 -   [PASS] experimental-data/full/kilo/kilo.c::disableRawMode

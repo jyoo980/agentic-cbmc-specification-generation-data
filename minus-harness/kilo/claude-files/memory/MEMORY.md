@@ -1,0 +1,1 @@
+- [CBMC kilo.c limitations](cbmc-kilo-limitations.md) — free/read instrument bug, global havoc, __CPROVER_old post-state, memory-content ensures don't kill mutants

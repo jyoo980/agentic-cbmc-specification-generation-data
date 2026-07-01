@@ -1,0 +1,1020 @@
+ZopfliVerifyLenDist failed to verify with the following errors:
+
+--- FAILURE lines ---
+[ZopfliVerifyLenDist.assertion.2] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.3] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.4] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.5] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.6] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+--- stderr (tail) ---
+[... 46574 characters truncated ...]
+on: 
+                                            * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                                            * line: 3151
+                                            * function: ZopfliVerifyLenDist
+                                            * working_directory: /app
+                                          * width: 64
+                                          0: unsignedbv
+                                              * width: 8
+                                              * #constant: 1
+                                              * #c_type: unsigned_char
+                                      * #source_location: 
+                                        * file: instrumented for code contracts
+                                        * line: 0
+                                        * function: ZopfliVerifyLenDist
+                                      * identifier: derefd_pointer::derefd_pointer$0
+                                  * #SSA_symbol: 1
+                                  * L0: 0
+                                  * L2: 0
+                                  * L1_object_identifier: derefd_pointer::derefd_pointer$0!0
+                          1: pointer_object
+                              * type: unsignedbv
+                                  * #source_location: 
+                                    * file: <built-in-additions>
+                                    * line: 1
+                                    * working_directory: /app
+                                  * width: 64
+                                  * #typedef: __CPROVER_size_t
+                                  * #c_type: unsigned_long_int
+                              0: address_of
+                                  * type: pointer
+                                      * width: 64
+                                      0: array
+                                          * size: symbol
+                                              * type: unsignedbv
+                                                  * #source_location: 
+                                                    * file: <built-in-additions>
+                                                    * line: 1
+                                                    * working_directory: /app
+                                                  * width: 64
+                                                  * #typedef: __CPROVER_size_t
+                                                  * #c_type: unsigned_long_int
+                                              * #source_location: 
+                                                * file: <builtin-library-malloc>
+                                                * line: 43
+                                                * function: malloc
+                                                * working_directory: /app
+                                              * identifier: symex_dynamic::dynamic_object_size!0#1
+                                              * expression: symbol
+                                                  * type: unsignedbv
+                                                      * #source_location: 
+                                                        * file: <built-in-additions>
+                                                        * line: 1
+                                                        * working_directory: /app
+                                                      * width: 64
+                                                      * #typedef: __CPROVER_size_t
+                                                      * #c_type: unsigned_long_int
+                                                  * #source_location: 
+                                                    * file: <builtin-library-malloc>
+                                                    * line: 43
+                                                    * function: malloc
+                                                    * working_directory: /app
+                                                  * identifier: symex_dynamic::dynamic_object_size
+                                              * #SSA_symbol: 1
+                                              * L0: 0
+                                              * L2: 1
+                                              * L1_object_identifier: symex_dynamic::dynamic_object_size!0
+                                          * #dynamic: 1
+                                          0: unsignedbv
+                                              * width: 8
+                                              * #constant: 1
+                                              * #c_type: unsigned_char
+                                  0: symbol
+                                      * type: array
+                                          * size: symbol
+                                              * type: unsignedbv
+                                                  * #source_location: 
+                                                    * file: <built-in-additions>
+                                                    * line: 1
+                                                    * working_directory: /app
+                                                  * width: 64
+                                                  * #typedef: __CPROVER_size_t
+                                                  * #c_type: unsigned_long_int
+                                              * #source_location: 
+                                                * file: <builtin-library-malloc>
+                                                * line: 43
+                                                * function: malloc
+                                                * working_directory: /app
+                                              * identifier: symex_dynamic::dynamic_object_size!0#1
+                                              * expression: symbol
+                                                  * type: unsignedbv
+                                                      * #source_location: 
+                                                        * file: <built-in-additions>
+                                                        * line: 1
+                                                        * working_directory: /app
+                                                      * width: 64
+                                                      * #typedef: __CPROVER_size_t
+                                                      * #c_type: unsigned_long_int
+                                                  * #source_location: 
+                                                    * file: <builtin-library-malloc>
+                                                    * line: 43
+                                                    * function: malloc
+                                                    * working_directory: /app
+                                                  * identifier: symex_dynamic::dynamic_object_size
+                                              * #SSA_symbol: 1
+                                              * L0: 0
+                                              * L2: 1
+                                              * L1_object_identifier: symex_dynamic::dynamic_object_size!0
+                                          * #dynamic: 1
+                                          0: unsignedbv
+                                              * width: 8
+                                              * #constant: 1
+                                              * #c_type: unsigned_char
+                                      * #source_location: 
+                                        * file: <builtin-library-malloc>
+                                        * line: 43
+                                        * function: malloc
+                                        * working_directory: /app
+                                      * identifier: symex_dynamic::dynamic_object
+                                      * expression: symbol
+                                          * type: array
+                                              * size: symbol
+                                                  * type: unsignedbv
+                                                      * #source_location: 
+                                                        * file: <built-in-additions>
+                                                        * line: 1
+                                                        * working_directory: /app
+                                                      * width: 64
+                                                      * #typedef: __CPROVER_size_t
+                                                      * #c_type: unsigned_long_int
+                                                  * #source_location: 
+                                                    * file: <builtin-library-malloc>
+                                                    * line: 43
+                                                    * function: malloc
+                                                    * working_directory: /app
+                                                  * identifier: symex_dynamic::dynamic_object_size!0#1
+                                                  * expression: symbol
+                                                      * type: unsignedbv
+                                                          * #source_location: 
+                                                            * file: <built-in-additions>
+                                                            * line: 1
+                                                            * working_directory: /app
+                                                          * width: 64
+                                                          * #typedef: __CPROVER_size_t
+                                                          * #c_type: unsigned_long_int
+                                                      * #source_location: 
+                                                        * file: <builtin-library-malloc>
+                                                        * line: 43
+                                                        * function: malloc
+                                                        * working_directory: /app
+                                                      * identifier: symex_dynamic::dynamic_object_size
+                                                  * #SSA_symbol: 1
+                                                  * L0: 0
+                                                  * L2: 1
+                                                  * L1_object_identifier: symex_dynamic::dynamic_object_size!0
+                                              * #dynamic: 1
+                                              0: unsignedbv
+                                                  * width: 8
+                                                  * #constant: 1
+                                                  * #c_type: unsigned_char
+                                          * #source_location: 
+                                            * file: <builtin-library-malloc>
+                                            * line: 43
+                                            * function: malloc
+                                            * working_directory: /app
+                                          * identifier: symex_dynamic::dynamic_object
+                                      * #SSA_symbol: 1
+                                      * L1_object_identifier: symex_dynamic::dynamic_object
+                      1: index
+                          * type: unsignedbv
+                              * width: 8
+                              * #constant: 1
+                              * #c_type: unsigned_char
+                          0: symbol
+                              * type: array
+                                  * size: symbol
+                                      * type: unsignedbv
+                                          * #source_location: 
+                                            * file: <built-in-additions>
+                                            * line: 1
+                                            * working_directory: /app
+                                          * width: 64
+                                          * #typedef: __CPROVER_size_t
+                                          * #c_type: unsigned_long_int
+                                      * #source_location: 
+                                        * file: <builtin-library-malloc>
+                                        * line: 43
+                                        * function: malloc
+                                        * working_directory: /app
+                                      * identifier: symex_dynamic::dynamic_object_size!0#1
+                                      * expression: symbol
+                                          * type: unsignedbv
+                                              * #source_location: 
+                                                * file: <built-in-additions>
+                                                * line: 1
+                                                * working_directory: /app
+                                              * width: 64
+                                              * #typedef: __CPROVER_size_t
+                                              * #c_type: unsigned_long_int
+                                          * #source_location: 
+                                            * file: <builtin-library-malloc>
+                                            * line: 43
+                                            * function: malloc
+                                            * working_directory: /app
+                                          * identifier: symex_dynamic::dynamic_object_size
+                                      * #SSA_symbol: 1
+                                      * L0: 0
+                                      * L2: 1
+                                      * L1_object_identifier: symex_dynamic::dynamic_object_size!0
+                                  * #dynamic: 1
+                                  0: unsignedbv
+                                      * width: 8
+                                      * #constant: 1
+                                      * #c_type: unsigned_char
+                              * #source_location: 
+                                * file: <builtin-library-malloc>
+                                * line: 43
+                                * function: malloc
+                                * working_directory: /app
+                              * identifier: symex_dynamic::dynamic_object#2
+                              * expression: symbol
+                                  * type: array
+                                      * size: symbol
+                                          * type: unsignedbv
+                                              * #source_location: 
+                                                * file: <built-in-additions>
+                                                * line: 1
+                                                * working_directory: /app
+                                              * width: 64
+                                              * #typedef: __CPROVER_size_t
+                                              * #c_type: unsigned_long_int
+                                          * #source_location: 
+                                            * file: <builtin-library-malloc>
+                                            * line: 43
+                                            * function: malloc
+                                            * working_directory: /app
+                                          * identifier: symex_dynamic::dynamic_object_size!0#1
+                                          * expression: symbol
+                                              * type: unsignedbv
+                                                  * #source_location: 
+                                                    * file: <built-in-additions>
+                                                    * line: 1
+                                                    * working_directory: /app
+                                                  * width: 64
+                                                  * #typedef: __CPROVER_size_t
+                                                  * #c_type: unsigned_long_int
+                                              * #source_location: 
+                                                * file: <builtin-library-malloc>
+                                                * line: 43
+                                                * function: malloc
+                                                * working_directory: /app
+                                              * identifier: symex_dynamic::dynamic_object_size
+                                          * #SSA_symbol: 1
+                                          * L0: 0
+                                          * L2: 1
+                                          * L1_object_identifier: symex_dynamic::dynamic_object_size!0
+                                      * #dynamic: 1
+                                      0: unsignedbv
+                                          * width: 8
+                                          * #constant: 1
+                                          * #c_type: unsigned_char
+                                  * #source_location: 
+                                    * file: <builtin-library-malloc>
+                                    * line: 43
+                                    * function: malloc
+                                    * working_directory: /app
+                                  * identifier: symex_dynamic::dynamic_object
+                              * #SSA_symbol: 1
+                              * L2: 2
+                              * L1_object_identifier: symex_dynamic::dynamic_object
+                          1: typecast
+                              * type: signedbv
+                                  * width: 64
+                                  * #c_type: signed_long_int
+                              0: pointer_offset
+                                  * type: unsignedbv
+                                      * #source_location: 
+                                        * file: <built-in-additions>
+                                        * line: 1
+                                        * working_directory: /app
+                                      * width: 64
+                                      * #typedef: __CPROVER_size_t
+                                      * #c_type: unsigned_long_int
+                                  0: symbol
+                                      * type: pointer
+                                          * #source_location: 
+                                            * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                                            * line: 3151
+                                            * function: ZopfliVerifyLenDist
+                                            * working_directory: /app
+                                          * width: 64
+                                          0: unsignedbv
+                                              * width: 8
+                                              * #constant: 1
+                                              * #c_type: unsigned_char
+                                      * #source_location: 
+                                        * file: instrumented for code contracts
+                                        * line: 0
+                                        * function: ZopfliVerifyLenDist
+                                      * identifier: derefd_pointer::derefd_pointer$0!0#0
+                                      * expression: symbol
+                                          * type: pointer
+                                              * #source_location: 
+                                                * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                                                * line: 3151
+                                                * function: ZopfliVerifyLenDist
+                                                * working_directory: /app
+                                              * width: 64
+                                              0: unsignedbv
+                                                  * width: 8
+                                                  * #constant: 1
+                                                  * #c_type: unsigned_char
+                                          * #source_location: 
+                                            * file: instrumented for code contracts
+                                            * line: 0
+                                            * function: ZopfliVerifyLenDist
+                                          * identifier: derefd_pointer::derefd_pointer$0
+                                      * #SSA_symbol: 1
+                                      * L0: 0
+                                      * L2: 0
+                                      * L1_object_identifier: derefd_pointer::derefd_pointer$0!0
+                      2: symbol
+                          * type: unsignedbv
+                              * width: 8
+                              * #constant: 1
+                              * #c_type: unsigned_char
+                          * identifier: symex::invalid_object$0!0#0
+                          * expression: symbol
+                              * type: unsignedbv
+                                  * width: 8
+                                  * #constant: 1
+                                  * #c_type: unsigned_char
+                              * identifier: symex::invalid_object$0
+                              * #invalid_object: 1
+                          * #SSA_symbol: 1
+                          * L0: 0
+                          * L2: 0
+                          * L1_object_identifier: symex::invalid_object$0!0
+              1: 
+                * type: tuple
+                0: +
+                    * type: pointer
+                        * #source_location: 
+                          * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                          * line: 3151
+                          * function: ZopfliVerifyLenDist
+                          * working_directory: /app
+                        * width: 64
+                        0: unsignedbv
+                            * width: 8
+                            * #constant: 1
+                            * #c_type: unsigned_char
+                    0: symbol
+                        * type: pointer
+                            * #source_location: 
+                              * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                              * line: 3151
+                              * function: ZopfliVerifyLenDist
+                              * working_directory: /app
+                            * width: 64
+                            0: unsignedbv
+                                * width: 8
+                                * #constant: 1
+                                * #c_type: unsigned_char
+                        * #source_location: 
+                          * file: instrumented for code contracts
+                          * line: 0
+                          * function: ZopfliVerifyLenDist
+                        * identifier: ZopfliVerifyLenDist::tmp_cc!0@1#5
+                        * expression: symbol
+                            * type: pointer
+                                * #source_location: 
+                                  * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                                  * line: 3151
+                                  * function: ZopfliVerifyLenDist
+                                  * working_directory: /app
+                                * width: 64
+                                0: unsignedbv
+                                    * width: 8
+                                    * #constant: 1
+                                    * #c_type: unsigned_char
+                            * #source_location: 
+                              * file: instrumented for code contracts
+                              * line: 0
+                              * function: ZopfliVerifyLenDist
+                            * identifier: ZopfliVerifyLenDist::tmp_cc
+                        * #SSA_symbol: 1
+                        * L0: 0
+                        * L1: 1
+                        * L2: 5
+                        * L1_object_identifier: ZopfliVerifyLenDist::tmp_cc!0@1
+                    1: +
+                        * type: signedbv
+                            * width: 64
+                            * #c_type: signed_long_int
+                        * #source_location: 
+                          * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                          * line: 3169
+                          * function: ZopfliVerifyLenDist
+                          * working_directory: /app
+                        0: typecast
+                            * type: signedbv
+                                * width: 64
+                                * #c_type: signed_long_int
+                            0: symbol
+                                * type: unsignedbv
+                                    * #source_location: 
+                                      * file: <built-in-additions>
+                                      * line: 1
+                                      * working_directory: /app
+                                    * width: 64
+                                    * #typedef: __CPROVER_size_t
+                                    * #c_type: unsigned_long_int
+                                * #source_location: 
+                                  * file: instrumented for code contracts
+                                  * line: 0
+                                  * function: ZopfliVerifyLenDist
+                                * identifier: ZopfliVerifyLenDist::tmp_cc$1!0@1#2
+                                * expression: symbol
+                                    * type: unsignedbv
+                                        * #source_location: 
+                                          * file: <built-in-additions>
+                                          * line: 1
+                                          * working_directory: /app
+                                        * width: 64
+                                        * #typedef: __CPROVER_size_t
+                                        * #c_type: unsigned_long_int
+                                    * #source_location: 
+                                      * file: instrumented for code contracts
+                                      * line: 0
+                                      * function: ZopfliVerifyLenDist
+                                    * identifier: ZopfliVerifyLenDist::tmp_cc$1
+                                * #SSA_symbol: 1
+                                * L0: 0
+                                * L1: 1
+                                * L2: 2
+                                * L1_object_identifier: ZopfliVerifyLenDist::tmp_cc$1!0@1
+                        1: typecast
+                            * type: signedbv
+                                * width: 64
+                                * #c_type: signed_long_int
+                            0: symbol
+                                * type: unsignedbv
+                                    * #source_location: 
+                                      * file: <built-in-additions>
+                                      * line: 1
+                                      * working_directory: /app
+                                    * width: 64
+                                    * #typedef: __CPROVER_size_t
+                                    * #c_type: unsigned_long_int
+                                * #source_location: 
+                                  * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                                  * line: 3169
+                                  * function: ZopfliVerifyLenDist
+                                  * working_directory: /app
+                                * identifier: ZopfliVerifyLenDist::requires::1::k!0@12#0
+                                * expression: symbol
+                                    * type: unsignedbv
+                                        * #source_location: 
+                                          * file: <built-in-additions>
+                                          * line: 1
+                                          * working_directory: /app
+                                        * width: 64
+                                        * #typedef: __CPROVER_size_t
+                                        * #c_type: unsigned_long_int
+                                    * #source_location: 
+                                      * file: /app/Syzygy_Zopfli/c_code/zopfli.c
+                                      * line: 3169
+                                      * function: ZopfliVerifyLenDist
+                                      * working_directory: /app
+                                    * identifier: ZopfliVerifyLenDist::requires::1::k
+                                * #SSA_symbol: 1
+                                * L0: 0
+                                * L1: 12
+                                * L2: 0
+                                * L1_object_identifier: ZopfliVerifyLenDist::requires::1::k!0@12
+warning: ignoring infinity
+  * type: unsignedbv
+      * #source_location: 
+        * file: <built-in-additions>
+        * line: 1
+        * working_directory: /app
+      * width: 64
+      * #typedef: __CPROVER_size_t
+      * #c_type: unsigned_long_int
+
+--- stdout (tail) ---
+[... 3119386 characters truncated ...]
+ublen[(signed long int)i]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.214] line 2604 dereference failure: dead object in sublen[(signed long int)i]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.215] line 2604 dereference failure: pointer outside object bounds in sublen[(signed long int)i]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.216] line 2604 dereference failure: invalid integer address in sublen[(signed long int)i]: SUCCESS
+[ZopfliSublenToCache.assertion.1] line 2613 assertion bestlength == length: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.217] line 2614 dereference failure: pointer NULL in cache[(signed long int)((8 - 1) * 3)]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.218] line 2614 dereference failure: pointer invalid in cache[(signed long int)((8 - 1) * 3)]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.219] line 2614 dereference failure: deallocated dynamic object in cache[(signed long int)((8 - 1) * 3)]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.220] line 2614 dereference failure: dead object in cache[(signed long int)((8 - 1) * 3)]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.221] line 2614 dereference failure: pointer outside object bounds in cache[(signed long int)((8 - 1) * 3)]: SUCCESS
+[ZopfliSublenToCache.pointer_dereference.222] line 2614 dereference failure: invalid integer address in cache[(signed long int)((8 - 1) * 3)]: SUCCESS
+[ZopfliSublenToCache.assertion.2] line 2618 assertion bestlength <= length: SUCCESS
+[ZopfliSublenToCache.assertion.3] line 2620 assertion bestlength == ZopfliMaxCachedSublen(lmc, pos, length): SUCCESS
+
+/app/Syzygy_Zopfli/c_code/zopfli.c function ZopfliUpdateHash
+[ZopfliUpdateHash.pointer_dereference.1] line 3399 dereference failure: pointer NULL in array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.2] line 3399 dereference failure: pointer invalid in array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.3] line 3399 dereference failure: deallocated dynamic object in array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.4] line 3399 dereference failure: dead object in array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.5] line 3399 dereference failure: pointer outside object bounds in array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.6] line 3399 dereference failure: invalid integer address in array[(signed long int)((pos + (unsigned long int)3) - (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.7] line 3400 dereference failure: pointer NULL in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.8] line 3400 dereference failure: pointer invalid in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.9] line 3400 dereference failure: deallocated dynamic object in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.10] line 3400 dereference failure: dead object in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.11] line 3400 dereference failure: pointer outside object bounds in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.12] line 3400 dereference failure: invalid integer address in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.13] line 3400 dereference failure: pointer NULL in h->hashval[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.14] line 3400 dereference failure: pointer invalid in h->hashval[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.15] line 3400 dereference failure: deallocated dynamic object in h->hashval[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.16] line 3400 dereference failure: dead object in h->hashval[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.17] line 3400 dereference failure: pointer outside object bounds in h->hashval[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.18] line 3400 dereference failure: invalid integer address in h->hashval[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.19] line 3400 dereference failure: pointer NULL in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.20] line 3400 dereference failure: pointer invalid in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.21] line 3400 dereference failure: deallocated dynamic object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.22] line 3400 dereference failure: dead object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.23] line 3400 dereference failure: pointer outside object bounds in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.24] line 3400 dereference failure: invalid integer address in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.25] line 3401 dereference failure: pointer NULL in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.26] line 3401 dereference failure: pointer invalid in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.27] line 3401 dereference failure: deallocated dynamic object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.28] line 3401 dereference failure: dead object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.29] line 3401 dereference failure: pointer outside object bounds in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.30] line 3401 dereference failure: invalid integer address in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.31] line 3401 dereference failure: pointer NULL in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.32] line 3401 dereference failure: pointer invalid in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.33] line 3401 dereference failure: deallocated dynamic object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.34] line 3401 dereference failure: dead object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.35] line 3401 dereference failure: pointer outside object bounds in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.36] line 3401 dereference failure: invalid integer address in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.37] line 3401 dereference failure: pointer NULL in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.38] line 3401 dereference failure: pointer invalid in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.39] line 3401 dereference failure: deallocated dynamic object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.40] line 3401 dereference failure: dead object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.41] line 3401 dereference failure: pointer outside object bounds in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.42] line 3401 dereference failure: invalid integer address in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.43] line 3401 dereference failure: pointer NULL in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.44] line 3401 dereference failure: pointer invalid in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.45] line 3401 dereference failure: deallocated dynamic object in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.46] line 3401 dereference failure: dead object in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.47] line 3401 dereference failure: pointer outside object bounds in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.48] line 3401 dereference failure: invalid integer address in h->hashval: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.49] line 3401 dereference failure: pointer NULL in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.50] line 3401 dereference failure: pointer invalid in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.51] line 3401 dereference failure: deallocated dynamic object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.52] line 3401 dereference failure: dead object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.53] line 3401 dereference failure: pointer outside object bounds in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.54] line 3401 dereference failure: invalid integer address in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.55] line 3401 dereference failure: pointer NULL in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.56] line 3401 dereference failure: pointer invalid in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.57] line 3401 dereference failure: deallocated dynamic object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.58] line 3401 dereference failure: dead object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.59] line 3401 dereference failure: pointer outside object bounds in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.60] line 3401 dereference failure: invalid integer address in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.61] line 3401 dereference failure: pointer NULL in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.62] line 3401 dereference failure: pointer invalid in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.63] line 3401 dereference failure: deallocated dynamic object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.64] line 3401 dereference failure: dead object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.65] line 3401 dereference failure: pointer outside object bounds in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.66] line 3401 dereference failure: invalid integer address in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.67] line 3401 dereference failure: pointer NULL in h->hashval[(signed long int)h->head[(signed long int)h->val]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.68] line 3401 dereference failure: pointer invalid in h->hashval[(signed long int)h->head[(signed long int)h->val]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.69] line 3401 dereference failure: deallocated dynamic object in h->hashval[(signed long int)h->head[(signed long int)h->val]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.70] line 3401 dereference failure: dead object in h->hashval[(signed long int)h->head[(signed long int)h->val]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.71] line 3401 dereference failure: pointer outside object bounds in h->hashval[(signed long int)h->head[(signed long int)h->val]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.72] line 3401 dereference failure: invalid integer address in h->hashval[(signed long int)h->head[(signed long int)h->val]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.73] line 3403 dereference failure: pointer NULL in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.74] line 3403 dereference failure: pointer invalid in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.75] line 3403 dereference failure: deallocated dynamic object in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.76] line 3403 dereference failure: dead object in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.77] line 3403 dereference failure: pointer outside object bounds in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.78] line 3403 dereference failure: invalid integer address in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.79] line 3403 dereference failure: pointer NULL in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.80] line 3403 dereference failure: pointer invalid in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.81] line 3403 dereference failure: deallocated dynamic object in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.82] line 3403 dereference failure: dead object in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.83] line 3403 dereference failure: pointer outside object bounds in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.84] line 3403 dereference failure: invalid integer address in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.85] line 3403 dereference failure: pointer NULL in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.86] line 3403 dereference failure: pointer invalid in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.87] line 3403 dereference failure: deallocated dynamic object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.88] line 3403 dereference failure: dead object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.89] line 3403 dereference failure: pointer outside object bounds in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.90] line 3403 dereference failure: invalid integer address in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.91] line 3403 dereference failure: pointer NULL in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.92] line 3403 dereference failure: pointer invalid in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.93] line 3403 dereference failure: deallocated dynamic object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.94] line 3403 dereference failure: dead object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.95] line 3403 dereference failure: pointer outside object bounds in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.96] line 3403 dereference failure: invalid integer address in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.97] line 3403 dereference failure: pointer NULL in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.98] line 3403 dereference failure: pointer invalid in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.99] line 3403 dereference failure: deallocated dynamic object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.100] line 3403 dereference failure: dead object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.101] line 3403 dereference failure: pointer outside object bounds in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.102] line 3403 dereference failure: invalid integer address in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.103] line 3406 dereference failure: pointer NULL in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.104] line 3406 dereference failure: pointer invalid in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.105] line 3406 dereference failure: deallocated dynamic object in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.106] line 3406 dereference failure: dead object in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.107] line 3406 dereference failure: pointer outside object bounds in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.108] line 3406 dereference failure: invalid integer address in h->prev: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.109] line 3406 dereference failure: pointer NULL in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.110] line 3406 dereference failure: pointer invalid in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.111] line 3406 dereference failure: deallocated dynamic object in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.112] line 3406 dereference failure: dead object in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.113] line 3406 dereference failure: pointer outside object bounds in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.114] line 3406 dereference failure: invalid integer address in h->prev[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.115] line 3407 dereference failure: pointer NULL in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.116] line 3407 dereference failure: pointer invalid in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.117] line 3407 dereference failure: deallocated dynamic object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.118] line 3407 dereference failure: dead object in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.119] line 3407 dereference failure: pointer outside object bounds in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.120] line 3407 dereference failure: invalid integer address in h->head: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.121] line 3407 dereference failure: pointer NULL in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.122] line 3407 dereference failure: pointer invalid in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.123] line 3407 dereference failure: deallocated dynamic object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.124] line 3407 dereference failure: dead object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.125] line 3407 dereference failure: pointer outside object bounds in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.126] line 3407 dereference failure: invalid integer address in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.127] line 3407 dereference failure: pointer NULL in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.128] line 3407 dereference failure: pointer invalid in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.129] line 3407 dereference failure: deallocated dynamic object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.130] line 3407 dereference failure: dead object in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.131] line 3407 dereference failure: pointer outside object bounds in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.132] line 3407 dereference failure: invalid integer address in h->head[(signed long int)h->val]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.133] line 3410 dereference failure: pointer NULL in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.134] line 3410 dereference failure: pointer invalid in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.135] line 3410 dereference failure: deallocated dynamic object in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.136] line 3410 dereference failure: dead object in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.137] line 3410 dereference failure: pointer outside object bounds in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.138] line 3410 dereference failure: invalid integer address in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.139] line 3410 dereference failure: pointer NULL in h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.140] line 3410 dereference failure: pointer invalid in h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.141] line 3410 dereference failure: deallocated dynamic object in h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.142] line 3410 dereference failure: dead object in h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.143] line 3410 dereference failure: pointer outside object bounds in h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.144] line 3410 dereference failure: invalid integer address in h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))]: SUCCESS
+[ZopfliUpdateHash.overflow.1] line 3412 arithmetic overflow on signed - in (signed int)h->same[(signed long int)(pos - (unsigned long int)1 & (unsigned long int)(32768 - 1))] - 1: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.145] line 3415 dereference failure: pointer NULL in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.146] line 3415 dereference failure: pointer invalid in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.147] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.148] line 3415 dereference failure: dead object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.149] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.150] line 3415 dereference failure: invalid integer address in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.151] line 3415 dereference failure: pointer NULL in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.152] line 3415 dereference failure: pointer invalid in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.153] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.154] line 3415 dereference failure: dead object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.155] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.156] line 3415 dereference failure: invalid integer address in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.157] line 3415 dereference failure: pointer NULL in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.158] line 3415 dereference failure: pointer invalid in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.159] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.160] line 3415 dereference failure: dead object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.161] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.162] line 3415 dereference failure: invalid integer address in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.163] line 3415 dereference failure: pointer NULL in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.164] line 3415 dereference failure: pointer invalid in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.165] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.166] line 3415 dereference failure: dead object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.167] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.168] line 3415 dereference failure: invalid integer address in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.169] line 3415 dereference failure: pointer NULL in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.170] line 3415 dereference failure: pointer invalid in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.171] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.172] line 3415 dereference failure: dead object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.173] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.174] line 3415 dereference failure: invalid integer address in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.175] line 3415 dereference failure: pointer NULL in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.176] line 3415 dereference failure: pointer invalid in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.177] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.178] line 3415 dereference failure: dead object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.179] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.180] line 3415 dereference failure: invalid integer address in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.181] line 3415 dereference failure: pointer NULL in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.182] line 3415 dereference failure: pointer invalid in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.183] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.184] line 3415 dereference failure: dead object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.185] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.186] line 3415 dereference failure: invalid integer address in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.187] line 3415 dereference failure: pointer NULL in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.188] line 3415 dereference failure: pointer invalid in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.189] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.190] line 3415 dereference failure: dead object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.191] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.192] line 3415 dereference failure: invalid integer address in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.193] line 3415 dereference failure: pointer NULL in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.194] line 3415 dereference failure: pointer invalid in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.195] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.196] line 3415 dereference failure: dead object in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.197] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.198] line 3415 dereference failure: invalid integer address in array[(signed long int)pos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.199] line 3415 dereference failure: pointer NULL in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.200] line 3415 dereference failure: pointer invalid in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.201] line 3415 dereference failure: deallocated dynamic object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.202] line 3415 dereference failure: dead object in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.203] line 3415 dereference failure: pointer outside object bounds in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.204] line 3415 dereference failure: invalid integer address in array[(signed long int)(pos + amount + (unsigned long int)1)]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.205] line 3425 dereference failure: pointer NULL in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.206] line 3425 dereference failure: pointer invalid in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.207] line 3425 dereference failure: deallocated dynamic object in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.208] line 3425 dereference failure: dead object in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.209] line 3425 dereference failure: pointer outside object bounds in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.210] line 3425 dereference failure: invalid integer address in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.211] line 3425 dereference failure: pointer NULL in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.212] line 3425 dereference failure: pointer invalid in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.213] line 3425 dereference failure: deallocated dynamic object in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.214] line 3425 dereference failure: dead object in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.215] line 3425 dereference failure: pointer outside object bounds in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.216] line 3425 dereference failure: invalid integer address in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.overflow.2] line 3427 arithmetic overflow on signed - in (signed int)h->same[(signed long int)hpos] - 3: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.217] line 3427 dereference failure: pointer NULL in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.218] line 3427 dereference failure: pointer invalid in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.219] line 3427 dereference failure: deallocated dynamic object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.220] line 3427 dereference failure: dead object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.221] line 3427 dereference failure: pointer outside object bounds in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.222] line 3427 dereference failure: invalid integer address in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.223] line 3427 dereference failure: pointer NULL in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.224] line 3427 dereference failure: pointer invalid in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.225] line 3427 dereference failure: deallocated dynamic object in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.226] line 3427 dereference failure: dead object in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.227] line 3427 dereference failure: pointer outside object bounds in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.228] line 3427 dereference failure: invalid integer address in h->same: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.229] line 3427 dereference failure: pointer NULL in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.230] line 3427 dereference failure: pointer invalid in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.231] line 3427 dereference failure: deallocated dynamic object in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.232] line 3427 dereference failure: dead object in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.233] line 3427 dereference failure: pointer outside object bounds in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.234] line 3427 dereference failure: invalid integer address in h->same[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.235] line 3427 dereference failure: pointer NULL in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.236] line 3427 dereference failure: pointer invalid in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.237] line 3427 dereference failure: deallocated dynamic object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.238] line 3427 dereference failure: dead object in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.239] line 3427 dereference failure: pointer outside object bounds in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.240] line 3427 dereference failure: invalid integer address in h->val: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.241] line 3428 dereference failure: pointer NULL in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.242] line 3428 dereference failure: pointer invalid in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.243] line 3428 dereference failure: deallocated dynamic object in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.244] line 3428 dereference failure: dead object in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.245] line 3428 dereference failure: pointer outside object bounds in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.246] line 3428 dereference failure: invalid integer address in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.247] line 3428 dereference failure: pointer NULL in h->hashval2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.248] line 3428 dereference failure: pointer invalid in h->hashval2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.249] line 3428 dereference failure: deallocated dynamic object in h->hashval2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.250] line 3428 dereference failure: dead object in h->hashval2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.251] line 3428 dereference failure: pointer outside object bounds in h->hashval2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.252] line 3428 dereference failure: invalid integer address in h->hashval2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.253] line 3428 dereference failure: pointer NULL in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.254] line 3428 dereference failure: pointer invalid in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.255] line 3428 dereference failure: deallocated dynamic object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.256] line 3428 dereference failure: dead object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.257] line 3428 dereference failure: pointer outside object bounds in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.258] line 3428 dereference failure: invalid integer address in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.259] line 3429 dereference failure: pointer NULL in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.260] line 3429 dereference failure: pointer invalid in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.261] line 3429 dereference failure: deallocated dynamic object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.262] line 3429 dereference failure: dead object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.263] line 3429 dereference failure: pointer outside object bounds in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.264] line 3429 dereference failure: invalid integer address in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.265] line 3429 dereference failure: pointer NULL in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.266] line 3429 dereference failure: pointer invalid in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.267] line 3429 dereference failure: deallocated dynamic object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.268] line 3429 dereference failure: dead object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.269] line 3429 dereference failure: pointer outside object bounds in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.270] line 3429 dereference failure: invalid integer address in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.271] line 3429 dereference failure: pointer NULL in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.272] line 3429 dereference failure: pointer invalid in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.273] line 3429 dereference failure: deallocated dynamic object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.274] line 3429 dereference failure: dead object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.275] line 3429 dereference failure: pointer outside object bounds in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.276] line 3429 dereference failure: invalid integer address in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.277] line 3429 dereference failure: pointer NULL in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.278] line 3429 dereference failure: pointer invalid in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.279] line 3429 dereference failure: deallocated dynamic object in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.280] line 3429 dereference failure: dead object in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.281] line 3429 dereference failure: pointer outside object bounds in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.282] line 3429 dereference failure: invalid integer address in h->hashval2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.283] line 3429 dereference failure: pointer NULL in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.284] line 3429 dereference failure: pointer invalid in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.285] line 3429 dereference failure: deallocated dynamic object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.286] line 3429 dereference failure: dead object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.287] line 3429 dereference failure: pointer outside object bounds in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.288] line 3429 dereference failure: invalid integer address in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.289] line 3429 dereference failure: pointer NULL in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.290] line 3429 dereference failure: pointer invalid in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.291] line 3429 dereference failure: deallocated dynamic object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.292] line 3429 dereference failure: dead object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.293] line 3429 dereference failure: pointer outside object bounds in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.294] line 3429 dereference failure: invalid integer address in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.295] line 3429 dereference failure: pointer NULL in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.296] line 3429 dereference failure: pointer invalid in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.297] line 3429 dereference failure: deallocated dynamic object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.298] line 3429 dereference failure: dead object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.299] line 3429 dereference failure: pointer outside object bounds in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.300] line 3429 dereference failure: invalid integer address in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.301] line 3429 dereference failure: pointer NULL in h->hashval2[(signed long int)h->head2[(signed long int)h->val2]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.302] line 3429 dereference failure: pointer invalid in h->hashval2[(signed long int)h->head2[(signed long int)h->val2]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.303] line 3429 dereference failure: deallocated dynamic object in h->hashval2[(signed long int)h->head2[(signed long int)h->val2]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.304] line 3429 dereference failure: dead object in h->hashval2[(signed long int)h->head2[(signed long int)h->val2]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.305] line 3429 dereference failure: pointer outside object bounds in h->hashval2[(signed long int)h->head2[(signed long int)h->val2]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.306] line 3429 dereference failure: invalid integer address in h->hashval2[(signed long int)h->head2[(signed long int)h->val2]]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.307] line 3431 dereference failure: pointer NULL in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.308] line 3431 dereference failure: pointer invalid in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.309] line 3431 dereference failure: deallocated dynamic object in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.310] line 3431 dereference failure: dead object in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.311] line 3431 dereference failure: pointer outside object bounds in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.312] line 3431 dereference failure: invalid integer address in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.313] line 3431 dereference failure: pointer NULL in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.314] line 3431 dereference failure: pointer invalid in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.315] line 3431 dereference failure: deallocated dynamic object in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.316] line 3431 dereference failure: dead object in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.317] line 3431 dereference failure: pointer outside object bounds in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.318] line 3431 dereference failure: invalid integer address in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.319] line 3431 dereference failure: pointer NULL in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.320] line 3431 dereference failure: pointer invalid in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.321] line 3431 dereference failure: deallocated dynamic object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.322] line 3431 dereference failure: dead object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.323] line 3431 dereference failure: pointer outside object bounds in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.324] line 3431 dereference failure: invalid integer address in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.325] line 3431 dereference failure: pointer NULL in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.326] line 3431 dereference failure: pointer invalid in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.327] line 3431 dereference failure: deallocated dynamic object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.328] line 3431 dereference failure: dead object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.329] line 3431 dereference failure: pointer outside object bounds in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.330] line 3431 dereference failure: invalid integer address in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.331] line 3431 dereference failure: pointer NULL in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.332] line 3431 dereference failure: pointer invalid in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.333] line 3431 dereference failure: deallocated dynamic object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.334] line 3431 dereference failure: dead object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.335] line 3431 dereference failure: pointer outside object bounds in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.336] line 3431 dereference failure: invalid integer address in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.337] line 3434 dereference failure: pointer NULL in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.338] line 3434 dereference failure: pointer invalid in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.339] line 3434 dereference failure: deallocated dynamic object in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.340] line 3434 dereference failure: dead object in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.341] line 3434 dereference failure: pointer outside object bounds in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.342] line 3434 dereference failure: invalid integer address in h->prev2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.343] line 3434 dereference failure: pointer NULL in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.344] line 3434 dereference failure: pointer invalid in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.345] line 3434 dereference failure: deallocated dynamic object in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.346] line 3434 dereference failure: dead object in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.347] line 3434 dereference failure: pointer outside object bounds in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.348] line 3434 dereference failure: invalid integer address in h->prev2[(signed long int)hpos]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.349] line 3435 dereference failure: pointer NULL in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.350] line 3435 dereference failure: pointer invalid in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.351] line 3435 dereference failure: deallocated dynamic object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.352] line 3435 dereference failure: dead object in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.353] line 3435 dereference failure: pointer outside object bounds in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.354] line 3435 dereference failure: invalid integer address in h->head2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.355] line 3435 dereference failure: pointer NULL in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.356] line 3435 dereference failure: pointer invalid in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.357] line 3435 dereference failure: deallocated dynamic object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.358] line 3435 dereference failure: dead object in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.359] line 3435 dereference failure: pointer outside object bounds in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.360] line 3435 dereference failure: invalid integer address in h->val2: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.361] line 3435 dereference failure: pointer NULL in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.362] line 3435 dereference failure: pointer invalid in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.363] line 3435 dereference failure: deallocated dynamic object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.364] line 3435 dereference failure: dead object in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.365] line 3435 dereference failure: pointer outside object bounds in h->head2[(signed long int)h->val2]: SUCCESS
+[ZopfliUpdateHash.pointer_dereference.366] line 3435 dereference failure: invalid integer address in h->head2[(signed long int)h->val2]: SUCCESS
+
+/app/Syzygy_Zopfli/c_code/zopfli.c function ZopfliVerifyLenDist
+[ZopfliVerifyLenDist.pointer_dereference.1] line 3169 dereference failure: pointer NULL in tmp_cc[(signed long int)((tmp_cc$1 - (unsigned long int)tmp_cc$2) + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.2] line 3169 dereference failure: pointer invalid in tmp_cc[(signed long int)((tmp_cc$1 - (unsigned long int)tmp_cc$2) + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.3] line 3169 dereference failure: deallocated dynamic object in tmp_cc[(signed long int)((tmp_cc$1 - (unsigned long int)tmp_cc$2) + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.4] line 3169 dereference failure: dead object in tmp_cc[(signed long int)((tmp_cc$1 - (unsigned long int)tmp_cc$2) + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.5] line 3169 dereference failure: pointer outside object bounds in tmp_cc[(signed long int)((tmp_cc$1 - (unsigned long int)tmp_cc$2) + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.6] line 3169 dereference failure: invalid integer address in tmp_cc[(signed long int)((tmp_cc$1 - (unsigned long int)tmp_cc$2) + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.7] line 3169 dereference failure: pointer NULL in tmp_cc[(signed long int)(tmp_cc$1 + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.8] line 3169 dereference failure: pointer invalid in tmp_cc[(signed long int)(tmp_cc$1 + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.9] line 3169 dereference failure: deallocated dynamic object in tmp_cc[(signed long int)(tmp_cc$1 + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.10] line 3169 dereference failure: dead object in tmp_cc[(signed long int)(tmp_cc$1 + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.11] line 3169 dereference failure: pointer outside object bounds in tmp_cc[(signed long int)(tmp_cc$1 + k)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.12] line 3169 dereference failure: invalid integer address in tmp_cc[(signed long int)(tmp_cc$1 + k)]: SUCCESS
+[ZopfliVerifyLenDist.assertion.1] line 3177 assertion pos + length <= datasize: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.13] line 3180 dereference failure: pointer NULL in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.14] line 3180 dereference failure: pointer invalid in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.15] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.16] line 3180 dereference failure: dead object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.17] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.18] line 3180 dereference failure: invalid integer address in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.19] line 3180 dereference failure: pointer NULL in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.20] line 3180 dereference failure: pointer invalid in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.21] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.22] line 3180 dereference failure: dead object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.23] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.24] line 3180 dereference failure: invalid integer address in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.25] line 3180 dereference failure: pointer NULL in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.26] line 3180 dereference failure: pointer invalid in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.27] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.28] line 3180 dereference failure: dead object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.29] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.30] line 3180 dereference failure: invalid integer address in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.31] line 3180 dereference failure: pointer NULL in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.32] line 3180 dereference failure: pointer invalid in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.33] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.34] line 3180 dereference failure: dead object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.35] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.36] line 3180 dereference failure: invalid integer address in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.37] line 3180 dereference failure: pointer NULL in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.38] line 3180 dereference failure: pointer invalid in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.39] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.40] line 3180 dereference failure: dead object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.41] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.42] line 3180 dereference failure: invalid integer address in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.43] line 3180 dereference failure: pointer NULL in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.44] line 3180 dereference failure: pointer invalid in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.45] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.46] line 3180 dereference failure: dead object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.47] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.48] line 3180 dereference failure: invalid integer address in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.49] line 3180 dereference failure: pointer NULL in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.50] line 3180 dereference failure: pointer invalid in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.51] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.52] line 3180 dereference failure: dead object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.53] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.54] line 3180 dereference failure: invalid integer address in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.55] line 3180 dereference failure: pointer NULL in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.56] line 3180 dereference failure: pointer invalid in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.57] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.58] line 3180 dereference failure: dead object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.59] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.60] line 3180 dereference failure: invalid integer address in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.61] line 3180 dereference failure: pointer NULL in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.62] line 3180 dereference failure: pointer invalid in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.63] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.64] line 3180 dereference failure: dead object in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.65] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.66] line 3180 dereference failure: invalid integer address in data[(signed long int)((pos - (unsigned long int)dist) + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.67] line 3180 dereference failure: pointer NULL in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.68] line 3180 dereference failure: pointer invalid in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.69] line 3180 dereference failure: deallocated dynamic object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.70] line 3180 dereference failure: dead object in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.71] line 3180 dereference failure: pointer outside object bounds in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.pointer_dereference.72] line 3180 dereference failure: invalid integer address in data[(signed long int)(pos + i)]: SUCCESS
+[ZopfliVerifyLenDist.assertion.2] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.3] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.4] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.5] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+[ZopfliVerifyLenDist.assertion.6] line 3182 assertion data[pos - dist + i] == data[pos + i]: FAILURE
+
+/app/Syzygy_Zopfli/c_code/zopfli.c function ZopfliWarmupHash
+[ZopfliWarmupHash.pointer_dereference.1] line 3222 dereference failure: pointer NULL in array[(signed long int)(pos + (unsigned long int)0)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.2] line 3222 dereference failure: pointer invalid in array[(signed long int)(pos + (unsigned long int)0)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.3] line 3222 dereference failure: deallocated dynamic object in array[(signed long int)(pos + (unsigned long int)0)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.4] line 3222 dereference failure: dead object in array[(signed long int)(pos + (unsigned long int)0)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.5] line 3222 dereference failure: pointer outside object bounds in array[(signed long int)(pos + (unsigned long int)0)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.6] line 3222 dereference failure: invalid integer address in array[(signed long int)(pos + (unsigned long int)0)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.7] line 3224 dereference failure: pointer NULL in array[(signed long int)(pos + (unsigned long int)1)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.8] line 3224 dereference failure: pointer invalid in array[(signed long int)(pos + (unsigned long int)1)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.9] line 3224 dereference failure: deallocated dynamic object in array[(signed long int)(pos + (unsigned long int)1)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.10] line 3224 dereference failure: dead object in array[(signed long int)(pos + (unsigned long int)1)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.11] line 3224 dereference failure: pointer outside object bounds in array[(signed long int)(pos + (unsigned long int)1)]: SUCCESS
+[ZopfliWarmupHash.pointer_dereference.12] line 3224 dereference failure: invalid integer address in array[(signed long int)(pos + (unsigned long int)1)]: SUCCESS
+
+/app/Syzygy_Zopfli/c_code/zopfli.c function read_stdin_to_bytes
+[read_stdin_to_bytes.pointer_dereference.1] line 5113 dereference failure: pointer NULL in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.2] line 5113 dereference failure: pointer invalid in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.3] line 5113 dereference failure: deallocated dynamic object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.4] line 5113 dereference failure: dead object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.5] line 5113 dereference failure: pointer outside object bounds in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.6] line 5113 dereference failure: invalid integer address in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.7] line 5113 dereference failure: pointer NULL in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.8] line 5113 dereference failure: pointer invalid in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.9] line 5113 dereference failure: deallocated dynamic object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.10] line 5113 dereference failure: dead object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.11] line 5113 dereference failure: pointer outside object bounds in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.12] line 5113 dereference failure: invalid integer address in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.13] line 5113 dereference failure: pointer NULL in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.14] line 5113 dereference failure: pointer invalid in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.15] line 5113 dereference failure: deallocated dynamic object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.16] line 5113 dereference failure: dead object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.17] line 5113 dereference failure: pointer outside object bounds in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.18] line 5113 dereference failure: invalid integer address in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.19] line 5113 dereference failure: pointer NULL in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.20] line 5113 dereference failure: pointer invalid in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.21] line 5113 dereference failure: deallocated dynamic object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.22] line 5113 dereference failure: dead object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.23] line 5113 dereference failure: pointer outside object bounds in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.24] line 5113 dereference failure: invalid integer address in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.25] line 5113 dereference failure: pointer NULL in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.26] line 5113 dereference failure: pointer invalid in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.27] line 5113 dereference failure: deallocated dynamic object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.28] line 5113 dereference failure: dead object in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.29] line 5113 dereference failure: pointer outside object bounds in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.30] line 5113 dereference failure: invalid integer address in buffer[(signed long int)tmp_post_total_read]: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.31] line 5117 dereference failure: pointer NULL in *out_size: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.32] line 5117 dereference failure: pointer invalid in *out_size: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.33] line 5117 dereference failure: deallocated dynamic object in *out_size: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.34] line 5117 dereference failure: dead object in *out_size: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.35] line 5117 dereference failure: pointer outside object bounds in *out_size: SUCCESS
+[read_stdin_to_bytes.pointer_dereference.36] line 5117 dereference failure: invalid integer address in *out_size: SUCCESS
+
+<builtin-library-malloc> function malloc
+[malloc.assertion.1] line 31 max allocation size exceeded: SUCCESS
+[malloc.assertion.2] line 36 max allocation may fail: SUCCESS
+
+** 5 of 24672 failed (6 iterations)
+VERIFICATION FAILED
+EXIT: 10

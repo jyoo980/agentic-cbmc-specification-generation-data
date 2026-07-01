@@ -1,0 +1,322 @@
+[vfprintf.pointer_dereference.1] line 23 dereference failure: pointer NULL in *stream: SUCCESS
+[vfprintf.pointer_dereference.2] line 23 dereference failure: pointer invalid in *stream: SUCCESS
+[vfprintf.pointer_dereference.3] line 23 dereference failure: deallocated dynamic object in *stream: SUCCESS
+[vfprintf.pointer_dereference.4] line 23 dereference failure: dead object in *stream: SUCCESS
+[vfprintf.pointer_dereference.5] line 23 dereference failure: pointer outside object bounds in *stream: SUCCESS
+[vfprintf.pointer_dereference.6] line 23 dereference failure: invalid integer address in *stream: SUCCESS
+[vfprintf.pointer_dereference.7] line 29 dereference failure: pointer NULL in *format: SUCCESS
+[vfprintf.pointer_dereference.8] line 29 dereference failure: pointer invalid in *format: SUCCESS
+[vfprintf.pointer_dereference.9] line 29 dereference failure: deallocated dynamic object in *format: SUCCESS
+[vfprintf.pointer_dereference.10] line 29 dereference failure: dead object in *format: SUCCESS
+[vfprintf.pointer_dereference.11] line 29 dereference failure: pointer outside object bounds in *format: SUCCESS
+[vfprintf.pointer_dereference.12] line 29 dereference failure: invalid integer address in *format: SUCCESS
+[ZopfliInitCache.pointer_dereference.1] line 3601 dereference failure: pointer NULL in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.2] line 3601 dereference failure: pointer invalid in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.3] line 3601 dereference failure: deallocated dynamic object in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.4] line 3601 dereference failure: dead object in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.5] line 3601 dereference failure: pointer outside object bounds in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.6] line 3601 dereference failure: invalid integer address in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.postcondition.1] line 3601 Check ensures clause: FAILURE
+[ZopfliInitCache.pointer_dereference.7] line 3602 dereference failure: pointer NULL in tmp_cc$0->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.8] line 3602 dereference failure: pointer invalid in tmp_cc$0->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.9] line 3602 dereference failure: deallocated dynamic object in tmp_cc$0->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.10] line 3602 dereference failure: dead object in tmp_cc$0->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.11] line 3602 dereference failure: pointer outside object bounds in tmp_cc$0->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.12] line 3602 dereference failure: invalid integer address in tmp_cc$0->dist: SUCCESS
+[ZopfliInitCache.postcondition.2] line 3602 Check ensures clause: FAILURE
+[ZopfliInitCache.pointer_dereference.13] line 3603 dereference failure: pointer NULL in tmp_cc$0->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.14] line 3603 dereference failure: pointer invalid in tmp_cc$0->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.15] line 3603 dereference failure: deallocated dynamic object in tmp_cc$0->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.16] line 3603 dereference failure: dead object in tmp_cc$0->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.17] line 3603 dereference failure: pointer outside object bounds in tmp_cc$0->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.18] line 3603 dereference failure: invalid integer address in tmp_cc$0->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.19] line 3604 dereference failure: pointer NULL in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.20] line 3604 dereference failure: pointer invalid in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.21] line 3604 dereference failure: deallocated dynamic object in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.22] line 3604 dereference failure: dead object in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.23] line 3604 dereference failure: pointer outside object bounds in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.24] line 3604 dereference failure: invalid integer address in tmp_cc$0->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.25] line 3604 dereference failure: pointer NULL in tmp_cc$0->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.26] line 3604 dereference failure: pointer invalid in tmp_cc$0->length[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.27] line 3604 dereference failure: deallocated dynamic object in tmp_cc$0->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.28] line 3604 dereference failure: dead object in tmp_cc$0->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.29] line 3604 dereference failure: pointer outside object bounds in tmp_cc$0->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.30] line 3604 dereference failure: invalid integer address in tmp_cc$0->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.postcondition.4] line 3604 Check ensures clause: FAILURE
+[ZopfliInitCache.pointer_dereference.31] line 3605 dereference failure: pointer NULL in tmp_cc$0->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.32] line 3605 dereference failure: pointer invalid in tmp_cc$0->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.33] line 3605 dereference failure: deallocated dynamic object in tmp_cc$0->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.34] line 3605 dereference failure: dead object in tmp_cc$0->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.35] line 3605 dereference failure: pointer outside object bounds in tmp_cc$0->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.36] line 3605 dereference failure: invalid integer address in tmp_cc$0->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.37] line 3605 dereference failure: pointer NULL in tmp_cc$0->dist[(signed long int)k2]: FAILURE
+[ZopfliInitCache.pointer_dereference.38] line 3605 dereference failure: pointer invalid in tmp_cc$0->dist[(signed long int)k2]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.39] line 3605 dereference failure: deallocated dynamic object in tmp_cc$0->dist[(signed long int)k2]: FAILURE
+[ZopfliInitCache.pointer_dereference.40] line 3605 dereference failure: dead object in tmp_cc$0->dist[(signed long int)k2]: FAILURE
+[ZopfliInitCache.pointer_dereference.41] line 3605 dereference failure: pointer outside object bounds in tmp_cc$0->dist[(signed long int)k2]: FAILURE
+[ZopfliInitCache.pointer_dereference.42] line 3605 dereference failure: invalid integer address in tmp_cc$0->dist[(signed long int)k2]: FAILURE
+[ZopfliInitCache.postcondition.5] line 3605 Check ensures clause: FAILURE
+[ZopfliInitCache.pointer_dereference.43] line 3606 dereference failure: pointer NULL in tmp_cc$0->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.44] line 3606 dereference failure: pointer invalid in tmp_cc$0->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.45] line 3606 dereference failure: deallocated dynamic object in tmp_cc$0->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.46] line 3606 dereference failure: dead object in tmp_cc$0->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.47] line 3606 dereference failure: pointer outside object bounds in tmp_cc$0->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.48] line 3606 dereference failure: invalid integer address in tmp_cc$0->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.49] line 3606 dereference failure: pointer NULL in tmp_cc$0->sublen[(signed long int)k3]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.50] line 3606 dereference failure: pointer invalid in tmp_cc$0->sublen[(signed long int)k3]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.51] line 3606 dereference failure: deallocated dynamic object in tmp_cc$0->sublen[(signed long int)k3]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.52] line 3606 dereference failure: dead object in tmp_cc$0->sublen[(signed long int)k3]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.53] line 3606 dereference failure: pointer outside object bounds in tmp_cc$0->sublen[(signed long int)k3]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.54] line 3606 dereference failure: invalid integer address in tmp_cc$0->sublen[(signed long int)k3]: UNKNOWN
+[ZopfliInitCache.postcondition.6] line 3606 Check ensures clause: FAILURE
+[ZopfliInitCache.pointer_dereference.55] line 3609 dereference failure: pointer NULL in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.56] line 3609 dereference failure: pointer invalid in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.57] line 3609 dereference failure: deallocated dynamic object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.58] line 3609 dereference failure: dead object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.59] line 3609 dereference failure: pointer outside object bounds in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.60] line 3609 dereference failure: invalid integer address in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.61] line 3610 dereference failure: pointer NULL in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.62] line 3610 dereference failure: pointer invalid in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.63] line 3610 dereference failure: deallocated dynamic object in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.64] line 3610 dereference failure: dead object in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.65] line 3610 dereference failure: pointer outside object bounds in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.66] line 3610 dereference failure: invalid integer address in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.67] line 3612 dereference failure: pointer NULL in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.68] line 3612 dereference failure: pointer invalid in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.69] line 3612 dereference failure: deallocated dynamic object in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.70] line 3612 dereference failure: dead object in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.71] line 3612 dereference failure: pointer outside object bounds in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.72] line 3612 dereference failure: invalid integer address in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.73] line 3613 dereference failure: pointer NULL in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.74] line 3613 dereference failure: pointer invalid in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.75] line 3613 dereference failure: deallocated dynamic object in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.76] line 3613 dereference failure: dead object in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.77] line 3613 dereference failure: pointer outside object bounds in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.78] line 3613 dereference failure: invalid integer address in lmc->sublen: SUCCESS
+[ZopfliInitCache.3] line 3623 Check that loop invariant is preserved: FAILURE
+[ZopfliInitCache.assigns.13] line 3623 Check that __CPROVER_POINTER_OBJECT((void *)lmc->length) is assignable: FAILURE
+[ZopfliInitCache.pointer_dereference.79] line 3626 dereference failure: pointer NULL in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.80] line 3626 dereference failure: pointer invalid in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.81] line 3626 dereference failure: deallocated dynamic object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.82] line 3626 dereference failure: dead object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.83] line 3626 dereference failure: pointer outside object bounds in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.84] line 3626 dereference failure: invalid integer address in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.85] line 3626 dereference failure: pointer NULL in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.86] line 3626 dereference failure: pointer invalid in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.87] line 3626 dereference failure: deallocated dynamic object in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.88] line 3626 dereference failure: dead object in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.89] line 3626 dereference failure: pointer outside object bounds in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.90] line 3626 dereference failure: invalid integer address in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.91] line 3626 dereference failure: pointer NULL in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.92] line 3626 dereference failure: pointer invalid in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.93] line 3626 dereference failure: deallocated dynamic object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.94] line 3626 dereference failure: dead object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.95] line 3626 dereference failure: pointer outside object bounds in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.96] line 3626 dereference failure: invalid integer address in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.97] line 3626 dereference failure: pointer NULL in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.98] line 3626 dereference failure: pointer invalid in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.99] line 3626 dereference failure: deallocated dynamic object in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.100] line 3626 dereference failure: dead object in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.101] line 3626 dereference failure: pointer outside object bounds in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.102] line 3626 dereference failure: invalid integer address in lmc->length[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.115] line 3626 dereference failure: pointer NULL in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.116] line 3626 dereference failure: pointer invalid in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.117] line 3626 dereference failure: deallocated dynamic object in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.118] line 3626 dereference failure: dead object in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.119] line 3626 dereference failure: pointer outside object bounds in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.120] line 3626 dereference failure: invalid integer address in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.121] line 3626 dereference failure: pointer NULL in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.122] line 3626 dereference failure: pointer invalid in lmc->length[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.123] line 3626 dereference failure: deallocated dynamic object in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.124] line 3626 dereference failure: dead object in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.125] line 3626 dereference failure: pointer outside object bounds in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.126] line 3626 dereference failure: invalid integer address in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.139] line 3626 dereference failure: pointer NULL in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.140] line 3626 dereference failure: pointer invalid in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.141] line 3626 dereference failure: deallocated dynamic object in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.142] line 3626 dereference failure: dead object in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.143] line 3626 dereference failure: pointer outside object bounds in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.144] line 3626 dereference failure: invalid integer address in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.145] line 3626 dereference failure: pointer NULL in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.146] line 3626 dereference failure: pointer invalid in lmc->length[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.147] line 3626 dereference failure: deallocated dynamic object in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.148] line 3626 dereference failure: dead object in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.149] line 3626 dereference failure: pointer outside object bounds in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.150] line 3626 dereference failure: invalid integer address in lmc->length[(signed long int)k]: FAILURE
+[ZopfliInitCache.assigns.11] line 3627 Check that lmc->length[(signed long int)i] is assignable: FAILURE
+[ZopfliInitCache.assigns.14] line 3627 Check that lmc->length[(signed long int)i] is assignable: FAILURE
+[ZopfliInitCache.pointer_dereference.103] line 3627 dereference failure: pointer NULL in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.104] line 3627 dereference failure: pointer invalid in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.105] line 3627 dereference failure: deallocated dynamic object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.106] line 3627 dereference failure: dead object in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.107] line 3627 dereference failure: pointer outside object bounds in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.108] line 3627 dereference failure: invalid integer address in lmc->length: SUCCESS
+[ZopfliInitCache.pointer_dereference.109] line 3627 dereference failure: pointer NULL in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.110] line 3627 dereference failure: pointer invalid in lmc->length[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.111] line 3627 dereference failure: deallocated dynamic object in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.112] line 3627 dereference failure: dead object in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.113] line 3627 dereference failure: pointer outside object bounds in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.114] line 3627 dereference failure: invalid integer address in lmc->length[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.127] line 3627 dereference failure: pointer NULL in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.128] line 3627 dereference failure: pointer invalid in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.129] line 3627 dereference failure: deallocated dynamic object in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.130] line 3627 dereference failure: dead object in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.131] line 3627 dereference failure: pointer outside object bounds in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.132] line 3627 dereference failure: invalid integer address in lmc->length: UNKNOWN
+[ZopfliInitCache.pointer_dereference.133] line 3627 dereference failure: pointer NULL in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.134] line 3627 dereference failure: pointer invalid in lmc->length[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.135] line 3627 dereference failure: deallocated dynamic object in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.136] line 3627 dereference failure: dead object in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.137] line 3627 dereference failure: pointer outside object bounds in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.138] line 3627 dereference failure: invalid integer address in lmc->length[(signed long int)i]: FAILURE
+[ZopfliInitCache.7] line 3628 Check that loop invariant is preserved: FAILURE
+[ZopfliInitCache.assigns.21] line 3628 Check that __CPROVER_POINTER_OBJECT((void *)lmc->dist) is assignable: FAILURE
+[ZopfliInitCache.pointer_dereference.151] line 3631 dereference failure: pointer NULL in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.152] line 3631 dereference failure: pointer invalid in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.153] line 3631 dereference failure: deallocated dynamic object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.154] line 3631 dereference failure: dead object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.155] line 3631 dereference failure: pointer outside object bounds in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.156] line 3631 dereference failure: invalid integer address in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.157] line 3631 dereference failure: pointer NULL in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.158] line 3631 dereference failure: pointer invalid in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.159] line 3631 dereference failure: deallocated dynamic object in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.160] line 3631 dereference failure: dead object in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.161] line 3631 dereference failure: pointer outside object bounds in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.162] line 3631 dereference failure: invalid integer address in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.163] line 3631 dereference failure: pointer NULL in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.164] line 3631 dereference failure: pointer invalid in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.165] line 3631 dereference failure: deallocated dynamic object in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.166] line 3631 dereference failure: dead object in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.167] line 3631 dereference failure: pointer outside object bounds in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.168] line 3631 dereference failure: invalid integer address in lmc->dist: SUCCESS
+[ZopfliInitCache.pointer_dereference.169] line 3631 dereference failure: pointer NULL in lmc->dist[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.170] line 3631 dereference failure: pointer invalid in lmc->dist[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.171] line 3631 dereference failure: deallocated dynamic object in lmc->dist[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.172] line 3631 dereference failure: dead object in lmc->dist[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.173] line 3631 dereference failure: pointer outside object bounds in lmc->dist[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.174] line 3631 dereference failure: invalid integer address in lmc->dist[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.187] line 3631 dereference failure: pointer NULL in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.188] line 3631 dereference failure: pointer invalid in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.189] line 3631 dereference failure: deallocated dynamic object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.190] line 3631 dereference failure: dead object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.191] line 3631 dereference failure: pointer outside object bounds in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.192] line 3631 dereference failure: invalid integer address in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.193] line 3631 dereference failure: pointer NULL in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.194] line 3631 dereference failure: pointer invalid in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.195] line 3631 dereference failure: deallocated dynamic object in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.196] line 3631 dereference failure: dead object in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.197] line 3631 dereference failure: pointer outside object bounds in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.198] line 3631 dereference failure: invalid integer address in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.211] line 3631 dereference failure: pointer NULL in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.212] line 3631 dereference failure: pointer invalid in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.213] line 3631 dereference failure: deallocated dynamic object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.214] line 3631 dereference failure: dead object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.215] line 3631 dereference failure: pointer outside object bounds in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.216] line 3631 dereference failure: invalid integer address in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.217] line 3631 dereference failure: pointer NULL in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.218] line 3631 dereference failure: pointer invalid in lmc->dist[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.219] line 3631 dereference failure: deallocated dynamic object in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.220] line 3631 dereference failure: dead object in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.221] line 3631 dereference failure: pointer outside object bounds in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.pointer_dereference.222] line 3631 dereference failure: invalid integer address in lmc->dist[(signed long int)k]: FAILURE
+[ZopfliInitCache.assigns.19] line 3632 Check that lmc->dist[(signed long int)i] is assignable: FAILURE
+[ZopfliInitCache.assigns.22] line 3632 Check that lmc->dist[(signed long int)i] is assignable: FAILURE
+[ZopfliInitCache.pointer_dereference.175] line 3632 dereference failure: pointer NULL in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.176] line 3632 dereference failure: pointer invalid in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.177] line 3632 dereference failure: deallocated dynamic object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.178] line 3632 dereference failure: dead object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.179] line 3632 dereference failure: pointer outside object bounds in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.180] line 3632 dereference failure: invalid integer address in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.181] line 3632 dereference failure: pointer NULL in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.182] line 3632 dereference failure: pointer invalid in lmc->dist[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.183] line 3632 dereference failure: deallocated dynamic object in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.184] line 3632 dereference failure: dead object in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.185] line 3632 dereference failure: pointer outside object bounds in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.186] line 3632 dereference failure: invalid integer address in lmc->dist[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.199] line 3632 dereference failure: pointer NULL in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.200] line 3632 dereference failure: pointer invalid in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.201] line 3632 dereference failure: deallocated dynamic object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.202] line 3632 dereference failure: dead object in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.203] line 3632 dereference failure: pointer outside object bounds in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.204] line 3632 dereference failure: invalid integer address in lmc->dist: UNKNOWN
+[ZopfliInitCache.pointer_dereference.205] line 3632 dereference failure: pointer NULL in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.206] line 3632 dereference failure: pointer invalid in lmc->dist[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.207] line 3632 dereference failure: deallocated dynamic object in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.208] line 3632 dereference failure: dead object in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.209] line 3632 dereference failure: pointer outside object bounds in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.pointer_dereference.210] line 3632 dereference failure: invalid integer address in lmc->dist[(signed long int)i]: FAILURE
+[ZopfliInitCache.11] line 3633 Check that loop invariant is preserved: FAILURE
+[ZopfliInitCache.pointer_dereference.223] line 3636 dereference failure: pointer NULL in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.224] line 3636 dereference failure: pointer invalid in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.225] line 3636 dereference failure: deallocated dynamic object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.226] line 3636 dereference failure: dead object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.227] line 3636 dereference failure: pointer outside object bounds in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.228] line 3636 dereference failure: invalid integer address in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.229] line 3636 dereference failure: pointer NULL in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.230] line 3636 dereference failure: pointer invalid in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.231] line 3636 dereference failure: deallocated dynamic object in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.232] line 3636 dereference failure: dead object in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.233] line 3636 dereference failure: pointer outside object bounds in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.234] line 3636 dereference failure: invalid integer address in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.235] line 3636 dereference failure: pointer NULL in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.236] line 3636 dereference failure: pointer invalid in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.237] line 3636 dereference failure: deallocated dynamic object in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.238] line 3636 dereference failure: dead object in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.239] line 3636 dereference failure: pointer outside object bounds in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.240] line 3636 dereference failure: invalid integer address in lmc->sublen: SUCCESS
+[ZopfliInitCache.pointer_dereference.241] line 3636 dereference failure: pointer NULL in lmc->sublen[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.242] line 3636 dereference failure: pointer invalid in lmc->sublen[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.243] line 3636 dereference failure: deallocated dynamic object in lmc->sublen[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.244] line 3636 dereference failure: dead object in lmc->sublen[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.245] line 3636 dereference failure: pointer outside object bounds in lmc->sublen[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.246] line 3636 dereference failure: invalid integer address in lmc->sublen[(signed long int)k]: SUCCESS
+[ZopfliInitCache.pointer_dereference.259] line 3636 dereference failure: pointer NULL in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.260] line 3636 dereference failure: pointer invalid in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.261] line 3636 dereference failure: deallocated dynamic object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.262] line 3636 dereference failure: dead object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.263] line 3636 dereference failure: pointer outside object bounds in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.264] line 3636 dereference failure: invalid integer address in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.265] line 3636 dereference failure: pointer NULL in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.266] line 3636 dereference failure: pointer invalid in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.267] line 3636 dereference failure: deallocated dynamic object in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.268] line 3636 dereference failure: dead object in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.269] line 3636 dereference failure: pointer outside object bounds in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.270] line 3636 dereference failure: invalid integer address in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.283] line 3636 dereference failure: pointer NULL in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.284] line 3636 dereference failure: pointer invalid in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.285] line 3636 dereference failure: deallocated dynamic object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.286] line 3636 dereference failure: dead object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.287] line 3636 dereference failure: pointer outside object bounds in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.288] line 3636 dereference failure: invalid integer address in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.289] line 3636 dereference failure: pointer NULL in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.290] line 3636 dereference failure: pointer invalid in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.291] line 3636 dereference failure: deallocated dynamic object in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.292] line 3636 dereference failure: dead object in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.293] line 3636 dereference failure: pointer outside object bounds in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.294] line 3636 dereference failure: invalid integer address in lmc->sublen[(signed long int)k]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.247] line 3637 dereference failure: pointer NULL in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.248] line 3637 dereference failure: pointer invalid in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.249] line 3637 dereference failure: deallocated dynamic object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.250] line 3637 dereference failure: dead object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.251] line 3637 dereference failure: pointer outside object bounds in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.252] line 3637 dereference failure: invalid integer address in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.253] line 3637 dereference failure: pointer NULL in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.254] line 3637 dereference failure: pointer invalid in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.255] line 3637 dereference failure: deallocated dynamic object in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.256] line 3637 dereference failure: dead object in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.257] line 3637 dereference failure: pointer outside object bounds in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.258] line 3637 dereference failure: invalid integer address in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.271] line 3637 dereference failure: pointer NULL in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.272] line 3637 dereference failure: pointer invalid in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.273] line 3637 dereference failure: deallocated dynamic object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.274] line 3637 dereference failure: dead object in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.275] line 3637 dereference failure: pointer outside object bounds in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.276] line 3637 dereference failure: invalid integer address in lmc->sublen: UNKNOWN
+[ZopfliInitCache.pointer_dereference.277] line 3637 dereference failure: pointer NULL in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.278] line 3637 dereference failure: pointer invalid in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.279] line 3637 dereference failure: deallocated dynamic object in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.280] line 3637 dereference failure: dead object in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.281] line 3637 dereference failure: pointer outside object bounds in lmc->sublen[(signed long int)i]: UNKNOWN
+[ZopfliInitCache.pointer_dereference.282] line 3637 dereference failure: invalid integer address in lmc->sublen[(signed long int)i]: UNKNOWN
+** 62 of 381 failed (44 iterations)
+VERIFICATION FAILED

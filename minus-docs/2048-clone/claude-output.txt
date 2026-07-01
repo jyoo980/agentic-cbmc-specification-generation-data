@@ -1,0 +1,93 @@
+2026-06-26 22:46:37.882 | INFO     | avocado_verify:main:270 - 18 function(s) to verify in callees-first order: addRandom, getColors, getDigitCount, drawBoard, countEmpty, findPairDown, rotateBoard, gameEnded, initBoard, findTarget, slideArray, moveUp, moveDown, moveLeft, moveRight, setBufferedInput, testSucceed, signal_callback_handler
+2026-06-26 22:46:37.882 | INFO     | avocado_verify:main:276 - [1/18] addRandom: generating spec via claude -p
+2026-06-26 22:46:37.882 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify addRandom in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:04:58.018 | INFO     | avocado_verify:_verify_via_agent:415 - addRandom: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:04:58.765 | INFO     | avocado_verify:main:286 - [1/18] addRandom: VERIFIED
+2026-06-26 23:04:58.765 | INFO     | avocado_verify:main:276 - [2/18] getColors: generating spec via claude -p
+2026-06-26 23:04:58.765 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify getColors in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:07:49.389 | INFO     | avocado_verify:_verify_via_agent:415 - getColors: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:07:49.905 | INFO     | avocado_verify:main:286 - [2/18] getColors: VERIFIED
+2026-06-26 23:07:49.905 | INFO     | avocado_verify:main:276 - [3/18] getDigitCount: generating spec via claude -p
+2026-06-26 23:07:49.905 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify getDigitCount in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:09:16.434 | INFO     | avocado_verify:_verify_via_agent:415 - getDigitCount: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:09:16.883 | INFO     | avocado_verify:main:286 - [3/18] getDigitCount: UNVERIFIED
+2026-06-26 23:09:16.883 | INFO     | avocado_verify:main:276 - [4/18] drawBoard: generating spec via claude -p
+2026-06-26 23:09:16.883 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify drawBoard in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:12:21.627 | INFO     | avocado_verify:_verify_via_agent:415 - drawBoard: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:12:22.863 | INFO     | avocado_verify:main:286 - [4/18] drawBoard: VERIFIED
+2026-06-26 23:12:22.863 | INFO     | avocado_verify:main:276 - [5/18] countEmpty: generating spec via claude -p
+2026-06-26 23:12:22.863 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify countEmpty in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:13:55.487 | INFO     | avocado_verify:_verify_via_agent:415 - countEmpty: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:13:55.969 | INFO     | avocado_verify:main:286 - [5/18] countEmpty: VERIFIED
+2026-06-26 23:13:55.969 | INFO     | avocado_verify:main:276 - [6/18] findPairDown: generating spec via claude -p
+2026-06-26 23:13:55.969 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify findPairDown in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:16:29.358 | INFO     | avocado_verify:_verify_via_agent:415 - findPairDown: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:16:29.901 | INFO     | avocado_verify:main:286 - [6/18] findPairDown: VERIFIED
+2026-06-26 23:16:29.901 | INFO     | avocado_verify:main:276 - [7/18] rotateBoard: generating spec via claude -p
+2026-06-26 23:16:29.901 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify rotateBoard in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:29:39.799 | INFO     | avocado_verify:_verify_via_agent:415 - rotateBoard: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:29:40.354 | INFO     | avocado_verify:main:286 - [7/18] rotateBoard: VERIFIED
+2026-06-26 23:29:40.354 | INFO     | avocado_verify:main:276 - [8/18] gameEnded: generating spec via claude -p
+2026-06-26 23:29:40.354 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify gameEnded in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:36:17.771 | INFO     | avocado_verify:_verify_via_agent:415 - gameEnded: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:36:18.520 | INFO     | avocado_verify:main:286 - [8/18] gameEnded: VERIFIED
+2026-06-26 23:36:18.520 | INFO     | avocado_verify:main:276 - [9/18] initBoard: generating spec via claude -p
+2026-06-26 23:36:18.520 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify initBoard in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:37:29.855 | INFO     | avocado_verify:_verify_via_agent:415 - initBoard: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:37:30.439 | INFO     | avocado_verify:main:286 - [9/18] initBoard: VERIFIED
+2026-06-26 23:37:30.439 | INFO     | avocado_verify:main:276 - [10/18] findTarget: generating spec via claude -p
+2026-06-26 23:37:30.440 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify findTarget in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:51:08.893 | INFO     | avocado_verify:_verify_via_agent:415 - findTarget: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:51:09.482 | INFO     | avocado_verify:main:286 - [10/18] findTarget: VERIFIED
+2026-06-26 23:51:09.482 | INFO     | avocado_verify:main:276 - [11/18] slideArray: generating spec via claude -p
+2026-06-26 23:51:09.482 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify slideArray in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:57:56.949 | INFO     | avocado_verify:_verify_via_agent:415 - slideArray: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:57:57.791 | INFO     | avocado_verify:main:286 - [11/18] slideArray: VERIFIED
+2026-06-26 23:57:57.791 | INFO     | avocado_verify:main:276 - [12/18] moveUp: generating spec via claude -p
+2026-06-26 23:57:57.791 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify moveUp in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-26 23:59:35.170 | INFO     | avocado_verify:_verify_via_agent:415 - moveUp: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 23:59:35.770 | INFO     | avocado_verify:main:286 - [12/18] moveUp: VERIFIED
+2026-06-26 23:59:35.770 | INFO     | avocado_verify:main:276 - [13/18] moveDown: generating spec via claude -p
+2026-06-26 23:59:35.770 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify moveDown in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-27 00:02:05.993 | INFO     | avocado_verify:_verify_via_agent:415 - moveDown: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:02:06.753 | INFO     | avocado_verify:main:286 - [13/18] moveDown: VERIFIED
+2026-06-27 00:02:06.753 | INFO     | avocado_verify:main:276 - [14/18] moveLeft: generating spec via claude -p
+2026-06-27 00:02:06.753 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify moveLeft in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-27 00:06:31.612 | INFO     | avocado_verify:_verify_via_agent:415 - moveLeft: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:06:32.367 | INFO     | avocado_verify:main:286 - [14/18] moveLeft: VERIFIED
+2026-06-27 00:06:32.367 | INFO     | avocado_verify:main:276 - [15/18] moveRight: generating spec via claude -p
+2026-06-27 00:06:32.368 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify moveRight in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-27 00:07:17.735 | INFO     | avocado_verify:_verify_via_agent:415 - moveRight: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:07:18.500 | INFO     | avocado_verify:main:286 - [15/18] moveRight: VERIFIED
+2026-06-27 00:07:18.500 | INFO     | avocado_verify:main:276 - [16/18] setBufferedInput: generating spec via claude -p
+2026-06-27 00:07:18.500 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify setBufferedInput in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-27 00:35:51.539 | INFO     | avocado_verify:_verify_via_agent:415 - setBufferedInput: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:35:52.032 | INFO     | avocado_verify:main:286 - [16/18] setBufferedInput: VERIFIED
+2026-06-27 00:35:52.032 | INFO     | avocado_verify:main:276 - [17/18] testSucceed: generating spec via claude -p
+2026-06-27 00:35:52.032 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify testSucceed in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-27 00:37:55.838 | INFO     | avocado_verify:_verify_via_agent:415 - testSucceed: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:37:56.390 | INFO     | avocado_verify:main:286 - [17/18] testSucceed: VERIFIED
+2026-06-27 00:37:56.390 | INFO     | avocado_verify:main:276 - [18/18] signal_callback_handler: generating spec via claude -p
+2026-06-27 00:37:56.391 | DEBUG    | avocado_verify:_run_claude:680 - running: claude --print 'Verify signal_callback_handler in /app/2048-clone/2048.c' --output-format json --dangerously-skip-permissions --add-dir /app/2048-clone
+2026-06-27 00:38:46.061 | INFO     | avocado_verify:_verify_via_agent:415 - signal_callback_handler: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:main:286 - [18/18] signal_callback_handler: VERIFIED
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:810 - verify summary:
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          addRandom
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          getColors
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   UNVERIFIED        getDigitCount
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          drawBoard
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          countEmpty
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          findPairDown
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          rotateBoard
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          gameEnded
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          initBoard
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          findTarget
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          slideArray
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          moveUp
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          moveDown
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          moveLeft
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          moveRight
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          setBufferedInput
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          testSucceed
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:812 -   VERIFIED          signal_callback_handler
+2026-06-27 00:38:46.590 | INFO     | avocado_verify:_log_summary:816 - 17/18 function(s) verified; log written to /app/2048-clone/2048-verify.jsonl

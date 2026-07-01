@@ -1,0 +1,587 @@
+2026-06-26 16:55:14.932 | INFO     | avocado_verify:main:272 - 101 function(s) to verify in callees-first order: read_stdin_to_bytes, AddBit, AddBits, AddHuffmanBits, InitNode, BoundaryPM, BoundaryPMFinal, ExtractBitLengths, InitLists, ZopfliLengthLimitedCodeLengths, ZopfliCalculateBitLengths, ZopfliLengthsToSymbols, EncodeTree, AddDynamicTree, ZopfliGetDistExtraBits, ZopfliGetDistExtraBitsValue, ZopfliGetDistSymbol, ZopfliGetLengthExtraBits, ZopfliGetLengthExtraBitsValue, ZopfliGetLengthSymbol, AddLZ77Data, AddNonCompressedBlock, PatchDistanceCodesForBuggyDecoders, ZopfliGetDistSymbolExtraBits, ZopfliGetLengthSymbolExtraBits, CalculateBlockSymbolSizeSmall, CalculateBlockSymbolSizeGivenCounts, CalculateTreeSize, AbsDiff, OptimizeHuffmanForRle, TryOptimizeHuffmanForRle, ZopfliLZ77GetHistogramAt, ZopfliLZ77GetHistogram, GetDynamicLengths, GetFixedTree, ZopfliLZ77GetByteRange, AddLZ77Block, CalculateBlockSymbolSize, ZopfliCalculateBlockSize, ZopfliCleanCache, ZopfliCleanBlockState, ZopfliCleanLZ77Store, ZopfliInitCache, ZopfliInitBlockState, ZopfliInitLZ77Store, GetMatch, ZopfliMaxCachedSublen, ZopfliSublenToCache, StoreInLongestMatchCache, ZopfliCacheToSublen, TryGetFromLongestMatchCache, ZopfliFindLongestMatch, ZopfliResetHash, ZopfliStoreLitLenDist, UpdateHashValue, ZopfliUpdateHash, ZopfliVerifyLenDist, ZopfliWarmupHash, FollowPath, GetCostModelMinCost, zopfli_min, GetBestLengths, TraceBackwards, LZ77OptimalRun, ZopfliAllocHash, ZopfliCleanHash, ZopfliLZ77OptimalFixed, AddLZ77BlockAutoType, ZopfliAppendLZ77Store, AddSorted, ZopfliCalculateBlockSizeAutoType, EstimateCost, FindLargestSplittableBlock, FindMinimum, PrintBlockSplitPoints, ZopfliBlockSplitLZ77, GetLengthScore, ZopfliLZ77Greedy, ZopfliBlockSplit, AddWeighedStatFreqs, ZopfliCalculateEntropy, CalculateStatistics, ClearStatFreqs, CopyStats, GetStatistics, InitRanState, InitStats, Ran, RandomizeFreqs, RandomizeStatFreqs, CeilDiv, ZopfliCopyLZ77Store, ZopfliLZ77Optimal, ZopfliDeflatePart, ZopfliDeflate, single_test, run_all_tests, GetCostFixed, GetCostStat, SplitCost, LeafComparator
+2026-06-26 16:55:14.932 | INFO     | avocado_verify:main:278 - [1/101] read_stdin_to_bytes: generating spec via claude -p
+2026-06-26 16:55:14.932 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify read_stdin_to_bytes in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 17:02:00.823 | WARNING  | avocado_verify:_verify_via_agent:400 - read_stdin_to_bytes: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 17:02:00.823 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify read_stdin_to_bytes in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 17:07:51.704 | INFO     | avocado_verify:main:288 - [1/101] read_stdin_to_bytes: VERIFIED
+2026-06-26 17:07:51.704 | INFO     | avocado_verify:main:278 - [2/101] AddBit: generating spec via claude -p
+2026-06-26 17:07:51.704 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddBit in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 17:25:38.274 | WARNING  | avocado_verify:_verify_via_agent:400 - AddBit: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 17:25:38.274 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddBit in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 17:27:30.407 | INFO     | avocado_verify:main:288 - [2/101] AddBit: VERIFIED
+2026-06-26 17:27:30.407 | INFO     | avocado_verify:main:278 - [3/101] AddBits: generating spec via claude -p
+2026-06-26 17:27:30.407 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 17:56:34.614 | WARNING  | avocado_verify:_verify_via_agent:400 - AddBits: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 17:56:34.615 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 18:26:37.394 | INFO     | avocado_verify:main:288 - [3/101] AddBits: VERIFIED
+2026-06-26 18:26:37.394 | INFO     | avocado_verify:main:278 - [4/101] AddHuffmanBits: generating spec via claude -p
+2026-06-26 18:26:37.394 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddHuffmanBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 18:31:33.082 | WARNING  | avocado_verify:_verify_via_agent:400 - AddHuffmanBits: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 18:31:33.082 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddHuffmanBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 18:37:55.779 | INFO     | avocado_verify:main:288 - [4/101] AddHuffmanBits: VERIFIED
+2026-06-26 18:37:55.780 | INFO     | avocado_verify:main:278 - [5/101] InitNode: generating spec via claude -p
+2026-06-26 18:37:55.780 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify InitNode in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 18:39:25.500 | INFO     | avocado_verify:_verify_via_agent:411 - InitNode: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 18:39:27.671 | INFO     | avocado_verify:main:288 - [5/101] InitNode: VERIFIED
+2026-06-26 18:39:27.671 | INFO     | avocado_verify:main:278 - [6/101] BoundaryPM: generating spec via claude -p
+2026-06-26 18:39:27.672 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify BoundaryPM in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 19:09:27.941 | WARNING  | avocado_verify:_verify_via_agent:400 - BoundaryPM: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 19:09:27.941 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify BoundaryPM in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 19:39:31.830 | INFO     | avocado_verify:main:288 - [6/101] BoundaryPM: VERIFIED
+2026-06-26 19:39:31.830 | INFO     | avocado_verify:main:278 - [7/101] BoundaryPMFinal: generating spec via claude -p
+2026-06-26 19:39:31.830 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify BoundaryPMFinal in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 20:09:32.109 | WARNING  | avocado_verify:_verify_via_agent:400 - BoundaryPMFinal: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 20:09:32.109 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify BoundaryPMFinal in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 20:39:35.656 | INFO     | avocado_verify:main:288 - [7/101] BoundaryPMFinal: VERIFIED
+2026-06-26 20:39:35.656 | INFO     | avocado_verify:main:278 - [8/101] ExtractBitLengths: generating spec via claude -p
+2026-06-26 20:39:35.657 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ExtractBitLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 21:09:35.919 | WARNING  | avocado_verify:_verify_via_agent:400 - ExtractBitLengths: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 21:09:35.919 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ExtractBitLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 21:38:40.763 | INFO     | avocado_verify:main:288 - [8/101] ExtractBitLengths: VERIFIED
+2026-06-26 21:38:40.763 | INFO     | avocado_verify:main:278 - [9/101] InitLists: generating spec via claude -p
+2026-06-26 21:38:40.763 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify InitLists in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 21:45:36.367 | WARNING  | avocado_verify:_verify_via_agent:400 - InitLists: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 21:45:36.368 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify InitLists in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 21:52:39.642 | INFO     | avocado_verify:main:288 - [9/101] InitLists: VERIFIED
+2026-06-26 21:52:39.643 | INFO     | avocado_verify:main:278 - [10/101] ZopfliLengthLimitedCodeLengths: generating spec via claude -p
+2026-06-26 21:52:39.643 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLengthLimitedCodeLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 22:22:39.990 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLengthLimitedCodeLengths: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 22:22:39.990 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLengthLimitedCodeLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 22:52:42.914 | INFO     | avocado_verify:main:288 - [10/101] ZopfliLengthLimitedCodeLengths: VERIFIED
+2026-06-26 22:52:42.914 | INFO     | avocado_verify:main:278 - [11/101] ZopfliCalculateBitLengths: generating spec via claude -p
+2026-06-26 22:52:42.914 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateBitLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 22:56:22.576 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliCalculateBitLengths: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-26 22:56:24.785 | INFO     | avocado_verify:main:288 - [11/101] ZopfliCalculateBitLengths: VERIFIED
+2026-06-26 22:56:24.785 | INFO     | avocado_verify:main:278 - [12/101] ZopfliLengthsToSymbols: generating spec via claude -p
+2026-06-26 22:56:24.785 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLengthsToSymbols in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 23:22:55.632 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLengthsToSymbols: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 23:22:55.632 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLengthsToSymbols in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 23:30:47.172 | INFO     | avocado_verify:main:288 - [12/101] ZopfliLengthsToSymbols: VERIFIED
+2026-06-26 23:30:47.172 | INFO     | avocado_verify:main:278 - [13/101] EncodeTree: generating spec via claude -p
+2026-06-26 23:30:47.173 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify EncodeTree in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-26 23:46:46.955 | WARNING  | avocado_verify:_verify_via_agent:400 - EncodeTree: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-26 23:46:46.955 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify EncodeTree in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:16:53.098 | INFO     | avocado_verify:main:288 - [13/101] EncodeTree: VERIFIED
+2026-06-27 00:16:53.098 | INFO     | avocado_verify:main:278 - [14/101] AddDynamicTree: generating spec via claude -p
+2026-06-27 00:16:53.098 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddDynamicTree in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:23:16.683 | WARNING  | avocado_verify:_verify_via_agent:400 - AddDynamicTree: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 00:23:16.683 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddDynamicTree in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:24:12.391 | INFO     | avocado_verify:main:288 - [14/101] AddDynamicTree: VERIFIED
+2026-06-27 00:24:12.392 | INFO     | avocado_verify:main:278 - [15/101] ZopfliGetDistExtraBits: generating spec via claude -p
+2026-06-27 00:24:12.392 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistExtraBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:27:23.079 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliGetDistExtraBits: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 00:27:23.079 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistExtraBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:29:21.532 | INFO     | avocado_verify:main:288 - [15/101] ZopfliGetDistExtraBits: VERIFIED
+2026-06-27 00:29:21.532 | INFO     | avocado_verify:main:278 - [16/101] ZopfliGetDistExtraBitsValue: generating spec via claude -p
+2026-06-27 00:29:21.532 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistExtraBitsValue in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:32:55.697 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliGetDistExtraBitsValue: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 00:32:55.698 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistExtraBitsValue in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:34:35.347 | INFO     | avocado_verify:main:288 - [16/101] ZopfliGetDistExtraBitsValue: VERIFIED
+2026-06-27 00:34:35.347 | INFO     | avocado_verify:main:278 - [17/101] ZopfliGetDistSymbol: generating spec via claude -p
+2026-06-27 00:34:35.347 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistSymbol in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:38:02.308 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliGetDistSymbol: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 00:38:02.309 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistSymbol in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:39:54.621 | INFO     | avocado_verify:main:288 - [17/101] ZopfliGetDistSymbol: VERIFIED
+2026-06-27 00:39:54.622 | INFO     | avocado_verify:main:278 - [18/101] ZopfliGetLengthExtraBits: generating spec via claude -p
+2026-06-27 00:39:54.622 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetLengthExtraBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:41:33.693 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliGetLengthExtraBits: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:41:35.948 | INFO     | avocado_verify:main:288 - [18/101] ZopfliGetLengthExtraBits: VERIFIED
+2026-06-27 00:41:35.948 | INFO     | avocado_verify:main:278 - [19/101] ZopfliGetLengthExtraBitsValue: generating spec via claude -p
+2026-06-27 00:41:35.949 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetLengthExtraBitsValue in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:44:20.360 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliGetLengthExtraBitsValue: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:44:22.545 | INFO     | avocado_verify:main:288 - [19/101] ZopfliGetLengthExtraBitsValue: VERIFIED
+2026-06-27 00:44:22.545 | INFO     | avocado_verify:main:278 - [20/101] ZopfliGetLengthSymbol: generating spec via claude -p
+2026-06-27 00:44:22.545 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetLengthSymbol in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 00:45:45.972 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliGetLengthSymbol: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 00:45:48.136 | INFO     | avocado_verify:main:288 - [20/101] ZopfliGetLengthSymbol: VERIFIED
+2026-06-27 00:45:48.136 | INFO     | avocado_verify:main:278 - [21/101] AddLZ77Data: generating spec via claude -p
+2026-06-27 00:45:48.136 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddLZ77Data in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:15:48.417 | WARNING  | avocado_verify:_verify_via_agent:400 - AddLZ77Data: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 01:15:48.417 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddLZ77Data in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:29:27.663 | INFO     | avocado_verify:main:288 - [21/101] AddLZ77Data: VERIFIED
+2026-06-27 01:29:27.663 | INFO     | avocado_verify:main:278 - [22/101] AddNonCompressedBlock: generating spec via claude -p
+2026-06-27 01:29:27.664 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddNonCompressedBlock in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:38:03.002 | WARNING  | avocado_verify:_verify_via_agent:400 - AddNonCompressedBlock: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 01:38:03.002 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddNonCompressedBlock in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:41:16.997 | INFO     | avocado_verify:main:288 - [22/101] AddNonCompressedBlock: VERIFIED
+2026-06-27 01:41:16.998 | INFO     | avocado_verify:main:278 - [23/101] PatchDistanceCodesForBuggyDecoders: generating spec via claude -p
+2026-06-27 01:41:16.998 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify PatchDistanceCodesForBuggyDecoders in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:49:24.438 | WARNING  | avocado_verify:_verify_via_agent:400 - PatchDistanceCodesForBuggyDecoders: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 01:49:24.438 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify PatchDistanceCodesForBuggyDecoders in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:50:56.936 | INFO     | avocado_verify:main:288 - [23/101] PatchDistanceCodesForBuggyDecoders: VERIFIED
+2026-06-27 01:50:56.936 | INFO     | avocado_verify:main:278 - [24/101] ZopfliGetDistSymbolExtraBits: generating spec via claude -p
+2026-06-27 01:50:56.936 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetDistSymbolExtraBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:52:22.083 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliGetDistSymbolExtraBits: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 01:52:24.432 | INFO     | avocado_verify:main:288 - [24/101] ZopfliGetDistSymbolExtraBits: VERIFIED
+2026-06-27 01:52:24.432 | INFO     | avocado_verify:main:278 - [25/101] ZopfliGetLengthSymbolExtraBits: generating spec via claude -p
+2026-06-27 01:52:24.432 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetLengthSymbolExtraBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:54:37.099 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliGetLengthSymbolExtraBits: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 01:54:37.099 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliGetLengthSymbolExtraBits in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 01:55:40.759 | INFO     | avocado_verify:main:288 - [25/101] ZopfliGetLengthSymbolExtraBits: VERIFIED
+2026-06-27 01:55:40.759 | INFO     | avocado_verify:main:278 - [26/101] CalculateBlockSymbolSizeSmall: generating spec via claude -p
+2026-06-27 01:55:40.759 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateBlockSymbolSizeSmall in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:13:15.206 | WARNING  | avocado_verify:_verify_via_agent:400 - CalculateBlockSymbolSizeSmall: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 02:13:15.206 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateBlockSymbolSizeSmall in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:17:03.806 | INFO     | avocado_verify:main:288 - [26/101] CalculateBlockSymbolSizeSmall: VERIFIED
+2026-06-27 02:17:03.806 | INFO     | avocado_verify:main:278 - [27/101] CalculateBlockSymbolSizeGivenCounts: generating spec via claude -p
+2026-06-27 02:17:03.806 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateBlockSymbolSizeGivenCounts in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:31:32.186 | WARNING  | avocado_verify:_verify_via_agent:400 - CalculateBlockSymbolSizeGivenCounts: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 02:31:32.186 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateBlockSymbolSizeGivenCounts in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:40:00.929 | INFO     | avocado_verify:main:288 - [27/101] CalculateBlockSymbolSizeGivenCounts: VERIFIED
+2026-06-27 02:40:00.929 | INFO     | avocado_verify:main:278 - [28/101] CalculateTreeSize: generating spec via claude -p
+2026-06-27 02:40:00.929 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateTreeSize in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:45:22.043 | WARNING  | avocado_verify:_verify_via_agent:400 - CalculateTreeSize: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 02:45:22.043 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateTreeSize in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:50:49.196 | INFO     | avocado_verify:main:288 - [28/101] CalculateTreeSize: VERIFIED
+2026-06-27 02:50:49.196 | INFO     | avocado_verify:main:278 - [29/101] AbsDiff: generating spec via claude -p
+2026-06-27 02:50:49.196 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AbsDiff in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:53:35.630 | WARNING  | avocado_verify:_verify_via_agent:400 - AbsDiff: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 02:53:35.630 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AbsDiff in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 02:54:53.701 | INFO     | avocado_verify:main:288 - [29/101] AbsDiff: VERIFIED
+2026-06-27 02:54:53.701 | INFO     | avocado_verify:main:278 - [30/101] OptimizeHuffmanForRle: generating spec via claude -p
+2026-06-27 02:54:53.701 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify OptimizeHuffmanForRle in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 03:24:54.023 | WARNING  | avocado_verify:_verify_via_agent:400 - OptimizeHuffmanForRle: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 03:24:54.023 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify OptimizeHuffmanForRle in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 03:54:56.500 | INFO     | avocado_verify:main:288 - [30/101] OptimizeHuffmanForRle: VERIFIED
+2026-06-27 03:54:56.501 | INFO     | avocado_verify:main:278 - [31/101] TryOptimizeHuffmanForRle: generating spec via claude -p
+2026-06-27 03:54:56.501 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify TryOptimizeHuffmanForRle in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:04:02.600 | WARNING  | avocado_verify:_verify_via_agent:400 - TryOptimizeHuffmanForRle: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 04:04:02.601 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify TryOptimizeHuffmanForRle in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:07:29.456 | INFO     | avocado_verify:main:288 - [31/101] TryOptimizeHuffmanForRle: VERIFIED
+2026-06-27 04:07:29.457 | INFO     | avocado_verify:main:278 - [32/101] ZopfliLZ77GetHistogramAt: generating spec via claude -p
+2026-06-27 04:07:29.457 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77GetHistogramAt in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:19:39.738 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLZ77GetHistogramAt: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 04:19:39.738 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77GetHistogramAt in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:39:43.004 | INFO     | avocado_verify:main:288 - [32/101] ZopfliLZ77GetHistogramAt: VERIFIED
+2026-06-27 04:39:43.004 | INFO     | avocado_verify:main:278 - [33/101] ZopfliLZ77GetHistogram: generating spec via claude -p
+2026-06-27 04:39:43.004 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77GetHistogram in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:48:25.736 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLZ77GetHistogram: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 04:48:25.736 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77GetHistogram in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:53:31.140 | INFO     | avocado_verify:main:288 - [33/101] ZopfliLZ77GetHistogram: VERIFIED
+2026-06-27 04:53:31.140 | INFO     | avocado_verify:main:278 - [34/101] GetDynamicLengths: generating spec via claude -p
+2026-06-27 04:53:31.140 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetDynamicLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 04:58:01.290 | INFO     | avocado_verify:_verify_via_agent:411 - GetDynamicLengths: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 04:58:03.708 | INFO     | avocado_verify:main:288 - [34/101] GetDynamicLengths: VERIFIED
+2026-06-27 04:58:03.708 | INFO     | avocado_verify:main:278 - [35/101] GetFixedTree: generating spec via claude -p
+2026-06-27 04:58:03.708 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetFixedTree in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 05:14:51.922 | WARNING  | avocado_verify:_verify_via_agent:400 - GetFixedTree: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 05:14:51.923 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetFixedTree in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 05:27:55.524 | INFO     | avocado_verify:main:288 - [35/101] GetFixedTree: VERIFIED
+2026-06-27 05:27:55.524 | INFO     | avocado_verify:main:278 - [36/101] ZopfliLZ77GetByteRange: generating spec via claude -p
+2026-06-27 05:27:55.524 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77GetByteRange in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 05:37:12.161 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLZ77GetByteRange: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 05:37:12.161 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77GetByteRange in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 05:38:01.630 | INFO     | avocado_verify:main:288 - [36/101] ZopfliLZ77GetByteRange: VERIFIED
+2026-06-27 05:38:01.630 | INFO     | avocado_verify:main:278 - [37/101] AddLZ77Block: generating spec via claude -p
+2026-06-27 05:38:01.630 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddLZ77Block in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 05:56:53.842 | WARNING  | avocado_verify:_verify_via_agent:400 - AddLZ77Block: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 05:56:53.842 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddLZ77Block in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 06:01:19.714 | INFO     | avocado_verify:main:288 - [37/101] AddLZ77Block: VERIFIED
+2026-06-27 06:01:19.714 | INFO     | avocado_verify:main:278 - [38/101] CalculateBlockSymbolSize: generating spec via claude -p
+2026-06-27 06:01:19.714 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateBlockSymbolSize in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 06:11:08.054 | WARNING  | avocado_verify:_verify_via_agent:400 - CalculateBlockSymbolSize: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 06:11:08.054 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateBlockSymbolSize in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 06:14:46.826 | INFO     | avocado_verify:main:288 - [38/101] CalculateBlockSymbolSize: VERIFIED
+2026-06-27 06:14:46.826 | INFO     | avocado_verify:main:278 - [39/101] ZopfliCalculateBlockSize: generating spec via claude -p
+2026-06-27 06:14:46.826 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateBlockSize in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 06:44:47.126 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliCalculateBlockSize: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 06:44:47.126 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateBlockSize in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 06:58:14.725 | INFO     | avocado_verify:main:288 - [39/101] ZopfliCalculateBlockSize: VERIFIED
+2026-06-27 06:58:14.725 | INFO     | avocado_verify:main:278 - [40/101] ZopfliCleanCache: generating spec via claude -p
+2026-06-27 06:58:14.725 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCleanCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:01:13.973 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliCleanCache: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 07:01:16.203 | INFO     | avocado_verify:main:288 - [40/101] ZopfliCleanCache: VERIFIED
+2026-06-27 07:01:16.203 | INFO     | avocado_verify:main:278 - [41/101] ZopfliCleanBlockState: generating spec via claude -p
+2026-06-27 07:01:16.204 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCleanBlockState in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:02:45.408 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliCleanBlockState: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 07:02:47.730 | INFO     | avocado_verify:main:288 - [41/101] ZopfliCleanBlockState: VERIFIED
+2026-06-27 07:02:47.730 | INFO     | avocado_verify:main:278 - [42/101] ZopfliCleanLZ77Store: generating spec via claude -p
+2026-06-27 07:02:47.730 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCleanLZ77Store in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:04:05.648 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliCleanLZ77Store: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 07:04:08.046 | INFO     | avocado_verify:main:288 - [42/101] ZopfliCleanLZ77Store: VERIFIED
+2026-06-27 07:04:08.046 | INFO     | avocado_verify:main:278 - [43/101] ZopfliInitCache: generating spec via claude -p
+2026-06-27 07:04:08.046 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliInitCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:21:40.665 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliInitCache: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 07:21:40.665 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliInitCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:24:21.367 | INFO     | avocado_verify:main:288 - [43/101] ZopfliInitCache: VERIFIED
+2026-06-27 07:24:21.367 | INFO     | avocado_verify:main:278 - [44/101] ZopfliInitBlockState: generating spec via claude -p
+2026-06-27 07:24:21.367 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliInitBlockState in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:37:02.446 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliInitBlockState: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 07:37:02.446 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliInitBlockState in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:37:36.418 | INFO     | avocado_verify:main:288 - [44/101] ZopfliInitBlockState: VERIFIED
+2026-06-27 07:37:36.418 | INFO     | avocado_verify:main:278 - [45/101] ZopfliInitLZ77Store: generating spec via claude -p
+2026-06-27 07:37:36.418 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliInitLZ77Store in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 07:39:06.629 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliInitLZ77Store: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 07:39:08.901 | INFO     | avocado_verify:main:288 - [45/101] ZopfliInitLZ77Store: VERIFIED
+2026-06-27 07:39:08.901 | INFO     | avocado_verify:main:278 - [46/101] GetMatch: generating spec via claude -p
+2026-06-27 07:39:08.901 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetMatch in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 08:09:09.231 | WARNING  | avocado_verify:_verify_via_agent:400 - GetMatch: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 08:09:09.231 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetMatch in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 08:39:11.814 | INFO     | avocado_verify:main:288 - [46/101] GetMatch: VERIFIED
+2026-06-27 08:39:11.814 | INFO     | avocado_verify:main:278 - [47/101] ZopfliMaxCachedSublen: generating spec via claude -p
+2026-06-27 08:39:11.814 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliMaxCachedSublen in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 08:41:38.304 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliMaxCachedSublen: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 08:41:38.304 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliMaxCachedSublen in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 08:42:13.910 | INFO     | avocado_verify:main:288 - [47/101] ZopfliMaxCachedSublen: VERIFIED
+2026-06-27 08:42:13.910 | INFO     | avocado_verify:main:278 - [48/101] ZopfliSublenToCache: generating spec via claude -p
+2026-06-27 08:42:13.910 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliSublenToCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 09:01:35.198 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliSublenToCache: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 09:01:35.198 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliSublenToCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 09:07:57.363 | INFO     | avocado_verify:main:288 - [48/101] ZopfliSublenToCache: VERIFIED
+2026-06-27 09:07:57.363 | INFO     | avocado_verify:main:278 - [49/101] StoreInLongestMatchCache: generating spec via claude -p
+2026-06-27 09:07:57.363 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify StoreInLongestMatchCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 09:37:57.667 | WARNING  | avocado_verify:_verify_via_agent:400 - StoreInLongestMatchCache: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 09:37:57.667 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify StoreInLongestMatchCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 09:55:22.662 | INFO     | avocado_verify:main:288 - [49/101] StoreInLongestMatchCache: VERIFIED
+2026-06-27 09:55:22.662 | INFO     | avocado_verify:main:278 - [50/101] ZopfliCacheToSublen: generating spec via claude -p
+2026-06-27 09:55:22.662 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCacheToSublen in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 10:25:22.966 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliCacheToSublen: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 10:25:22.966 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCacheToSublen in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 10:35:10.094 | INFO     | avocado_verify:main:288 - [50/101] ZopfliCacheToSublen: VERIFIED
+2026-06-27 10:35:10.094 | INFO     | avocado_verify:main:278 - [51/101] TryGetFromLongestMatchCache: generating spec via claude -p
+2026-06-27 10:35:10.094 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify TryGetFromLongestMatchCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 11:05:10.408 | WARNING  | avocado_verify:_verify_via_agent:400 - TryGetFromLongestMatchCache: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 11:05:10.409 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify TryGetFromLongestMatchCache in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 11:33:55.470 | INFO     | avocado_verify:main:288 - [51/101] TryGetFromLongestMatchCache: VERIFIED
+2026-06-27 11:33:55.470 | INFO     | avocado_verify:main:278 - [52/101] ZopfliFindLongestMatch: generating spec via claude -p
+2026-06-27 11:33:55.470 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliFindLongestMatch in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 12:03:55.832 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliFindLongestMatch: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 12:03:55.832 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliFindLongestMatch in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 12:33:58.762 | INFO     | avocado_verify:main:288 - [52/101] ZopfliFindLongestMatch: VERIFIED
+2026-06-27 12:33:58.762 | INFO     | avocado_verify:main:278 - [53/101] ZopfliResetHash: generating spec via claude -p
+2026-06-27 12:33:58.762 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliResetHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 13:03:58.986 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliResetHash: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 13:03:58.986 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliResetHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 13:16:36.623 | INFO     | avocado_verify:main:288 - [53/101] ZopfliResetHash: VERIFIED
+2026-06-27 13:16:36.623 | INFO     | avocado_verify:main:278 - [54/101] ZopfliStoreLitLenDist: generating spec via claude -p
+2026-06-27 13:16:36.623 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliStoreLitLenDist in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 13:46:19.444 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliStoreLitLenDist: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 13:46:19.444 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliStoreLitLenDist in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 13:53:00.030 | INFO     | avocado_verify:main:288 - [54/101] ZopfliStoreLitLenDist: VERIFIED
+2026-06-27 13:53:00.030 | INFO     | avocado_verify:main:278 - [55/101] UpdateHashValue: generating spec via claude -p
+2026-06-27 13:53:00.030 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify UpdateHashValue in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 13:54:41.179 | INFO     | avocado_verify:_verify_via_agent:411 - UpdateHashValue: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 13:54:43.740 | INFO     | avocado_verify:main:288 - [55/101] UpdateHashValue: VERIFIED
+2026-06-27 13:54:43.740 | INFO     | avocado_verify:main:278 - [56/101] ZopfliUpdateHash: generating spec via claude -p
+2026-06-27 13:54:43.740 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliUpdateHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 14:24:44.004 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliUpdateHash: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 14:24:44.005 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliUpdateHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 14:36:43.916 | INFO     | avocado_verify:main:288 - [56/101] ZopfliUpdateHash: VERIFIED
+2026-06-27 14:36:43.916 | INFO     | avocado_verify:main:278 - [57/101] ZopfliVerifyLenDist: generating spec via claude -p
+2026-06-27 14:36:43.916 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliVerifyLenDist in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 15:06:44.164 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliVerifyLenDist: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 15:06:44.164 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliVerifyLenDist in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 15:12:57.312 | INFO     | avocado_verify:main:288 - [57/101] ZopfliVerifyLenDist: UNVERIFIED
+2026-06-27 15:12:57.312 | INFO     | avocado_verify:main:278 - [58/101] ZopfliWarmupHash: generating spec via claude -p
+2026-06-27 15:12:57.312 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliWarmupHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 15:24:20.093 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliWarmupHash: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 15:24:20.093 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliWarmupHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 15:24:52.670 | INFO     | avocado_verify:main:288 - [58/101] ZopfliWarmupHash: VERIFIED
+2026-06-27 15:24:52.670 | INFO     | avocado_verify:main:278 - [59/101] FollowPath: generating spec via claude -p
+2026-06-27 15:24:52.670 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify FollowPath in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 15:54:53.001 | WARNING  | avocado_verify:_verify_via_agent:400 - FollowPath: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 15:54:53.001 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify FollowPath in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:25:04.501 | INFO     | avocado_verify:main:288 - [59/101] FollowPath: VERIFIED
+2026-06-27 16:25:04.501 | INFO     | avocado_verify:main:278 - [60/101] GetCostModelMinCost: generating spec via claude -p
+2026-06-27 16:25:04.501 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetCostModelMinCost in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:37:45.231 | WARNING  | avocado_verify:_verify_via_agent:400 - GetCostModelMinCost: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 16:37:45.232 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetCostModelMinCost in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:38:39.223 | INFO     | avocado_verify:main:288 - [60/101] GetCostModelMinCost: UNVERIFIED
+2026-06-27 16:38:39.223 | INFO     | avocado_verify:main:278 - [61/101] zopfli_min: generating spec via claude -p
+2026-06-27 16:38:39.223 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify zopfli_min in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:40:38.181 | WARNING  | avocado_verify:_verify_via_agent:400 - zopfli_min: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 16:40:38.181 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify zopfli_min in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:41:29.139 | INFO     | avocado_verify:main:288 - [61/101] zopfli_min: VERIFIED
+2026-06-27 16:41:29.139 | INFO     | avocado_verify:main:278 - [62/101] GetBestLengths: generating spec via claude -p
+2026-06-27 16:41:29.139 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetBestLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:44:29.171 | WARNING  | avocado_verify:_verify_via_agent:400 - GetBestLengths: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 16:44:29.171 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetBestLengths in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 16:45:30.731 | INFO     | avocado_verify:main:288 - [62/101] GetBestLengths: UNVERIFIED
+2026-06-27 16:45:30.731 | INFO     | avocado_verify:main:278 - [63/101] TraceBackwards: generating spec via claude -p
+2026-06-27 16:45:30.731 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify TraceBackwards in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:12:27.587 | WARNING  | avocado_verify:_verify_via_agent:400 - TraceBackwards: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 17:12:27.587 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify TraceBackwards in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:17:30.837 | INFO     | avocado_verify:main:288 - [63/101] TraceBackwards: VERIFIED
+2026-06-27 17:17:30.837 | INFO     | avocado_verify:main:278 - [64/101] LZ77OptimalRun: generating spec via claude -p
+2026-06-27 17:17:30.837 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify LZ77OptimalRun in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:23:27.952 | WARNING  | avocado_verify:_verify_via_agent:400 - LZ77OptimalRun: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 17:23:27.952 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify LZ77OptimalRun in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:24:17.616 | INFO     | avocado_verify:main:288 - [64/101] LZ77OptimalRun: UNVERIFIED
+2026-06-27 17:24:17.616 | INFO     | avocado_verify:main:278 - [65/101] ZopfliAllocHash: generating spec via claude -p
+2026-06-27 17:24:17.616 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliAllocHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:26:10.632 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliAllocHash: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 17:26:12.967 | INFO     | avocado_verify:main:288 - [65/101] ZopfliAllocHash: VERIFIED
+2026-06-27 17:26:12.967 | INFO     | avocado_verify:main:278 - [66/101] ZopfliCleanHash: generating spec via claude -p
+2026-06-27 17:26:12.967 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCleanHash in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:27:37.803 | INFO     | avocado_verify:_verify_via_agent:411 - ZopfliCleanHash: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 17:27:40.130 | INFO     | avocado_verify:main:288 - [66/101] ZopfliCleanHash: VERIFIED
+2026-06-27 17:27:40.130 | INFO     | avocado_verify:main:278 - [67/101] ZopfliLZ77OptimalFixed: generating spec via claude -p
+2026-06-27 17:27:40.130 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77OptimalFixed in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:38:46.213 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLZ77OptimalFixed: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 17:38:46.213 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77OptimalFixed in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 17:39:33.677 | INFO     | avocado_verify:main:288 - [67/101] ZopfliLZ77OptimalFixed: VERIFIED
+2026-06-27 17:39:33.677 | INFO     | avocado_verify:main:278 - [68/101] AddLZ77BlockAutoType: generating spec via claude -p
+2026-06-27 17:39:33.677 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddLZ77BlockAutoType in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 18:03:17.755 | WARNING  | avocado_verify:_verify_via_agent:400 - AddLZ77BlockAutoType: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 18:03:17.755 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddLZ77BlockAutoType in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 18:06:28.075 | INFO     | avocado_verify:main:288 - [68/101] AddLZ77BlockAutoType: VERIFIED
+2026-06-27 18:06:28.075 | INFO     | avocado_verify:main:278 - [69/101] ZopfliAppendLZ77Store: generating spec via claude -p
+2026-06-27 18:06:28.075 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliAppendLZ77Store in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 18:22:26.053 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliAppendLZ77Store: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 18:22:26.053 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliAppendLZ77Store in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 18:23:10.752 | INFO     | avocado_verify:main:288 - [69/101] ZopfliAppendLZ77Store: VERIFIED
+2026-06-27 18:23:10.752 | INFO     | avocado_verify:main:278 - [70/101] AddSorted: generating spec via claude -p
+2026-06-27 18:23:10.752 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddSorted in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 18:53:11.077 | WARNING  | avocado_verify:_verify_via_agent:400 - AddSorted: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 18:53:11.077 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddSorted in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 19:23:14.598 | INFO     | avocado_verify:main:288 - [70/101] AddSorted: VERIFIED
+2026-06-27 19:23:14.598 | INFO     | avocado_verify:main:278 - [71/101] ZopfliCalculateBlockSizeAutoType: generating spec via claude -p
+2026-06-27 19:23:14.598 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateBlockSizeAutoType in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 19:31:04.235 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliCalculateBlockSizeAutoType: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 19:31:04.235 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateBlockSizeAutoType in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 19:33:01.479 | INFO     | avocado_verify:main:288 - [71/101] ZopfliCalculateBlockSizeAutoType: VERIFIED
+2026-06-27 19:33:01.479 | INFO     | avocado_verify:main:278 - [72/101] EstimateCost: generating spec via claude -p
+2026-06-27 19:33:01.479 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify EstimateCost in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 19:34:26.617 | INFO     | avocado_verify:_verify_via_agent:411 - EstimateCost: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 19:34:30.048 | INFO     | avocado_verify:main:288 - [72/101] EstimateCost: VERIFIED
+2026-06-27 19:34:30.048 | INFO     | avocado_verify:main:278 - [73/101] FindLargestSplittableBlock: generating spec via claude -p
+2026-06-27 19:34:30.048 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify FindLargestSplittableBlock in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 20:04:16.130 | WARNING  | avocado_verify:_verify_via_agent:400 - FindLargestSplittableBlock: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 20:04:16.130 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify FindLargestSplittableBlock in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 20:05:45.794 | INFO     | avocado_verify:main:288 - [73/101] FindLargestSplittableBlock: VERIFIED
+2026-06-27 20:05:45.794 | INFO     | avocado_verify:main:278 - [74/101] FindMinimum: generating spec via claude -p
+2026-06-27 20:05:45.794 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify FindMinimum in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 20:14:05.438 | WARNING  | avocado_verify:_verify_via_agent:400 - FindMinimum: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 20:14:05.438 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify FindMinimum in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 20:17:29.260 | INFO     | avocado_verify:main:288 - [74/101] FindMinimum: UNVERIFIED
+2026-06-27 20:17:29.261 | INFO     | avocado_verify:main:278 - [75/101] PrintBlockSplitPoints: generating spec via claude -p
+2026-06-27 20:17:29.261 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify PrintBlockSplitPoints in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 20:47:29.594 | WARNING  | avocado_verify:_verify_via_agent:400 - PrintBlockSplitPoints: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 20:47:29.594 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify PrintBlockSplitPoints in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 20:59:11.460 | INFO     | avocado_verify:main:288 - [75/101] PrintBlockSplitPoints: VERIFIED
+2026-06-27 20:59:11.460 | INFO     | avocado_verify:main:278 - [76/101] ZopfliBlockSplitLZ77: generating spec via claude -p
+2026-06-27 20:59:11.460 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliBlockSplitLZ77 in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:10:56.845 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliBlockSplitLZ77: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 21:10:56.845 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliBlockSplitLZ77 in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:11:31.506 | INFO     | avocado_verify:main:288 - [76/101] ZopfliBlockSplitLZ77: VERIFIED
+2026-06-27 21:11:31.506 | INFO     | avocado_verify:main:278 - [77/101] GetLengthScore: generating spec via claude -p
+2026-06-27 21:11:31.506 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetLengthScore in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:13:49.583 | WARNING  | avocado_verify:_verify_via_agent:400 - GetLengthScore: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 21:13:49.583 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetLengthScore in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:14:49.834 | INFO     | avocado_verify:main:288 - [77/101] GetLengthScore: VERIFIED
+2026-06-27 21:14:49.835 | INFO     | avocado_verify:main:278 - [78/101] ZopfliLZ77Greedy: generating spec via claude -p
+2026-06-27 21:14:49.835 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77Greedy in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:26:33.659 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLZ77Greedy: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 21:26:33.659 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77Greedy in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:28:17.271 | INFO     | avocado_verify:main:288 - [78/101] ZopfliLZ77Greedy: VERIFIED
+2026-06-27 21:28:17.271 | INFO     | avocado_verify:main:278 - [79/101] ZopfliBlockSplit: generating spec via claude -p
+2026-06-27 21:28:17.272 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliBlockSplit in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:40:33.000 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliBlockSplit: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 21:40:33.000 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliBlockSplit in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:41:08.949 | INFO     | avocado_verify:main:288 - [79/101] ZopfliBlockSplit: VERIFIED
+2026-06-27 21:41:08.949 | INFO     | avocado_verify:main:278 - [80/101] AddWeighedStatFreqs: generating spec via claude -p
+2026-06-27 21:41:08.949 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddWeighedStatFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 21:59:33.585 | WARNING  | avocado_verify:_verify_via_agent:400 - AddWeighedStatFreqs: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 21:59:33.585 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify AddWeighedStatFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:02:16.136 | INFO     | avocado_verify:main:288 - [80/101] AddWeighedStatFreqs: VERIFIED
+2026-06-27 22:02:16.136 | INFO     | avocado_verify:main:278 - [81/101] ZopfliCalculateEntropy: generating spec via claude -p
+2026-06-27 22:02:16.136 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateEntropy in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:24:06.466 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliCalculateEntropy: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 22:24:06.466 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCalculateEntropy in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:26:58.379 | INFO     | avocado_verify:main:288 - [81/101] ZopfliCalculateEntropy: VERIFIED
+2026-06-27 22:26:58.379 | INFO     | avocado_verify:main:278 - [82/101] CalculateStatistics: generating spec via claude -p
+2026-06-27 22:26:58.379 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CalculateStatistics in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:30:43.763 | INFO     | avocado_verify:_verify_via_agent:411 - CalculateStatistics: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 22:30:56.961 | INFO     | avocado_verify:main:288 - [82/101] CalculateStatistics: UNVERIFIED
+2026-06-27 22:30:56.962 | INFO     | avocado_verify:main:278 - [83/101] ClearStatFreqs: generating spec via claude -p
+2026-06-27 22:30:56.962 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ClearStatFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:37:16.828 | WARNING  | avocado_verify:_verify_via_agent:400 - ClearStatFreqs: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 22:37:16.828 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ClearStatFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:39:32.289 | INFO     | avocado_verify:main:288 - [83/101] ClearStatFreqs: VERIFIED
+2026-06-27 22:39:32.289 | INFO     | avocado_verify:main:278 - [84/101] CopyStats: generating spec via claude -p
+2026-06-27 22:39:32.289 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CopyStats in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 22:43:03.242 | INFO     | avocado_verify:_verify_via_agent:411 - CopyStats: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 22:43:08.092 | INFO     | avocado_verify:main:288 - [84/101] CopyStats: VERIFIED
+2026-06-27 22:43:08.092 | INFO     | avocado_verify:main:278 - [85/101] GetStatistics: generating spec via claude -p
+2026-06-27 22:43:08.092 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetStatistics in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 23:13:08.360 | WARNING  | avocado_verify:_verify_via_agent:400 - GetStatistics: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 23:13:08.360 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetStatistics in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 23:43:12.551 | INFO     | avocado_verify:main:288 - [85/101] GetStatistics: VERIFIED
+2026-06-27 23:43:12.551 | INFO     | avocado_verify:main:278 - [86/101] InitRanState: generating spec via claude -p
+2026-06-27 23:43:12.551 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify InitRanState in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 23:44:41.633 | INFO     | avocado_verify:_verify_via_agent:411 - InitRanState: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 23:44:44.045 | INFO     | avocado_verify:main:288 - [86/101] InitRanState: VERIFIED
+2026-06-27 23:44:44.045 | INFO     | avocado_verify:main:278 - [87/101] InitStats: generating spec via claude -p
+2026-06-27 23:44:44.046 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify InitStats in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 23:45:31.977 | INFO     | avocado_verify:_verify_via_agent:411 - InitStats: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-27 23:45:36.889 | INFO     | avocado_verify:main:288 - [87/101] InitStats: VERIFIED
+2026-06-27 23:45:36.889 | INFO     | avocado_verify:main:278 - [88/101] Ran: generating spec via claude -p
+2026-06-27 23:45:36.889 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify Ran in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 23:48:29.924 | WARNING  | avocado_verify:_verify_via_agent:400 - Ran: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-27 23:48:29.924 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify Ran in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-27 23:50:36.344 | INFO     | avocado_verify:main:288 - [88/101] Ran: VERIFIED
+2026-06-27 23:50:36.344 | INFO     | avocado_verify:main:278 - [89/101] RandomizeFreqs: generating spec via claude -p
+2026-06-27 23:50:36.344 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify RandomizeFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 00:01:52.181 | WARNING  | avocado_verify:_verify_via_agent:400 - RandomizeFreqs: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 00:01:52.181 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify RandomizeFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 00:05:31.292 | INFO     | avocado_verify:main:288 - [89/101] RandomizeFreqs: VERIFIED
+2026-06-28 00:05:31.292 | INFO     | avocado_verify:main:278 - [90/101] RandomizeStatFreqs: generating spec via claude -p
+2026-06-28 00:05:31.292 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify RandomizeStatFreqs in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 00:11:52.404 | INFO     | avocado_verify:_verify_via_agent:411 - RandomizeStatFreqs: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-28 00:11:56.500 | INFO     | avocado_verify:main:288 - [90/101] RandomizeStatFreqs: VERIFIED
+2026-06-28 00:11:56.500 | INFO     | avocado_verify:main:278 - [91/101] CeilDiv: generating spec via claude -p
+2026-06-28 00:11:56.500 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CeilDiv in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 00:41:56.897 | WARNING  | avocado_verify:_verify_via_agent:400 - CeilDiv: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 00:41:56.897 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify CeilDiv in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 01:21:58.230 | INFO     | avocado_verify:main:288 - [91/101] CeilDiv: CLAUDE_TIMED_OUT
+2026-06-28 01:21:58.230 | INFO     | avocado_verify:main:278 - [92/101] ZopfliCopyLZ77Store: generating spec via claude -p
+2026-06-28 01:21:58.230 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCopyLZ77Store in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 01:49:22.428 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliCopyLZ77Store: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 01:49:22.428 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliCopyLZ77Store in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:10:03.223 | INFO     | avocado_verify:main:288 - [92/101] ZopfliCopyLZ77Store: VERIFIED
+2026-06-28 02:10:03.223 | INFO     | avocado_verify:main:278 - [93/101] ZopfliLZ77Optimal: generating spec via claude -p
+2026-06-28 02:10:03.223 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77Optimal in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:24:20.849 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliLZ77Optimal: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 02:24:20.849 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliLZ77Optimal in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:25:09.853 | INFO     | avocado_verify:main:288 - [93/101] ZopfliLZ77Optimal: VERIFIED
+2026-06-28 02:25:09.853 | INFO     | avocado_verify:main:278 - [94/101] ZopfliDeflatePart: generating spec via claude -p
+2026-06-28 02:25:09.853 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliDeflatePart in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:36:05.768 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliDeflatePart: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 02:36:05.769 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliDeflatePart in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:37:27.667 | INFO     | avocado_verify:main:288 - [94/101] ZopfliDeflatePart: VERIFIED
+2026-06-28 02:37:27.667 | INFO     | avocado_verify:main:278 - [95/101] ZopfliDeflate: generating spec via claude -p
+2026-06-28 02:37:27.667 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliDeflate in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:49:47.114 | WARNING  | avocado_verify:_verify_via_agent:400 - ZopfliDeflate: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 02:49:47.114 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify ZopfliDeflate in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 02:56:38.035 | INFO     | avocado_verify:main:288 - [95/101] ZopfliDeflate: VERIFIED
+2026-06-28 02:56:38.036 | INFO     | avocado_verify:main:278 - [96/101] single_test: generating spec via claude -p
+2026-06-28 02:56:38.036 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify single_test in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 03:00:30.487 | INFO     | avocado_verify:_verify_via_agent:411 - single_test: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-28 03:00:33.026 | INFO     | avocado_verify:main:288 - [96/101] single_test: VERIFIED
+2026-06-28 03:00:33.026 | INFO     | avocado_verify:main:278 - [97/101] run_all_tests: generating spec via claude -p
+2026-06-28 03:00:33.026 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify run_all_tests in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 03:03:39.006 | INFO     | avocado_verify:_verify_via_agent:411 - run_all_tests: verified with no mutants after 1 session(s); skipping the attempt-count floor (no kill score to raise)
+2026-06-28 03:03:41.752 | INFO     | avocado_verify:main:288 - [97/101] run_all_tests: VERIFIED
+2026-06-28 03:03:41.752 | INFO     | avocado_verify:main:278 - [98/101] GetCostFixed: generating spec via claude -p
+2026-06-28 03:03:41.752 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetCostFixed in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 03:13:37.501 | WARNING  | avocado_verify:_verify_via_agent:400 - GetCostFixed: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 03:13:37.502 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetCostFixed in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 03:14:58.024 | INFO     | avocado_verify:main:288 - [98/101] GetCostFixed: VERIFIED
+2026-06-28 03:14:58.024 | INFO     | avocado_verify:main:278 - [99/101] GetCostStat: generating spec via claude -p
+2026-06-28 03:14:58.024 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetCostStat in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 03:44:58.376 | WARNING  | avocado_verify:_verify_via_agent:400 - GetCostStat: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 03:44:58.376 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify GetCostStat in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 04:15:04.073 | INFO     | avocado_verify:main:288 - [99/101] GetCostStat: VERIFIED
+2026-06-28 04:15:04.073 | INFO     | avocado_verify:main:278 - [100/101] SplitCost: generating spec via claude -p
+2026-06-28 04:15:04.073 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify SplitCost in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 04:25:45.187 | WARNING  | avocado_verify:_verify_via_agent:400 - SplitCost: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 04:25:45.187 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify SplitCost in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 04:27:12.556 | INFO     | avocado_verify:main:288 - [100/101] SplitCost: VERIFIED
+2026-06-28 04:27:12.556 | INFO     | avocado_verify:main:278 - [101/101] LeafComparator: generating spec via claude -p
+2026-06-28 04:27:12.556 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify LeafComparator in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 04:29:36.194 | WARNING  | avocado_verify:_verify_via_agent:400 - LeafComparator: agent attempted verification 1/2 time(s); re-running session (2/3)
+2026-06-28 04:29:36.194 | DEBUG    | avocado_verify:_run_claude:604 - running: claude --print 'Verify LeafComparator in /app/Syzygy_Zopfli/c_code/zopfli.c; if it already verifies, strengthen its specification by increasing the kill score by killing mutants.' --output-format json --dangerously-skip-permissions --add-dir /app/Syzygy_Zopfli/c_code
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:main:288 - [101/101] LeafComparator: VERIFIED
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:734 - verify summary:
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          read_stdin_to_bytes
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddBit
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddBits
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddHuffmanBits
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          InitNode
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          BoundaryPM
+2026-06-28 04:30:02.699 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          BoundaryPMFinal
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ExtractBitLengths
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          InitLists
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLengthLimitedCodeLengths
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCalculateBitLengths
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLengthsToSymbols
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          EncodeTree
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddDynamicTree
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetDistExtraBits
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetDistExtraBitsValue
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetDistSymbol
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetLengthExtraBits
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetLengthExtraBitsValue
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetLengthSymbol
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddLZ77Data
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddNonCompressedBlock
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          PatchDistanceCodesForBuggyDecoders
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetDistSymbolExtraBits
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliGetLengthSymbolExtraBits
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          CalculateBlockSymbolSizeSmall
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          CalculateBlockSymbolSizeGivenCounts
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          CalculateTreeSize
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AbsDiff
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          OptimizeHuffmanForRle
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          TryOptimizeHuffmanForRle
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLZ77GetHistogramAt
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLZ77GetHistogram
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetDynamicLengths
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetFixedTree
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLZ77GetByteRange
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddLZ77Block
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          CalculateBlockSymbolSize
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCalculateBlockSize
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCleanCache
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCleanBlockState
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCleanLZ77Store
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliInitCache
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliInitBlockState
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliInitLZ77Store
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetMatch
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliMaxCachedSublen
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliSublenToCache
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          StoreInLongestMatchCache
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCacheToSublen
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          TryGetFromLongestMatchCache
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliFindLongestMatch
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliResetHash
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliStoreLitLenDist
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          UpdateHashValue
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliUpdateHash
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   UNVERIFIED        ZopfliVerifyLenDist
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliWarmupHash
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          FollowPath
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   UNVERIFIED        GetCostModelMinCost
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          zopfli_min
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   UNVERIFIED        GetBestLengths
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          TraceBackwards
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   UNVERIFIED        LZ77OptimalRun
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliAllocHash
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCleanHash
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLZ77OptimalFixed
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddLZ77BlockAutoType
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliAppendLZ77Store
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddSorted
+2026-06-28 04:30:02.700 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCalculateBlockSizeAutoType
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          EstimateCost
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          FindLargestSplittableBlock
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   UNVERIFIED        FindMinimum
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          PrintBlockSplitPoints
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliBlockSplitLZ77
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetLengthScore
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLZ77Greedy
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliBlockSplit
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          AddWeighedStatFreqs
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCalculateEntropy
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   UNVERIFIED        CalculateStatistics
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ClearStatFreqs
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          CopyStats
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetStatistics
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          InitRanState
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          InitStats
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          Ran
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          RandomizeFreqs
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          RandomizeStatFreqs
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   CLAUDE_TIMED_OUT  CeilDiv
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliCopyLZ77Store
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliLZ77Optimal
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliDeflatePart
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          ZopfliDeflate
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          single_test
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          run_all_tests
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetCostFixed
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          GetCostStat
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          SplitCost
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:736 -   VERIFIED          LeafComparator
+2026-06-28 04:30:02.701 | INFO     | avocado_verify:_log_summary:740 - 94/101 function(s) verified; log written to /app/Syzygy_Zopfli/c_code/zopfli-verify.jsonl

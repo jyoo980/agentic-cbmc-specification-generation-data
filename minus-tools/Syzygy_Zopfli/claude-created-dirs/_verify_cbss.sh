@@ -1,0 +1,11 @@
+#!/bin/bash
+set -u
+SRC=/app/Syzygy_Zopfli/c_code/zopfli.c
+FUNCTION=CalculateBlockSymbolSize
+WORK=/app/_verify_cbss
+rm -rf $WORK; mkdir -p $WORK; cd $WORK
+cp $SRC mutated.c
+goto-cc -o m.goto mutated.c -I /app/Syzygy_Zopfli/c_code --function $FUNCTION 2>/tmp/cc.err || { echo CCFAIL; cat /tmp/cc.err; exit 1; }
+goto-instrument --partial-loops --unwind 5 m.goto m.goto 2>/dev/null
+goto-instrument --replace-call-with-contract CalculateBlockSymbolSizeSmall --replace-call-with-contract ZopfliLZ77GetHistogram --replace-call-with-contract CalculateBlockSymbolSizeGivenCounts --enforce-contract $FUNCTION m.goto mc.goto 2>/dev/null
+cbmc mc.goto --function $FUNCTION --depth 200 2>&1 | grep -E "VERIFICATION (SUCCESSFUL|FAILED)"

@@ -1,0 +1,944 @@
+You must try to kill the follow mutant(s):
+
+--- original
++++ mutant
+@@ -3287 +3287 @@
+-    assert(pos + *length <= size);
++    assert(pos + *length < size);
+
+--- original
++++ mutant
+@@ -3287 +3287 @@
+-    assert(pos + *length <= size);
++    assert(pos + *length > size);
+
+--- original
++++ mutant
+@@ -3287 +3287 @@
+-    assert(pos + *length <= size);
++    assert(pos + *length >= size);
+
+--- original
++++ mutant
+@@ -3287 +3287 @@
+-    assert(pos + *length <= size);
++    assert(pos + *length == size);
+
+--- original
++++ mutant
+@@ -3287 +3287 @@
+-    assert(pos + *length <= size);
++    assert(pos + *length != size);
+
+--- original
++++ mutant
+@@ -3283 +3283 @@
+-    assert(bestlength <= limit);
++    assert(bestlength < limit);
+
+--- original
++++ mutant
+@@ -3283 +3283 @@
+-    assert(bestlength <= limit);
++    assert(bestlength > limit);
+
+--- original
++++ mutant
+@@ -3283 +3283 @@
+-    assert(bestlength <= limit);
++    assert(bestlength >= limit);
+
+--- original
++++ mutant
+@@ -3283 +3283 @@
+-    assert(bestlength <= limit);
++    assert(bestlength == limit);
+
+--- original
++++ mutant
+@@ -3283 +3283 @@
+-    assert(bestlength <= limit);
++    assert(bestlength != limit);
+
+--- original
++++ mutant
+@@ -3277 +3277 @@
+-        if (chain_counter <= 0)
++        if (chain_counter < 0)
+
+--- original
++++ mutant
+@@ -3277 +3277 @@
+-        if (chain_counter <= 0)
++        if (chain_counter > 0)
+
+--- original
++++ mutant
+@@ -3277 +3277 @@
+-        if (chain_counter <= 0)
++        if (chain_counter >= 0)
+
+--- original
++++ mutant
+@@ -3277 +3277 @@
+-        if (chain_counter <= 0)
++        if (chain_counter == 0)
+
+--- original
++++ mutant
+@@ -3277 +3277 @@
+-        if (chain_counter <= 0)
++        if (chain_counter != 0)
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p <= pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p > pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p >= pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p == pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p != pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3271 +3271 @@
+-        if (p == pp)
++        if (p != pp)
+
+--- original
++++ mutant
+@@ -3260 +3260 @@
+-            h->val2 == h->hashval2[p])
++            h->val2 != h->hashval2[p])
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 && bestlength < h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 && bestlength <= h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 && bestlength > h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 && bestlength == h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 && bestlength != h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead == h->head2 && bestlength >= h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3253 +3253 @@
+-                if (currentlength >= limit)
++                if (currentlength < limit)
+
+--- original
++++ mutant
+@@ -3253 +3253 @@
+-                if (currentlength >= limit)
++                if (currentlength <= limit)
+
+--- original
++++ mutant
+@@ -3253 +3253 @@
+-                if (currentlength >= limit)
++                if (currentlength > limit)
+
+--- original
++++ mutant
+@@ -3253 +3253 @@
+-                if (currentlength >= limit)
++                if (currentlength == limit)
+
+--- original
++++ mutant
+@@ -3253 +3253 @@
+-                if (currentlength >= limit)
++                if (currentlength != limit)
+
+--- original
++++ mutant
+@@ -3246 +3246 @@
+-                    for (j = bestlength + 1; j <= currentlength; j++)
++                    for (j = bestlength + 1; j < currentlength; j++)
+
+--- original
++++ mutant
+@@ -3246 +3246 @@
+-                    for (j = bestlength + 1; j <= currentlength; j++)
++                    for (j = bestlength + 1; j > currentlength; j++)
+
+--- original
++++ mutant
+@@ -3246 +3246 @@
+-                    for (j = bestlength + 1; j <= currentlength; j++)
++                    for (j = bestlength + 1; j >= currentlength; j++)
+
+--- original
++++ mutant
+@@ -3246 +3246 @@
+-                    for (j = bestlength + 1; j <= currentlength; j++)
++                    for (j = bestlength + 1; j == currentlength; j++)
+
+--- original
++++ mutant
+@@ -3246 +3246 @@
+-                    for (j = bestlength + 1; j <= currentlength; j++)
++                    for (j = bestlength + 1; j != currentlength; j++)
+
+--- original
++++ mutant
+@@ -3241 +3241 @@
+-            if (currentlength > bestlength)
++            if (currentlength < bestlength)
+
+--- original
++++ mutant
+@@ -3241 +3241 @@
+-            if (currentlength > bestlength)
++            if (currentlength <= bestlength)
+
+--- original
++++ mutant
+@@ -3241 +3241 @@
+-            if (currentlength > bestlength)
++            if (currentlength >= bestlength)
+
+--- original
++++ mutant
+@@ -3241 +3241 @@
+-            if (currentlength > bestlength)
++            if (currentlength == bestlength)
+
+--- original
++++ mutant
+@@ -3241 +3241 @@
+-            if (currentlength > bestlength)
++            if (currentlength != bestlength)
+
+--- original
++++ mutant
+@@ -3232 +3232 @@
+-                    if (same > limit)
++                    if (same < limit)
+
+--- original
++++ mutant
+@@ -3232 +3232 @@
+-                    if (same > limit)
++                    if (same <= limit)
+
+--- original
++++ mutant
+@@ -3232 +3232 @@
+-                    if (same > limit)
++                    if (same >= limit)
+
+--- original
++++ mutant
+@@ -3232 +3232 @@
+-                    if (same > limit)
++                    if (same == limit)
+
+--- original
++++ mutant
+@@ -3232 +3232 @@
+-                    if (same > limit)
++                    if (same != limit)
+
+--- original
++++ mutant
+@@ -3231 +3231 @@
+-                    unsigned short same = same0 < same1 ? same0 : same1;
++                    unsigned short same = same0 <= same1 ? same0 : same1;
+
+--- original
++++ mutant
+@@ -3231 +3231 @@
+-                    unsigned short same = same0 < same1 ? same0 : same1;
++                    unsigned short same = same0 > same1 ? same0 : same1;
+
+--- original
++++ mutant
+@@ -3231 +3231 @@
+-                    unsigned short same = same0 < same1 ? same0 : same1;
++                    unsigned short same = same0 >= same1 ? same0 : same1;
+
+--- original
++++ mutant
+@@ -3231 +3231 @@
+-                    unsigned short same = same0 < same1 ? same0 : same1;
++                    unsigned short same = same0 == same1 ? same0 : same1;
+
+--- original
++++ mutant
+@@ -3231 +3231 @@
+-                    unsigned short same = same0 < same1 ? same0 : same1;
++                    unsigned short same = same0 != same1 ? same0 : same1;
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 > 2 && *scan != *match)
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 < 2 && *scan == *match)
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 <= 2 && *scan == *match)
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 >= 2 && *scan == *match)
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 == 2 && *scan == *match)
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 != 2 && *scan == *match)
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength >= size || *(scan + bestlength) != *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength < size || *(scan + bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength <= size || *(scan + bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength > size || *(scan + bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength == size || *(scan + bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength != size || *(scan + bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3219 +3219 @@
+-            assert(dist <= pos);
++            assert(dist < pos);
+
+--- original
++++ mutant
+@@ -3219 +3219 @@
+-            assert(dist <= pos);
++            assert(dist > pos);
+
+--- original
++++ mutant
+@@ -3219 +3219 @@
+-            assert(dist <= pos);
++            assert(dist >= pos);
+
+--- original
++++ mutant
+@@ -3219 +3219 @@
+-            assert(dist <= pos);
++            assert(dist == pos);
+
+--- original
++++ mutant
+@@ -3219 +3219 @@
+-            assert(dist <= pos);
++            assert(dist != pos);
+
+--- original
++++ mutant
+@@ -3218 +3218 @@
+-            assert(pos < size);
++            assert(pos <= size);
+
+--- original
++++ mutant
+@@ -3218 +3218 @@
+-            assert(pos < size);
++            assert(pos > size);
+
+--- original
++++ mutant
+@@ -3218 +3218 @@
+-            assert(pos < size);
++            assert(pos >= size);
+
+--- original
++++ mutant
+@@ -3218 +3218 @@
+-            assert(pos < size);
++            assert(pos == size);
+
+--- original
++++ mutant
+@@ -3218 +3218 @@
+-            assert(pos < size);
++            assert(pos != size);
+
+--- original
++++ mutant
+@@ -3216 +3216 @@
+-        if (dist > 0)
++        if (dist < 0)
+
+--- original
++++ mutant
+@@ -3216 +3216 @@
+-        if (dist > 0)
++        if (dist <= 0)
+
+--- original
++++ mutant
+@@ -3216 +3216 @@
+-        if (dist > 0)
++        if (dist >= 0)
+
+--- original
++++ mutant
+@@ -3216 +3216 @@
+-        if (dist > 0)
++        if (dist == 0)
+
+--- original
++++ mutant
+@@ -3216 +3216 @@
+-        if (dist > 0)
++        if (dist != 0)
+
+--- original
++++ mutant
+@@ -3214 +3214 @@
+-        assert(hhashval[p] == hval);
++        assert(hhashval[p] != hval);
+
+--- original
++++ mutant
+@@ -3213 +3213 @@
+-        assert(p == hprev[pp]);
++        assert(p != hprev[pp]);
+
+--- original
++++ mutant
+@@ -3212 +3212 @@
+-        assert(p < ZOPFLI_WINDOW_SIZE);
++        assert(p <= ZOPFLI_WINDOW_SIZE);
+
+--- original
++++ mutant
+@@ -3212 +3212 @@
+-        assert(p < ZOPFLI_WINDOW_SIZE);
++        assert(p > ZOPFLI_WINDOW_SIZE);
+
+--- original
++++ mutant
+@@ -3212 +3212 @@
+-        assert(p < ZOPFLI_WINDOW_SIZE);
++        assert(p >= ZOPFLI_WINDOW_SIZE);
+
+--- original
++++ mutant
+@@ -3212 +3212 @@
+-        assert(p < ZOPFLI_WINDOW_SIZE);
++        assert(p == ZOPFLI_WINDOW_SIZE);
+
+--- original
++++ mutant
+@@ -3212 +3212 @@
+-        assert(p < ZOPFLI_WINDOW_SIZE);
++        assert(p != ZOPFLI_WINDOW_SIZE);
+
+--- original
++++ mutant
+@@ -3208 +3208 @@
+-    while (dist < ZOPFLI_WINDOW_SIZE)
++    while (dist <= ZOPFLI_WINDOW_SIZE)
+
+--- original
++++ mutant
+@@ -3208 +3208 @@
+-    while (dist < ZOPFLI_WINDOW_SIZE)
++    while (dist > ZOPFLI_WINDOW_SIZE)
+
+--- original
++++ mutant
+@@ -3208 +3208 @@
+-    while (dist < ZOPFLI_WINDOW_SIZE)
++    while (dist >= ZOPFLI_WINDOW_SIZE)
+
+--- original
++++ mutant
+@@ -3208 +3208 @@
+-    while (dist < ZOPFLI_WINDOW_SIZE)
++    while (dist == ZOPFLI_WINDOW_SIZE)
+
+--- original
++++ mutant
+@@ -3208 +3208 @@
+-    while (dist < ZOPFLI_WINDOW_SIZE)
++    while (dist != ZOPFLI_WINDOW_SIZE)
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p <= pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p > pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p >= pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p == pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p != pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3203 +3203 @@
+-    assert(pp == hpos);
++    assert(pp != hpos);
+
+--- original
++++ mutant
+@@ -3198 +3198 @@
+-    assert(hval < 65536);
++    assert(hval <= 65536);
+
+--- original
++++ mutant
+@@ -3198 +3198 @@
+-    assert(hval < 65536);
++    assert(hval > 65536);
+
+--- original
++++ mutant
+@@ -3198 +3198 @@
+-    assert(hval < 65536);
++    assert(hval >= 65536);
+
+--- original
++++ mutant
+@@ -3198 +3198 @@
+-    assert(hval < 65536);
++    assert(hval == 65536);
+
+--- original
++++ mutant
+@@ -3198 +3198 @@
+-    assert(hval < 65536);
++    assert(hval != 65536);
+
+--- original
++++ mutant
+@@ -3191 +3191 @@
+-    if (pos + limit > size)
++    if (pos + limit < size)
+
+--- original
++++ mutant
+@@ -3191 +3191 @@
+-    if (pos + limit > size)
++    if (pos + limit <= size)
+
+--- original
++++ mutant
+@@ -3191 +3191 @@
+-    if (pos + limit > size)
++    if (pos + limit >= size)
+
+--- original
++++ mutant
+@@ -3191 +3191 @@
+-    if (pos + limit > size)
++    if (pos + limit == size)
+
+--- original
++++ mutant
+@@ -3191 +3191 @@
+-    if (pos + limit > size)
++    if (pos + limit != size)
+
+--- original
++++ mutant
+@@ -3182 +3182 @@
+-    if (size - pos < ZOPFLI_MIN_MATCH)
++    if (size - pos <= ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -3182 +3182 @@
+-    if (size - pos < ZOPFLI_MIN_MATCH)
++    if (size - pos > ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -3182 +3182 @@
+-    if (size - pos < ZOPFLI_MIN_MATCH)
++    if (size - pos >= ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -3182 +3182 @@
+-    if (size - pos < ZOPFLI_MIN_MATCH)
++    if (size - pos == ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -3182 +3182 @@
+-    if (size - pos < ZOPFLI_MIN_MATCH)
++    if (size - pos != ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -3180 +3180 @@
+-    assert(pos < size);
++    assert(pos <= size);
+
+--- original
++++ mutant
+@@ -3180 +3180 @@
+-    assert(pos < size);
++    assert(pos > size);
+
+--- original
++++ mutant
+@@ -3180 +3180 @@
+-    assert(pos < size);
++    assert(pos >= size);
+
+--- original
++++ mutant
+@@ -3180 +3180 @@
+-    assert(pos < size);
++    assert(pos == size);
+
+--- original
++++ mutant
+@@ -3180 +3180 @@
+-    assert(pos < size);
++    assert(pos != size);
+
+--- original
++++ mutant
+@@ -3179 +3179 @@
+-    assert(limit >= ZOPFLI_MIN_MATCH);
++    assert(limit < ZOPFLI_MIN_MATCH);
+
+--- original
++++ mutant
+@@ -3179 +3179 @@
+-    assert(limit >= ZOPFLI_MIN_MATCH);
++    assert(limit <= ZOPFLI_MIN_MATCH);
+
+--- original
++++ mutant
+@@ -3179 +3179 @@
+-    assert(limit >= ZOPFLI_MIN_MATCH);
++    assert(limit > ZOPFLI_MIN_MATCH);
+
+--- original
++++ mutant
+@@ -3179 +3179 @@
+-    assert(limit >= ZOPFLI_MIN_MATCH);
++    assert(limit == ZOPFLI_MIN_MATCH);
+
+--- original
++++ mutant
+@@ -3179 +3179 @@
+-    assert(limit >= ZOPFLI_MIN_MATCH);
++    assert(limit != ZOPFLI_MIN_MATCH);
+
+--- original
++++ mutant
+@@ -3178 +3178 @@
+-    assert(limit <= ZOPFLI_MAX_MATCH);
++    assert(limit < ZOPFLI_MAX_MATCH);
+
+--- original
++++ mutant
+@@ -3178 +3178 @@
+-    assert(limit <= ZOPFLI_MAX_MATCH);
++    assert(limit > ZOPFLI_MAX_MATCH);
+
+--- original
++++ mutant
+@@ -3178 +3178 @@
+-    assert(limit <= ZOPFLI_MAX_MATCH);
++    assert(limit >= ZOPFLI_MAX_MATCH);
+
+--- original
++++ mutant
+@@ -3178 +3178 @@
+-    assert(limit <= ZOPFLI_MAX_MATCH);
++    assert(limit == ZOPFLI_MAX_MATCH);
+
+--- original
++++ mutant
+@@ -3178 +3178 @@
+-    assert(limit <= ZOPFLI_MAX_MATCH);
++    assert(limit != ZOPFLI_MAX_MATCH);
+
+--- original
++++ mutant
+@@ -3174 +3174 @@
+-        assert(pos + *length <= size);
++        assert(pos + *length < size);
+
+--- original
++++ mutant
+@@ -3174 +3174 @@
+-        assert(pos + *length <= size);
++        assert(pos + *length > size);
+
+--- original
++++ mutant
+@@ -3174 +3174 @@
+-        assert(pos + *length <= size);
++        assert(pos + *length >= size);
+
+--- original
++++ mutant
+@@ -3174 +3174 @@
+-        assert(pos + *length <= size);
++        assert(pos + *length == size);
+
+--- original
++++ mutant
+@@ -3174 +3174 @@
+-        assert(pos + *length <= size);
++        assert(pos + *length != size);
+
+--- original
++++ mutant
+@@ -3287 +3287 @@
+-    assert(pos + *length <= size);
++    assert(pos - *length <= size);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) - pp);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE + p) + pp);
+
+--- original
++++ mutant
+@@ -3274 +3274 @@
+-        dist += p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++        dist += p < pp ? pp + p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3246 +3246 @@
+-                    for (j = bestlength + 1; j <= currentlength; j++)
++                    for (j = bestlength - 1; j <= currentlength; j++)
+
+--- original
++++ mutant
+@@ -3238 +3238 @@
+-                currentlength = scan - &array[pos]; /* The found length. */
++                currentlength = scan + &array[pos]; /* The found length. */
+
+--- original
++++ mutant
+@@ -3230 +3230 @@
+-                    unsigned short same1 = h->same[(pos - dist) & ZOPFLI_WINDOW_MASK];
++                    unsigned short same1 = h->same[(pos + dist) & ZOPFLI_WINDOW_MASK];
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength >= size || *(scan + bestlength) == *(match - bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength >= size || *(scan - bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos - bestlength >= size || *(scan + bestlength) == *(match + bestlength))
+
+--- original
++++ mutant
+@@ -3221 +3221 @@
+-            match = &array[pos - dist];
++            match = &array[pos + dist];
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) - pp);
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE + p) + pp);
+
+--- original
++++ mutant
+@@ -3205 +3205 @@
+-    dist = p < pp ? pp - p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
++    dist = p < pp ? pp + p : ((ZOPFLI_WINDOW_SIZE - p) + pp);
+
+--- original
++++ mutant
+@@ -3196 +3196 @@
+-    arrayend_safe = arrayend - 8;
++    arrayend_safe = arrayend + 8;
+
+--- original
++++ mutant
+@@ -3195 +3195 @@
+-    arrayend = &array[pos] + limit;
++    arrayend = &array[pos] - limit;
+
+--- original
++++ mutant
+@@ -3193 +3193 @@
+-        limit = size - pos;
++        limit = size + pos;
+
+--- original
++++ mutant
+@@ -3191 +3191 @@
+-    if (pos + limit > size)
++    if (pos - limit > size)
+
+--- original
++++ mutant
+@@ -3182 +3182 @@
+-    if (size - pos < ZOPFLI_MIN_MATCH)
++    if (size + pos < ZOPFLI_MIN_MATCH)
+
+--- original
++++ mutant
+@@ -3174 +3174 @@
+-        assert(pos + *length <= size);
++        assert(pos - *length <= size);
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 && bestlength >= h->same[hpos] ||
+
+--- original
++++ mutant
+@@ -3259 +3259 @@
+-        if (hhead != h->head2 && bestlength >= h->same[hpos] &&
++        if (hhead != h->head2 || bestlength >= h->same[hpos] &&
+
+--- original
++++ mutant
+@@ -3228 +3228 @@
+-                if (same0 > 2 && *scan == *match)
++                if (same0 > 2 || *scan == *match)
+
+--- original
++++ mutant
+@@ -3224 +3224 @@
+-            if (pos + bestlength >= size || *(scan + bestlength) == *(match + bestlength))
++            if (pos + bestlength >= size && *(scan + bestlength) == *(match + bestlength))
+

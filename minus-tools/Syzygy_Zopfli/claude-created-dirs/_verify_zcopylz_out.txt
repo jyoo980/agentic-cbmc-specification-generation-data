@@ -1,0 +1,20 @@
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zclz_harness'
+Wrapping 'ZopfliCopyLZ77Store' with contract 'ZopfliCopyLZ77Store' in CHECK mode
+Instrumenting 'exit'
+Instrumenting 'CeilDiv'
+Instrumenting 'malloc'
+Instrumenting 'free'
+Instrumenting 'ZopfliInitLZ77Store'
+Instrumenting 'ZopfliCleanLZ77Store'
+Specializing cprover_contracts functions for assigns clauses of at most 6 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zclz_harness
+Writing GOTO program to 'mc.goto'

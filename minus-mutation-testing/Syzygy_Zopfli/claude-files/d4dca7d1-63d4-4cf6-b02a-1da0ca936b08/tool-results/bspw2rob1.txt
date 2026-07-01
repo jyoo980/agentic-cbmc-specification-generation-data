@@ -1,0 +1,328 @@
+GetBestLengths failed to verify with the following errors:
+
+--- stderr (tail) ---
+[... 83466 characters truncated ...]
+s
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'unused' at file zopfli.c line 2004 function GetCostFixed
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 2016 function GetCostFixed
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 2017 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 2018 function GetCostFixed
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'cost' at file zopfli.c line 2019 function GetCostFixed
+Ignored duplicate stack-allocated target 'litlen' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'context' at file zopfli.c line 1983 function GetCostStat
+Ignored duplicate stack-allocated target 'stats' at file zopfli.c line 1985 function GetCostStat
+Ignored duplicate stack-allocated target 'lsym' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthSymbol' at file zopfli.c line 1992 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 16 function ZopfliGetLengthSymbol
+Ignored duplicate stack-allocated target 'lbits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetLengthExtraBits' at file zopfli.c line 1993 function GetCostStat
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 1944 function ZopfliGetLengthExtraBits
+Ignored duplicate stack-allocated target 'dsym' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistSymbol' at file zopfli.c line 1994 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 63 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'l' at file zopfli.c line 76 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'r' at file zopfli.c line 77 function ZopfliGetDistSymbol
+Ignored duplicate stack-allocated target 'dbits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'return_value_ZopfliGetDistExtraBits' at file zopfli.c line 1995 function GetCostStat
+Ignored duplicate stack-allocated target 'dist' at file zopfli.c line 1969 function ZopfliGetDistExtraBits
+line 9 function __CPROVER_enforce_requires_is_fresh: function 'malloc' is not declared
+**** WARNING: Depth-bounded analysis may yield unsound verification results
+--- begin invariant violation report ---
+Invariant check failed
+File: ../src/util/namespace.h:49 function: lookup
+Condition: !not_found
+Reason: we are assuming that a name exists in the namespace when this function is called - identifier __CPROVER__start::costmodel$object was not found
+Backtrace:
+cbmc(+0xb93ca3) [0x63561512fca3]
+cbmc(+0xb94dc3) [0x635615130dc3]
+cbmc(+0x18d2d2) [0x6356147292d2]
+cbmc(+0x6e1d98) [0x635614c7dd98]
+cbmc(+0x6e375f) [0x635614c7f75f]
+cbmc(+0x6cc323) [0x635614c68323]
+cbmc(+0x18f6a9) [0x63561472b6a9]
+cbmc(+0x1904c6) [0x63561472c4c6]
+cbmc(+0x1936ed) [0x63561472f6ed]
+cbmc(+0x18b4eb) [0x6356147274eb]
+cbmc(+0x17cf98) [0x635614718f98]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca) [0x77775ff571ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b) [0x77775ff5728b]
+cbmc(+0x18c7b5) [0x6356147287b5]
+
+
+--- end invariant violation report ---
+Aborted (core dumped)
+
+--- stdout (tail) ---
+Reading GOTO program from 'GetBestLengths.goto'
+Adding CPROVER library (x86_64)
+Writing GOTO program to 'GetBestLengths.goto'
+Reading GOTO program from 'GetBestLengths.goto'
+Writing GOTO program to 'GetBestLengths.goto'
+Reading GOTO program from 'GetBestLengths.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Replacing function calls with contracts
+Enforcing contracts
+Adding nondeterministic initialization of static/global variables.
+Writing GOTO program to 'checking-GetBestLengths-contracts.goto'
+CBMC version 6.9.0 (cbmc-6.9.0) 64-bit x86_64 linux
+Reading GOTO program from file checking-GetBestLengths-contracts.goto
+Generating GOTO Program
+Adding CPROVER library (x86_64)
+Removal of function pointers and virtual functions
+
+
+EXIT: 134

@@ -1,0 +1,3 @@
+from tools.run_cbmc import has_recursion_inlining_error_message
+import inspect
+print(inspect.getsource(has_recursion_inlining_error_message))

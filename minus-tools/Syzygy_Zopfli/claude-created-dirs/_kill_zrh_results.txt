@@ -1,0 +1,408 @@
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliReseSURVIVED  9 (L3495): i != window_size
+=== Killed 8 / 25 ===
+enting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    0 (L3486): i <= 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    1 (L3486): i > 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    2 (L3486): i >= 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    3 (L3486): i == 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+SURVIVED  4 (L3486): i != 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    5 (L3495): i <= window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    6 (L3495): i > window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    7 (L3495): i >= window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    8 (L3495): i == window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+SURVIVED  9 (L3495): i != window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    10 (L3509): i <= window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    11 (L3509): i > window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    12 (L3509): i >= window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    13 (L3509): i == window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+SURVIVED  14 (L3509): i != window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    15 (L3520): i <= 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    16 (L3520): i > 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    17 (L3520): i >= 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    18 (L3520): i == 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+SURVIVED  19 (L3520): i != 65536
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    20 (L3529): i <= window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    21 (L3529): i > window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
+KILLED    22 (L3529): i >= window_size
+Reading GOTO program from 'm.goto'
+Function Pointer Removal
+Virtual function removal
+Cleaning inline assembler statements
+Trying to force one backedge per target
+Loading CPROVER C library (x86_64)
+Adding the cprover_contracts library (x86_64)
+Instrumenting harness function '__zrh_harness'
+Wrapping 'ZopfliResetHash' with contract 'ZopfliResetHash' in CHECK mode
+Instrumenting 'malloc'
+Instrumenting 'free'
+Specializing cprover_contracts functions for assigns clauses of at most 9 targets
+Removing unused functions
+Updating init function
+Setting entry point to __zrh_harness
+Writing GOTO program to 'mc.goto'
